@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="a16-2-1.cpp"/>
+    <tok fileIndex="0" linenr="2" column="2" str="#"/>
+    <tok fileIndex="0" linenr="2" column="3" str="include"/>
+    <tok fileIndex="0" linenr="2" column="11" str="&lt;directory/headerfile.hpp&gt;"/>
+    <tok fileIndex="0" linenr="2" column="38" str="// Compliant"/>
+    <tok fileIndex="0" linenr="3" column="2" str="#"/>
+    <tok fileIndex="0" linenr="3" column="3" str="include"/>
+    <tok fileIndex="0" linenr="3" column="11" str="&lt;headerfile.hpp&gt;"/>
+    <tok fileIndex="0" linenr="3" column="28" str="// Compliant"/>
+    <tok fileIndex="0" linenr="4" column="2" str="#"/>
+    <tok fileIndex="0" linenr="4" column="3" str="include"/>
+    <tok fileIndex="0" linenr="4" column="11" str="&quot;directory/headerfile.hpp&quot;"/>
+    <tok fileIndex="0" linenr="4" column="38" str="// Compliant"/>
+    <tok fileIndex="0" linenr="5" column="2" str="#"/>
+    <tok fileIndex="0" linenr="5" column="3" str="include"/>
+    <tok fileIndex="0" linenr="5" column="11" str="&quot;headerfile.hpp&quot;"/>
+    <tok fileIndex="0" linenr="5" column="28" str="// Compliant"/>
+    <tok fileIndex="0" linenr="6" column="2" str="#"/>
+    <tok fileIndex="0" linenr="6" column="3" str="include"/>
+    <tok fileIndex="0" linenr="6" column="11" str="&lt;directory/*.hpp&gt;"/>
+    <tok fileIndex="0" linenr="6" column="29" str="// Non-compliant"/>
+    <tok fileIndex="0" linenr="7" column="2" str="#"/>
+    <tok fileIndex="0" linenr="7" column="3" str="include"/>
+    <tok fileIndex="0" linenr="7" column="11" str="&lt;headerxxxfile.hpp&gt;"/>
+    <tok fileIndex="0" linenr="7" column="31" str="// Non-compliant"/>
+    <tok fileIndex="0" linenr="8" column="2" str="#"/>
+    <tok fileIndex="0" linenr="8" column="3" str="include"/>
+    <tok fileIndex="0" linenr="8" column="11" str="&lt;&quot;headerfile.hpp&quot;&gt;"/>
+    <tok fileIndex="0" linenr="8" column="30" str="// Non-compliant"/>
+    <tok fileIndex="0" linenr="9" column="2" str="#"/>
+    <tok fileIndex="0" linenr="9" column="3" str="include"/>
+    <tok fileIndex="0" linenr="9" column="11" str="&lt;directory\\headerfile.hpp&gt;"/>
+    <tok fileIndex="0" linenr="9" column="39" str="// Non-compliant"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+</dumps>

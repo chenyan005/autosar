@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="a21-8-1.cpp"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="include"/>
+    <tok fileIndex="0" linenr="1" column="10" str="&lt;algorithm&gt;"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="include"/>
+    <tok fileIndex="0" linenr="2" column="10" str="&lt;cctype&gt;"/>
+    <tok fileIndex="0" linenr="3" column="1" str="#"/>
+    <tok fileIndex="0" linenr="3" column="2" str="include"/>
+    <tok fileIndex="0" linenr="3" column="10" str="&lt;string&gt;"/>
+    <tok fileIndex="0" linenr="5" column="1" str="void"/>
+    <tok fileIndex="0" linenr="5" column="6" str="RemoveDigits_Bad"/>
+    <tok fileIndex="0" linenr="5" column="22" str="("/>
+    <tok fileIndex="0" linenr="5" column="23" str="std"/>
+    <tok fileIndex="0" linenr="5" column="26" str="::"/>
+    <tok fileIndex="0" linenr="5" column="28" str="string"/>
+    <tok fileIndex="0" linenr="5" column="34" str="&amp;"/>
+    <tok fileIndex="0" linenr="5" column="36" str="s"/>
+    <tok fileIndex="0" linenr="5" column="37" str=")"/>
+    <tok fileIndex="0" linenr="6" column="1" str="{"/>
+    <tok fileIndex="0" linenr="7" column="5" str="s"/>
+    <tok fileIndex="0" linenr="7" column="6" str="."/>
+    <tok fileIndex="0" linenr="7" column="7" str="erase"/>
+    <tok fileIndex="0" linenr="7" column="12" str="("/>
+    <tok fileIndex="0" linenr="7" column="13" str="std"/>
+    <tok fileIndex="0" linenr="7" column="16" str="::"/>
+    <tok fileIndex="0" linenr="7" column="18" str="remove_if"/>
+    <tok fileIndex="0" linenr="7" column="27" str="("/>
+    <tok fileIndex="0" linenr="7" column="28" str="s"/>
+    <tok fileIndex="0" linenr="7" column="29" str="."/>
+    <tok fileIndex="0" linenr="7" column="30" str="begin"/>
+    <tok fileIndex="0" linenr="7" column="35" str="("/>
+    <tok fileIndex="0" linenr="7" column="36" str=")"/>
+    <tok fileIndex="0" linenr="7" column="37" str=","/>
+    <tok fileIndex="0" linenr="7" column="38" str="s"/>
+    <tok fileIndex="0" linenr="7" column="39" str="."/>
+    <tok fileIndex="0" linenr="7" column="40" str="end"/>
+    <tok fileIndex="0" linenr="7" column="43" str="("/>
+    <tok fileIndex="0" linenr="7" column="44" str=")"/>
+    <tok fileIndex="0" linenr="7" column="45" str=","/>
+    <tok fileIndex="0" linenr="7" column="46" str="["/>
+    <tok fileIndex="0" linenr="7" column="47" str="]"/>
+    <tok fileIndex="0" linenr="7" column="48" str="("/>
+    <tok fileIndex="0" linenr="7" column="49" str="char"/>
+    <tok fileIndex="0" linenr="7" column="54" str="c"/>
+    <tok fileIndex="0" linenr="7" column="55" str=")"/>
+    <tok fileIndex="0" linenr="7" column="58" str="{"/>
+    <tok fileIndex="0" linenr="8" column="9" str="return"/>
+    <tok fileIndex="0" linenr="8" column="16" str="std"/>
+    <tok fileIndex="0" linenr="8" column="19" str="::"/>
+    <tok fileIndex="0" linenr="8" column="21" str="isdigit"/>
+    <tok fileIndex="0" linenr="8" column="28" str="("/>
+    <tok fileIndex="0" linenr="8" column="29" str="c"/>
+    <tok fileIndex="0" linenr="8" column="30" str=")"/>
+    <tok fileIndex="0" linenr="8" column="31" str=";"/>
+    <tok fileIndex="0" linenr="8" column="33" str="// non-compliant"/>
+    <tok fileIndex="0" linenr="9" column="10" str="}"/>
+    <tok fileIndex="0" linenr="9" column="11" str=")"/>
+    <tok fileIndex="0" linenr="9" column="12" str=","/>
+    <tok fileIndex="0" linenr="10" column="5" str="s"/>
+    <tok fileIndex="0" linenr="10" column="6" str="."/>
+    <tok fileIndex="0" linenr="10" column="7" str="cend"/>
+    <tok fileIndex="0" linenr="10" column="11" str="("/>
+    <tok fileIndex="0" linenr="10" column="12" str=")"/>
+    <tok fileIndex="0" linenr="10" column="13" str=")"/>
+    <tok fileIndex="0" linenr="10" column="14" str=";"/>
+    <tok fileIndex="0" linenr="11" column="1" str="}"/>
+    <tok fileIndex="0" linenr="13" column="1" str="void"/>
+    <tok fileIndex="0" linenr="13" column="6" str="RemoveDigits_Good"/>
+    <tok fileIndex="0" linenr="13" column="23" str="("/>
+    <tok fileIndex="0" linenr="13" column="24" str="std"/>
+    <tok fileIndex="0" linenr="13" column="27" str="::"/>
+    <tok fileIndex="0" linenr="13" column="29" str="string"/>
+    <tok fileIndex="0" linenr="13" column="35" str="&amp;"/>
+    <tok fileIndex="0" linenr="13" column="37" str="s"/>
+    <tok fileIndex="0" linenr="13" column="38" str=")"/>
+    <tok fileIndex="0" linenr="14" column="1" str="{"/>
+    <tok fileIndex="0" linenr="15" column="5" str="s"/>
+    <tok fileIndex="0" linenr="15" column="6" str="."/>
+    <tok fileIndex="0" linenr="15" column="7" str="erase"/>
+    <tok fileIndex="0" linenr="15" column="12" str="("/>
+    <tok fileIndex="0" linenr="15" column="13" str="std"/>
+    <tok fileIndex="0" linenr="15" column="16" str="::"/>
+    <tok fileIndex="0" linenr="15" column="18" str="remove_if"/>
+    <tok fileIndex="0" linenr="15" column="27" str="("/>
+    <tok fileIndex="0" linenr="15" column="28" str="s"/>
+    <tok fileIndex="0" linenr="15" column="29" str="."/>
+    <tok fileIndex="0" linenr="15" column="30" str="begin"/>
+    <tok fileIndex="0" linenr="15" column="35" str="("/>
+    <tok fileIndex="0" linenr="15" column="36" str=")"/>
+    <tok fileIndex="0" linenr="15" column="37" str=","/>
+    <tok fileIndex="0" linenr="15" column="38" str="s"/>
+    <tok fileIndex="0" linenr="15" column="39" str="."/>
+    <tok fileIndex="0" linenr="15" column="40" str="end"/>
+    <tok fileIndex="0" linenr="15" column="43" str="("/>
+    <tok fileIndex="0" linenr="15" column="44" str=")"/>
+    <tok fileIndex="0" linenr="15" column="45" str=","/>
+    <tok fileIndex="0" linenr="15" column="46" str="["/>
+    <tok fileIndex="0" linenr="15" column="47" str="]"/>
+    <tok fileIndex="0" linenr="15" column="48" str="("/>
+    <tok fileIndex="0" linenr="15" column="49" str="char"/>
+    <tok fileIndex="0" linenr="15" column="54" str="c"/>
+    <tok fileIndex="0" linenr="15" column="55" str=")"/>
+    <tok fileIndex="0" linenr="15" column="57" str="{"/>
+    <tok fileIndex="0" linenr="16" column="9" str="return"/>
+    <tok fileIndex="0" linenr="16" column="16" str="std"/>
+    <tok fileIndex="0" linenr="16" column="19" str="::"/>
+    <tok fileIndex="0" linenr="16" column="21" str="isdigit"/>
+    <tok fileIndex="0" linenr="16" column="28" str="("/>
+    <tok fileIndex="0" linenr="16" column="29" str="static_cast"/>
+    <tok fileIndex="0" linenr="16" column="40" str="&lt;"/>
+    <tok fileIndex="0" linenr="16" column="41" str="unsigned"/>
+    <tok fileIndex="0" linenr="16" column="50" str="char"/>
+    <tok fileIndex="0" linenr="16" column="54" str="&gt;"/>
+    <tok fileIndex="0" linenr="16" column="55" str="("/>
+    <tok fileIndex="0" linenr="16" column="56" str="c"/>
+    <tok fileIndex="0" linenr="16" column="57" str=")"/>
+    <tok fileIndex="0" linenr="16" column="58" str=")"/>
+    <tok fileIndex="0" linenr="16" column="59" str=";"/>
+    <tok fileIndex="0" linenr="16" column="61" str="// compliant"/>
+    <tok fileIndex="0" linenr="17" column="10" str="}"/>
+    <tok fileIndex="0" linenr="17" column="11" str=")"/>
+    <tok fileIndex="0" linenr="17" column="12" str=","/>
+    <tok fileIndex="0" linenr="18" column="5" str="s"/>
+    <tok fileIndex="0" linenr="18" column="6" str="."/>
+    <tok fileIndex="0" linenr="18" column="7" str="cend"/>
+    <tok fileIndex="0" linenr="18" column="11" str="("/>
+    <tok fileIndex="0" linenr="18" column="12" str=")"/>
+    <tok fileIndex="0" linenr="18" column="13" str=")"/>
+    <tok fileIndex="0" linenr="18" column="14" str=";"/>
+    <tok fileIndex="0" linenr="19" column="1" str="}"/>
+    <tok fileIndex="0" linenr="21" column="1" str="void"/>
+    <tok fileIndex="0" linenr="21" column="6" str="RemoveDigits_bad1"/>
+    <tok fileIndex="0" linenr="21" column="23" str="("/>
+    <tok fileIndex="0" linenr="21" column="24" str="std"/>
+    <tok fileIndex="0" linenr="21" column="27" str="::"/>
+    <tok fileIndex="0" linenr="21" column="29" str="string"/>
+    <tok fileIndex="0" linenr="21" column="35" str="&amp;"/>
+    <tok fileIndex="0" linenr="21" column="37" str="s"/>
+    <tok fileIndex="0" linenr="21" column="38" str=")"/>
+    <tok fileIndex="0" linenr="22" column="1" str="{"/>
+    <tok fileIndex="0" linenr="23" column="5" str="s"/>
+    <tok fileIndex="0" linenr="23" column="6" str="."/>
+    <tok fileIndex="0" linenr="23" column="7" str="erase"/>
+    <tok fileIndex="0" linenr="23" column="12" str="("/>
+    <tok fileIndex="0" linenr="23" column="13" str="std"/>
+    <tok fileIndex="0" linenr="23" column="16" str="::"/>
+    <tok fileIndex="0" linenr="23" column="18" str="remove_if"/>
+    <tok fileIndex="0" linenr="23" column="27" str="("/>
+    <tok fileIndex="0" linenr="23" column="28" str="s"/>
+    <tok fileIndex="0" linenr="23" column="29" str="."/>
+    <tok fileIndex="0" linenr="23" column="30" str="begin"/>
+    <tok fileIndex="0" linenr="23" column="35" str="("/>
+    <tok fileIndex="0" linenr="23" column="36" str=")"/>
+    <tok fileIndex="0" linenr="23" column="37" str=","/>
+    <tok fileIndex="0" linenr="23" column="38" str="s"/>
+    <tok fileIndex="0" linenr="23" column="39" str="."/>
+    <tok fileIndex="0" linenr="23" column="40" str="end"/>
+    <tok fileIndex="0" linenr="23" column="43" str="("/>
+    <tok fileIndex="0" linenr="23" column="44" str=")"/>
+    <tok fileIndex="0" linenr="23" column="45" str=","/>
+    <tok fileIndex="0" linenr="23" column="46" str="["/>
+    <tok fileIndex="0" linenr="23" column="47" str="]"/>
+    <tok fileIndex="0" linenr="23" column="48" str="("/>
+    <tok fileIndex="0" linenr="23" column="49" str=")"/>
+    <tok fileIndex="0" linenr="23" column="51" str="{"/>
+    <tok fileIndex="0" linenr="24" column="17" str="return"/>
+    <tok fileIndex="0" linenr="24" column="24" str="std"/>
+    <tok fileIndex="0" linenr="24" column="27" str="::"/>
+    <tok fileIndex="0" linenr="24" column="29" str="isdigit"/>
+    <tok fileIndex="0" linenr="24" column="36" str="("/>
+    <tok fileIndex="0" linenr="24" column="37" str="static_cast"/>
+    <tok fileIndex="0" linenr="24" column="48" str="&lt;"/>
+    <tok fileIndex="0" linenr="24" column="49" str="unsigned"/>
+    <tok fileIndex="0" linenr="24" column="58" str="char"/>
+    <tok fileIndex="0" linenr="24" column="62" str="&gt;"/>
+    <tok fileIndex="0" linenr="24" column="63" str="("/>
+    <tok fileIndex="0" linenr="24" column="64" str="&apos;a&apos;"/>
+    <tok fileIndex="0" linenr="24" column="67" str=")"/>
+    <tok fileIndex="0" linenr="24" column="68" str=")"/>
+    <tok fileIndex="0" linenr="24" column="69" str=";"/>
+    <tok fileIndex="0" linenr="24" column="71" str="// compliant"/>
+    <tok fileIndex="0" linenr="25" column="13" str="}"/>
+    <tok fileIndex="0" linenr="25" column="14" str=")"/>
+    <tok fileIndex="0" linenr="25" column="15" str=","/>
+    <tok fileIndex="0" linenr="26" column="13" str="s"/>
+    <tok fileIndex="0" linenr="26" column="14" str="."/>
+    <tok fileIndex="0" linenr="26" column="15" str="cend"/>
+    <tok fileIndex="0" linenr="26" column="19" str="("/>
+    <tok fileIndex="0" linenr="26" column="20" str=")"/>
+    <tok fileIndex="0" linenr="26" column="21" str=")"/>
+    <tok fileIndex="0" linenr="26" column="22" str=";"/>
+    <tok fileIndex="0" linenr="27" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="a21-8-1.cpp" linenr="1" str="#include &lt;algorithm&gt;"/>
+    <directive file="a21-8-1.cpp" linenr="2" str="#include &lt;cctype&gt;"/>
+    <directive file="a21-8-1.cpp" linenr="3" str="#include &lt;string&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1cd3010" file="a21-8-1.cpp" linenr="5" column="1" str="void" scope="0x1cc4430" type="name"/>
+    <token id="0x1cdcca0" file="a21-8-1.cpp" linenr="5" column="6" str="RemoveDigits_Bad" scope="0x1cc4430" type="name" function="0x1eb70e0"/>
+    <token id="0x1cdd000" file="a21-8-1.cpp" linenr="5" column="22" str="(" scope="0x1cc4430" link="0x1ce0f20" valueType-type="void" valueType-reference="None"/>
+    <token id="0x1ce23b0" file="a21-8-1.cpp" linenr="5" column="23" str="std" scope="0x1cc4430" type="name" astParent="0x1ce24e0"/>
+    <token id="0x1ce24e0" file="a21-8-1.cpp" linenr="5" column="26" str="::" scope="0x1cc4430" astParent="0x1cc17d0" astOperand1="0x1ce23b0" astOperand2="0x1cbca70"/>
+    <token id="0x1cbca70" file="a21-8-1.cpp" linenr="5" column="28" str="string" scope="0x1cc4430" type="name" astParent="0x1ce24e0"/>
+    <token id="0x1cc17d0" file="a21-8-1.cpp" linenr="5" column="34" str="&amp;" scope="0x1cc4430" type="op" astOperand1="0x1ce24e0" astOperand2="0x1ce18e0"/>
+    <token id="0x1ce18e0" file="a21-8-1.cpp" linenr="5" column="36" str="s" scope="0x1cc4430" type="name" varId="1" variable="0x1cd04a0" astParent="0x1cc17d0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1ce0f20" file="a21-8-1.cpp" linenr="5" column="37" str=")" scope="0x1cc4430" link="0x1cdd000"/>
+    <token id="0x1ce10a0" file="a21-8-1.cpp" linenr="6" column="1" str="{" scope="0x1cc4150" link="0x1cbfab0"/>
+    <token id="0x1ce1170" file="a21-8-1.cpp" linenr="7" column="5" str="s" scope="0x1cc4150" type="name" varId="1" variable="0x1cd04a0" astParent="0x1ce11e0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1ce11e0" file="a21-8-1.cpp" linenr="7" column="6" str="." scope="0x1cc4150" astParent="0x1ce13e0" astOperand1="0x1ce1170" astOperand2="0x1ce1250"/>
+    <token id="0x1ce1250" file="a21-8-1.cpp" linenr="7" column="7" str="erase" scope="0x1cc4150" type="name" astParent="0x1ce11e0"/>
+    <token id="0x1ce13e0" file="a21-8-1.cpp" linenr="7" column="12" str="(" scope="0x1cc4150" link="0x1cbd3c0" astOperand1="0x1ce11e0" astOperand2="0x1cbe9b0"/>
+    <token id="0x1ce1810" file="a21-8-1.cpp" linenr="7" column="13" str="std" scope="0x1cc4150" type="name" astParent="0x1ce0d90"/>
+    <token id="0x1ce0d90" file="a21-8-1.cpp" linenr="7" column="16" str="::" scope="0x1cc4150" astParent="0x1ce0a80" astOperand1="0x1ce1810" astOperand2="0x1cd29b0"/>
+    <token id="0x1cd29b0" file="a21-8-1.cpp" linenr="7" column="18" str="remove_if" scope="0x1cc4150" type="name" astParent="0x1ce0d90"/>
+    <token id="0x1ce0a80" file="a21-8-1.cpp" linenr="7" column="27" str="(" scope="0x1cc4150" link="0x1cc0620" values="0x1dcc9b0" astParent="0x1cbe9b0" astOperand1="0x1ce0d90" astOperand2="0x1cc1d10"/>
+    <token id="0x1ce0cb0" file="a21-8-1.cpp" linenr="7" column="28" str="s" scope="0x1cc4150" type="name" varId="1" variable="0x1cd04a0" astParent="0x1ce0d20" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1ce0d20" file="a21-8-1.cpp" linenr="7" column="29" str="." scope="0x1cc4150" astParent="0x1cc7aa0" astOperand1="0x1ce0cb0" astOperand2="0x1cc75c0"/>
+    <token id="0x1cc75c0" file="a21-8-1.cpp" linenr="7" column="30" str="begin" scope="0x1cc4150" type="name" astParent="0x1ce0d20"/>
+    <token id="0x1cc7aa0" file="a21-8-1.cpp" linenr="7" column="35" str="(" scope="0x1cc4150" link="0x1cc7b60" values="0x1cde140" astParent="0x1cc27c0" astOperand1="0x1ce0d20" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc7b60" file="a21-8-1.cpp" linenr="7" column="36" str=")" scope="0x1cc4150" link="0x1cc7aa0"/>
+    <token id="0x1cc27c0" file="a21-8-1.cpp" linenr="7" column="37" str="," scope="0x1cc4150" astParent="0x1cc1d10" astOperand1="0x1cc7aa0" astOperand2="0x1cc2e70"/>
+    <token id="0x1cc2880" file="a21-8-1.cpp" linenr="7" column="38" str="s" scope="0x1cc4150" type="name" varId="1" variable="0x1cd04a0" astParent="0x1cc3120" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc3120" file="a21-8-1.cpp" linenr="7" column="39" str="." scope="0x1cc4150" astParent="0x1cc2e70" astOperand1="0x1cc2880" astOperand2="0x1cc31f0"/>
+    <token id="0x1cc31f0" file="a21-8-1.cpp" linenr="7" column="40" str="end" scope="0x1cc4150" type="name" astParent="0x1cc3120"/>
+    <token id="0x1cc2e70" file="a21-8-1.cpp" linenr="7" column="43" str="(" scope="0x1cc4150" link="0x1cc2bb0" values="0x1dcc830" astParent="0x1cc27c0" astOperand1="0x1cc3120" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc2bb0" file="a21-8-1.cpp" linenr="7" column="44" str=")" scope="0x1cc4150" link="0x1cc2e70"/>
+    <token id="0x1cc1d10" file="a21-8-1.cpp" linenr="7" column="45" str="," scope="0x1cc4150" astParent="0x1ce0a80" astOperand1="0x1cc27c0" astOperand2="0x1cc2510"/>
+    <token id="0x1cc2510" file="a21-8-1.cpp" linenr="7" column="46" str="[" scope="0x1cc4150" link="0x1cc2230" function="0x1cbf0d0" astParent="0x1cc1d10" astOperand1="0x1cc1170"/>
+    <token id="0x1cc2230" file="a21-8-1.cpp" linenr="7" column="47" str="]" scope="0x1cc4150" link="0x1cc2510"/>
+    <token id="0x1cc1170" file="a21-8-1.cpp" linenr="7" column="48" str="(" scope="0x1cc4150" link="0x1cc5ca0" astParent="0x1cc2510" astOperand1="0x1cc5f70"/>
+    <token id="0x1cc1710" file="a21-8-1.cpp" linenr="7" column="49" str="char" scope="0x1cc4150" type="name"/>
+    <token id="0x1cc1440" file="a21-8-1.cpp" linenr="7" column="54" str="c" scope="0x1cc4150" type="name" varId="2" variable="0x1cc7e40" valueType-type="char" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1cc5ca0" file="a21-8-1.cpp" linenr="7" column="55" str=")" scope="0x1cc4150" link="0x1cc1170"/>
+    <token id="0x1cc5f70" file="a21-8-1.cpp" linenr="7" column="58" str="{" scope="0x1cc35d0" link="0x1cbe350" astParent="0x1cc1170"/>
+    <token id="0x1cc6510" file="a21-8-1.cpp" linenr="8" column="9" str="return" scope="0x1cc35d0" type="name" astOperand1="0x1cc7320"/>
+    <token id="0x1cc6240" file="a21-8-1.cpp" linenr="8" column="16" str="std" scope="0x1cc35d0" type="name" astParent="0x1cc6ab0"/>
+    <token id="0x1cc6ab0" file="a21-8-1.cpp" linenr="8" column="19" str="::" scope="0x1cc35d0" astParent="0x1cc7320" astOperand1="0x1cc6240" astOperand2="0x1cc67e0"/>
+    <token id="0x1cc67e0" file="a21-8-1.cpp" linenr="8" column="21" str="isdigit" scope="0x1cc35d0" type="name" astParent="0x1cc6ab0"/>
+    <token id="0x1cc7320" file="a21-8-1.cpp" linenr="8" column="28" str="(" scope="0x1cc35d0" link="0x1cc6d80" astParent="0x1cc6510" astOperand1="0x1cc6ab0" astOperand2="0x1cc7050" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0x1cc7050" file="a21-8-1.cpp" linenr="8" column="29" str="c" scope="0x1cc35d0" type="name" varId="2" variable="0x1cc7e40" astParent="0x1cc7320" valueType-type="char" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1cc6d80" file="a21-8-1.cpp" linenr="8" column="30" str=")" scope="0x1cc35d0" link="0x1cc7320"/>
+    <token id="0x1cbe290" file="a21-8-1.cpp" linenr="8" column="31" str=";" scope="0x1cc35d0"/>
+    <token id="0x1cbe350" file="a21-8-1.cpp" linenr="9" column="10" str="}" scope="0x1cc35d0" link="0x1cc5f70"/>
+    <token id="0x1cc0620" file="a21-8-1.cpp" linenr="9" column="11" str=")" scope="0x1cc4150" link="0x1ce0a80"/>
+    <token id="0x1cbe9b0" file="a21-8-1.cpp" linenr="9" column="12" str="," scope="0x1cc4150" astParent="0x1ce13e0" astOperand1="0x1ce0a80" astOperand2="0x1cbe6e0"/>
+    <token id="0x1cbea70" file="a21-8-1.cpp" linenr="10" column="5" str="s" scope="0x1cc4150" type="name" varId="1" variable="0x1cd04a0" astParent="0x1cc0bc0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc0bc0" file="a21-8-1.cpp" linenr="10" column="6" str="." scope="0x1cc4150" astParent="0x1cbe6e0" astOperand1="0x1cbea70" astOperand2="0x1cbe620"/>
+    <token id="0x1cbe620" file="a21-8-1.cpp" linenr="10" column="7" str="cend" scope="0x1cc4150" type="name" astParent="0x1cc0bc0"/>
+    <token id="0x1cbe6e0" file="a21-8-1.cpp" linenr="10" column="11" str="(" scope="0x1cc4150" link="0x1cc08f0" values="0x1dccc30" astParent="0x1cbe9b0" astOperand1="0x1cc0bc0" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc08f0" file="a21-8-1.cpp" linenr="10" column="12" str=")" scope="0x1cc4150" link="0x1cbe6e0"/>
+    <token id="0x1cbd3c0" file="a21-8-1.cpp" linenr="10" column="13" str=")" scope="0x1cc4150" link="0x1ce13e0"/>
+    <token id="0x1cbd480" file="a21-8-1.cpp" linenr="10" column="14" str=";" scope="0x1cc4150"/>
+    <token id="0x1cbfab0" file="a21-8-1.cpp" linenr="11" column="1" str="}" scope="0x1cc4150" link="0x1ce10a0"/>
+    <token id="0x1cbde60" file="a21-8-1.cpp" linenr="13" column="1" str="void" scope="0x1cc4430" type="name"/>
+    <token id="0x1cbdf20" file="a21-8-1.cpp" linenr="13" column="6" str="RemoveDigits_Good" scope="0x1cc4430" type="name" function="0x1cc3870"/>
+    <token id="0x1cc02b0" file="a21-8-1.cpp" linenr="13" column="23" str="(" scope="0x1cc4430" link="0x1ce27a0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x1cbdac0" file="a21-8-1.cpp" linenr="13" column="24" str="std" scope="0x1cc4430" type="name" astParent="0x1cbdb80"/>
+    <token id="0x1cbdb80" file="a21-8-1.cpp" linenr="13" column="27" str="::" scope="0x1cc4430" astParent="0x1cd3cd0" astOperand1="0x1cbdac0" astOperand2="0x1cbffd0"/>
+    <token id="0x1cbffd0" file="a21-8-1.cpp" linenr="13" column="29" str="string" scope="0x1cc4430" type="name" astParent="0x1cbdb80"/>
+    <token id="0x1cd3cd0" file="a21-8-1.cpp" linenr="13" column="35" str="&amp;" scope="0x1cc4430" type="op" astOperand1="0x1cbdb80" astOperand2="0x1ce26e0"/>
+    <token id="0x1ce26e0" file="a21-8-1.cpp" linenr="13" column="37" str="s" scope="0x1cc4430" type="name" varId="3" variable="0x1cc78a0" astParent="0x1cd3cd0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1ce27a0" file="a21-8-1.cpp" linenr="13" column="38" str=")" scope="0x1cc4430" link="0x1cc02b0"/>
+    <token id="0x1cd59b0" file="a21-8-1.cpp" linenr="14" column="1" str="{" scope="0x1cc3b90" link="0x1cc13a0"/>
+    <token id="0x1cd4640" file="a21-8-1.cpp" linenr="15" column="5" str="s" scope="0x1cc3b90" type="name" varId="3" variable="0x1cc78a0" astParent="0x1cbccd0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cbccd0" file="a21-8-1.cpp" linenr="15" column="6" str="." scope="0x1cc3b90" astParent="0x1cbf500" astOperand1="0x1cd4640" astOperand2="0x1cbcd90"/>
+    <token id="0x1cbcd90" file="a21-8-1.cpp" linenr="15" column="7" str="erase" scope="0x1cc3b90" type="name" astParent="0x1cbccd0"/>
+    <token id="0x1cbf500" file="a21-8-1.cpp" linenr="15" column="12" str="(" scope="0x1cc3b90" link="0x1cc1300" astOperand1="0x1cbccd0" astOperand2="0x1cc1580"/>
+    <token id="0x1cbc8f0" file="a21-8-1.cpp" linenr="15" column="13" str="std" scope="0x1cc3b90" type="name" astParent="0x1cbc9b0"/>
+    <token id="0x1cbc9b0" file="a21-8-1.cpp" linenr="15" column="16" str="::" scope="0x1cc3b90" astParent="0x1ce2590" astOperand1="0x1cbc8f0" astOperand2="0x1cbf230"/>
+    <token id="0x1cbf230" file="a21-8-1.cpp" linenr="15" column="18" str="remove_if" scope="0x1cc3b90" type="name" astParent="0x1cbc9b0"/>
+    <token id="0x1ce2590" file="a21-8-1.cpp" linenr="15" column="27" str="(" scope="0x1cc3b90" link="0x1cc1530" values="0x1dccfa0" astParent="0x1cc1580" astOperand1="0x1cbc9b0" astOperand2="0x1cc2a10"/>
+    <token id="0x1ce25e0" file="a21-8-1.cpp" linenr="15" column="28" str="s" scope="0x1cc3b90" type="name" varId="3" variable="0x1cc78a0" astParent="0x1ce2630" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1ce2630" file="a21-8-1.cpp" linenr="15" column="29" str="." scope="0x1cc3b90" astParent="0x1cbeef0" astOperand1="0x1ce25e0" astOperand2="0x1cbeea0"/>
+    <token id="0x1cbeea0" file="a21-8-1.cpp" linenr="15" column="30" str="begin" scope="0x1cc3b90" type="name" astParent="0x1ce2630"/>
+    <token id="0x1cbeef0" file="a21-8-1.cpp" linenr="15" column="35" str="(" scope="0x1cc3b90" link="0x1cbef40" values="0x1dccda0" astParent="0x1cc2c80" astOperand1="0x1ce2630" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cbef40" file="a21-8-1.cpp" linenr="15" column="36" str=")" scope="0x1cc3b90" link="0x1cbeef0"/>
+    <token id="0x1cc2c80" file="a21-8-1.cpp" linenr="15" column="37" str="," scope="0x1cc3b90" astParent="0x1cc2a10" astOperand1="0x1cbeef0" astOperand2="0x1cc2dc0"/>
+    <token id="0x1cc2cd0" file="a21-8-1.cpp" linenr="15" column="38" str="s" scope="0x1cc3b90" type="name" varId="3" variable="0x1cc78a0" astParent="0x1cc2d20" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc2d20" file="a21-8-1.cpp" linenr="15" column="39" str="." scope="0x1cc3b90" astParent="0x1cc2dc0" astOperand1="0x1cc2cd0" astOperand2="0x1cc2d70"/>
+    <token id="0x1cc2d70" file="a21-8-1.cpp" linenr="15" column="40" str="end" scope="0x1cc3b90" type="name" astParent="0x1cc2d20"/>
+    <token id="0x1cc2dc0" file="a21-8-1.cpp" linenr="15" column="43" str="(" scope="0x1cc3b90" link="0x1cc29c0" values="0x1dcc240" astParent="0x1cc2c80" astOperand1="0x1cc2d20" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc29c0" file="a21-8-1.cpp" linenr="15" column="44" str=")" scope="0x1cc3b90" link="0x1cc2dc0"/>
+    <token id="0x1cc2a10" file="a21-8-1.cpp" linenr="15" column="45" str="," scope="0x1cc3b90" astParent="0x1ce2590" astOperand1="0x1cc2c80" astOperand2="0x1cc2a60"/>
+    <token id="0x1cc2a60" file="a21-8-1.cpp" linenr="15" column="46" str="[" scope="0x1cc3b90" link="0x1cc2ab0" function="0x1cc3930" astParent="0x1cc2a10" astOperand1="0x1cc2b00"/>
+    <token id="0x1cc2ab0" file="a21-8-1.cpp" linenr="15" column="47" str="]" scope="0x1cc3b90" link="0x1cc2a60"/>
+    <token id="0x1cc2b00" file="a21-8-1.cpp" linenr="15" column="48" str="(" scope="0x1cc3b90" link="0x1cc1bd0" astParent="0x1cc2a60" astOperand1="0x1cc1c20"/>
+    <token id="0x1cc1b30" file="a21-8-1.cpp" linenr="15" column="49" str="char" scope="0x1cc3b90" type="name"/>
+    <token id="0x1cc1b80" file="a21-8-1.cpp" linenr="15" column="54" str="c" scope="0x1cc3b90" type="name" varId="4" variable="0x1cc7d80" valueType-type="char" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1cc1bd0" file="a21-8-1.cpp" linenr="15" column="55" str=")" scope="0x1cc3b90" link="0x1cc2b00"/>
+    <token id="0x1cc1c20" file="a21-8-1.cpp" linenr="15" column="57" str="{" scope="0x1cc3e70" link="0x1cc10d0" astParent="0x1cc2b00"/>
+    <token id="0x1cc1c70" file="a21-8-1.cpp" linenr="16" column="9" str="return" scope="0x1cc3e70" type="name" astOperand1="0x1cc2420"/>
+    <token id="0x1cc2330" file="a21-8-1.cpp" linenr="16" column="16" str="std" scope="0x1cc3e70" type="name" astParent="0x1cc2380"/>
+    <token id="0x1cc2380" file="a21-8-1.cpp" linenr="16" column="19" str="::" scope="0x1cc3e70" astParent="0x1cc2420" astOperand1="0x1cc2330" astOperand2="0x1cc23d0"/>
+    <token id="0x1cc23d0" file="a21-8-1.cpp" linenr="16" column="21" str="isdigit" scope="0x1cc3e70" type="name" astParent="0x1cc2380"/>
+    <token id="0x1cc2420" file="a21-8-1.cpp" linenr="16" column="28" str="(" scope="0x1cc3e70" link="0x1cc1030" astParent="0x1cc1c70" astOperand1="0x1cc2380" astOperand2="0x1cc2190" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0x1cc2470" file="a21-8-1.cpp" linenr="16" column="29" str="static_cast" scope="0x1cc3e70" type="name" astParent="0x1cc2190"/>
+    <token id="0x1cc2050" file="a21-8-1.cpp" linenr="16" column="40" str="&lt;" scope="0x1cc3e70" link="0x1cc2140"/>
+    <token id="0x1cc20a0" file="a21-8-1.cpp" linenr="16" column="50" str="char" scope="0x1cc3e70" type="name" isUnsigned="true"/>
+    <token id="0x1cc2140" file="a21-8-1.cpp" linenr="16" column="54" str="&gt;" scope="0x1cc3e70" link="0x1cc2050"/>
+    <token id="0x1cc2190" file="a21-8-1.cpp" linenr="16" column="55" str="(" scope="0x1cc3e70" link="0x1cc0fe0" values="0x1dccf70" astParent="0x1cc2420" astOperand1="0x1cc2470" astOperand2="0x1cc0f90" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0x1cc0f90" file="a21-8-1.cpp" linenr="16" column="56" str="c" scope="0x1cc3e70" type="name" varId="4" variable="0x1cc7d80" astParent="0x1cc2190" valueType-type="char" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1cc0fe0" file="a21-8-1.cpp" linenr="16" column="57" str=")" scope="0x1cc3e70" link="0x1cc2190"/>
+    <token id="0x1cc1030" file="a21-8-1.cpp" linenr="16" column="58" str=")" scope="0x1cc3e70" link="0x1cc2420"/>
+    <token id="0x1cc1080" file="a21-8-1.cpp" linenr="16" column="59" str=";" scope="0x1cc3e70"/>
+    <token id="0x1cc10d0" file="a21-8-1.cpp" linenr="17" column="10" str="}" scope="0x1cc3e70" link="0x1cc1c20"/>
+    <token id="0x1cc1530" file="a21-8-1.cpp" linenr="17" column="11" str=")" scope="0x1cc3b90" link="0x1ce2590"/>
+    <token id="0x1cc1580" file="a21-8-1.cpp" linenr="17" column="12" str="," scope="0x1cc3b90" astParent="0x1cbf500" astOperand1="0x1ce2590" astOperand2="0x1cc1260"/>
+    <token id="0x1cc15d0" file="a21-8-1.cpp" linenr="18" column="5" str="s" scope="0x1cc3b90" type="name" varId="3" variable="0x1cc78a0" astParent="0x1cc1620" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc1620" file="a21-8-1.cpp" linenr="18" column="6" str="." scope="0x1cc3b90" astParent="0x1cc1260" astOperand1="0x1cc15d0" astOperand2="0x1cc1670"/>
+    <token id="0x1cc1670" file="a21-8-1.cpp" linenr="18" column="7" str="cend" scope="0x1cc3b90" type="name" astParent="0x1cc1620"/>
+    <token id="0x1cc1260" file="a21-8-1.cpp" linenr="18" column="11" str="(" scope="0x1cc3b90" link="0x1cc12b0" values="0x1dcd220" astParent="0x1cc1580" astOperand1="0x1cc1620" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc12b0" file="a21-8-1.cpp" linenr="18" column="12" str=")" scope="0x1cc3b90" link="0x1cc1260"/>
+    <token id="0x1cc1300" file="a21-8-1.cpp" linenr="18" column="13" str=")" scope="0x1cc3b90" link="0x1cbf500"/>
+    <token id="0x1cc1350" file="a21-8-1.cpp" linenr="18" column="14" str=";" scope="0x1cc3b90"/>
+    <token id="0x1cc13a0" file="a21-8-1.cpp" linenr="19" column="1" str="}" scope="0x1cc3b90" link="0x1cd59b0"/>
+    <token id="0x1cc5ac0" file="a21-8-1.cpp" linenr="21" column="1" str="void" scope="0x1cc4430" type="name"/>
+    <token id="0x1cc5b10" file="a21-8-1.cpp" linenr="21" column="6" str="RemoveDigits_bad1" scope="0x1cc4430" type="name" function="0x1cc39f0"/>
+    <token id="0x1cc5b60" file="a21-8-1.cpp" linenr="21" column="23" str="(" scope="0x1cc4430" link="0x1cc5e80" valueType-type="void" valueType-reference="None"/>
+    <token id="0x1cc5bb0" file="a21-8-1.cpp" linenr="21" column="24" str="std" scope="0x1cc4430" type="name" astParent="0x1cc5c00"/>
+    <token id="0x1cc5c00" file="a21-8-1.cpp" linenr="21" column="27" str="::" scope="0x1cc4430" astParent="0x1cc5de0" astOperand1="0x1cc5bb0" astOperand2="0x1cc5d90"/>
+    <token id="0x1cc5d90" file="a21-8-1.cpp" linenr="21" column="29" str="string" scope="0x1cc4430" type="name" astParent="0x1cc5c00"/>
+    <token id="0x1cc5de0" file="a21-8-1.cpp" linenr="21" column="35" str="&amp;" scope="0x1cc4430" type="op" astOperand1="0x1cc5c00" astOperand2="0x1cc5e30"/>
+    <token id="0x1cc5e30" file="a21-8-1.cpp" linenr="21" column="37" str="s" scope="0x1cc4430" type="name" varId="5" variable="0x1cc77e0" astParent="0x1cc5de0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc5e80" file="a21-8-1.cpp" linenr="21" column="38" str=")" scope="0x1cc4430" link="0x1cc5b60"/>
+    <token id="0x1cc5ed0" file="a21-8-1.cpp" linenr="22" column="1" str="{" scope="0x1cc3330" link="0x1cc09e0"/>
+    <token id="0x1cc6330" file="a21-8-1.cpp" linenr="23" column="5" str="s" scope="0x1cc3330" type="name" varId="5" variable="0x1cc77e0" astParent="0x1cc6380" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc6380" file="a21-8-1.cpp" linenr="23" column="6" str="." scope="0x1cc3330" astParent="0x1cc6420" astOperand1="0x1cc6330" astOperand2="0x1cc63d0"/>
+    <token id="0x1cc63d0" file="a21-8-1.cpp" linenr="23" column="7" str="erase" scope="0x1cc3330" type="name" astParent="0x1cc6380"/>
+    <token id="0x1cc6420" file="a21-8-1.cpp" linenr="23" column="12" str="(" scope="0x1cc3330" link="0x1cbe8c0" astOperand1="0x1cc6380" astOperand2="0x1cc04e0"/>
+    <token id="0x1cc6470" file="a21-8-1.cpp" linenr="23" column="13" str="std" scope="0x1cc3330" type="name" astParent="0x1cc6060"/>
+    <token id="0x1cc6060" file="a21-8-1.cpp" linenr="23" column="16" str="::" scope="0x1cc3330" astParent="0x1cc6100" astOperand1="0x1cc6470" astOperand2="0x1cc60b0"/>
+    <token id="0x1cc60b0" file="a21-8-1.cpp" linenr="23" column="18" str="remove_if" scope="0x1cc3330" type="name" astParent="0x1cc6060"/>
+    <token id="0x1cc6100" file="a21-8-1.cpp" linenr="23" column="27" str="(" scope="0x1cc3330" link="0x1cc0490" values="0x1dcd590" astParent="0x1cc04e0" astOperand1="0x1cc6060" astOperand2="0x1cc6740"/>
+    <token id="0x1cc6150" file="a21-8-1.cpp" linenr="23" column="28" str="s" scope="0x1cc3330" type="name" varId="5" variable="0x1cc77e0" astParent="0x1cc61a0" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc61a0" file="a21-8-1.cpp" linenr="23" column="29" str="." scope="0x1cc3330" astParent="0x1cc6920" astOperand1="0x1cc6150" astOperand2="0x1cc68d0"/>
+    <token id="0x1cc68d0" file="a21-8-1.cpp" linenr="23" column="30" str="begin" scope="0x1cc3330" type="name" astParent="0x1cc61a0"/>
+    <token id="0x1cc6920" file="a21-8-1.cpp" linenr="23" column="35" str="(" scope="0x1cc3330" link="0x1cc6970" values="0x1dcd390" astParent="0x1cc69c0" astOperand1="0x1cc61a0" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc6970" file="a21-8-1.cpp" linenr="23" column="36" str=")" scope="0x1cc3330" link="0x1cc6920"/>
+    <token id="0x1cc69c0" file="a21-8-1.cpp" linenr="23" column="37" str="," scope="0x1cc3330" astParent="0x1cc6740" astOperand1="0x1cc6920" astOperand2="0x1cc66a0"/>
+    <token id="0x1cc6a10" file="a21-8-1.cpp" linenr="23" column="38" str="s" scope="0x1cc3330" type="name" varId="5" variable="0x1cc77e0" astParent="0x1cc6600" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc6600" file="a21-8-1.cpp" linenr="23" column="39" str="." scope="0x1cc3330" astParent="0x1cc66a0" astOperand1="0x1cc6a10" astOperand2="0x1cc6650"/>
+    <token id="0x1cc6650" file="a21-8-1.cpp" linenr="23" column="40" str="end" scope="0x1cc3330" type="name" astParent="0x1cc6600"/>
+    <token id="0x1cc66a0" file="a21-8-1.cpp" linenr="23" column="43" str="(" scope="0x1cc3330" link="0x1cc66f0" values="0x1dcc8f0" astParent="0x1cc69c0" astOperand1="0x1cc6600" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cc66f0" file="a21-8-1.cpp" linenr="23" column="44" str=")" scope="0x1cc3330" link="0x1cc66a0"/>
+    <token id="0x1cc6740" file="a21-8-1.cpp" linenr="23" column="45" str="," scope="0x1cc3330" astParent="0x1cc6100" astOperand1="0x1cc69c0" astOperand2="0x1cc7140"/>
+    <token id="0x1cc7140" file="a21-8-1.cpp" linenr="23" column="46" str="[" scope="0x1cc3330" link="0x1cc7190" function="0x1cc4f70" astParent="0x1cc6740" astOperand1="0x1cc71e0"/>
+    <token id="0x1cc7190" file="a21-8-1.cpp" linenr="23" column="47" str="]" scope="0x1cc3330" link="0x1cc7140"/>
+    <token id="0x1cc71e0" file="a21-8-1.cpp" linenr="23" column="48" str="(" scope="0x1cc3330" link="0x1cc7230" astParent="0x1cc7140" astOperand1="0x1cc7280"/>
+    <token id="0x1cc7230" file="a21-8-1.cpp" linenr="23" column="49" str=")" scope="0x1cc3330" link="0x1cc71e0"/>
+    <token id="0x1cc7280" file="a21-8-1.cpp" linenr="23" column="51" str="{" scope="0x1cc4cd0" link="0x1cc0440" astParent="0x1cc71e0"/>
+    <token id="0x1cc6e70" file="a21-8-1.cpp" linenr="24" column="17" str="return" scope="0x1cc4cd0" type="name" astOperand1="0x1cc6fb0"/>
+    <token id="0x1cc6ec0" file="a21-8-1.cpp" linenr="24" column="24" str="std" scope="0x1cc4cd0" type="name" astParent="0x1cc6f10"/>
+    <token id="0x1cc6f10" file="a21-8-1.cpp" linenr="24" column="27" str="::" scope="0x1cc4cd0" astParent="0x1cc6fb0" astOperand1="0x1cc6ec0" astOperand2="0x1cc6f60"/>
+    <token id="0x1cc6f60" file="a21-8-1.cpp" linenr="24" column="29" str="isdigit" scope="0x1cc4cd0" type="name" astParent="0x1cc6f10"/>
+    <token id="0x1cc6fb0" file="a21-8-1.cpp" linenr="24" column="36" str="(" scope="0x1cc4cd0" link="0x1cbe1a0" values="0x1dce600" astParent="0x1cc6e70" astOperand1="0x1cc6f10" astOperand2="0x1cbe0b0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0x1cc6ba0" file="a21-8-1.cpp" linenr="24" column="37" str="static_cast" scope="0x1cc4cd0" type="name" astParent="0x1cbe0b0"/>
+    <token id="0x1cc6bf0" file="a21-8-1.cpp" linenr="24" column="48" str="&lt;" scope="0x1cc4cd0" link="0x1cc6ce0"/>
+    <token id="0x1cc6c40" file="a21-8-1.cpp" linenr="24" column="58" str="char" scope="0x1cc4cd0" type="name" isUnsigned="true"/>
+    <token id="0x1cc6ce0" file="a21-8-1.cpp" linenr="24" column="62" str="&gt;" scope="0x1cc4cd0" link="0x1cc6bf0"/>
+    <token id="0x1cbe0b0" file="a21-8-1.cpp" linenr="24" column="63" str="(" scope="0x1cc4cd0" link="0x1cbe150" values="0x1dcc210" astParent="0x1cc6fb0" astOperand1="0x1cc6ba0" astOperand2="0x1cbe100" valueType-type="char" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="0x1cbe100" file="a21-8-1.cpp" linenr="24" column="64" str="&apos;a&apos;" scope="0x1cc4cd0" type="char" values="0x1dcc270" astParent="0x1cbe0b0" valueType-type="char" valueType-reference="None"/>
+    <token id="0x1cbe150" file="a21-8-1.cpp" linenr="24" column="67" str=")" scope="0x1cc4cd0" link="0x1cbe0b0"/>
+    <token id="0x1cbe1a0" file="a21-8-1.cpp" linenr="24" column="68" str=")" scope="0x1cc4cd0" link="0x1cc6fb0"/>
+    <token id="0x1cbe1f0" file="a21-8-1.cpp" linenr="24" column="69" str=";" scope="0x1cc4cd0"/>
+    <token id="0x1cc0440" file="a21-8-1.cpp" linenr="25" column="13" str="}" scope="0x1cc4cd0" link="0x1cc7280"/>
+    <token id="0x1cc0490" file="a21-8-1.cpp" linenr="25" column="14" str=")" scope="0x1cc3330" link="0x1cc6100"/>
+    <token id="0x1cc04e0" file="a21-8-1.cpp" linenr="25" column="15" str="," scope="0x1cc3330" astParent="0x1cc6420" astOperand1="0x1cc6100" astOperand2="0x1cbe820"/>
+    <token id="0x1cc0530" file="a21-8-1.cpp" linenr="26" column="13" str="s" scope="0x1cc3330" type="name" varId="5" variable="0x1cc77e0" astParent="0x1cc0580" valueType-type="container" valueType-reference="LValue"/>
+    <token id="0x1cc0580" file="a21-8-1.cpp" linenr="26" column="14" str="." scope="0x1cc3330" astParent="0x1cbe820" astOperand1="0x1cc0530" astOperand2="0x1cbe7d0"/>
+    <token id="0x1cbe7d0" file="a21-8-1.cpp" linenr="26" column="15" str="cend" scope="0x1cc3330" type="name" astParent="0x1cc0580"/>
+    <token id="0x1cbe820" file="a21-8-1.cpp" linenr="26" column="19" str="(" scope="0x1cc3330" link="0x1cbe870" values="0x1dcd8b0" astParent="0x1cc04e0" astOperand1="0x1cc0580" valueType-type="iterator" valueType-reference="None"/>
+    <token id="0x1cbe870" file="a21-8-1.cpp" linenr="26" column="20" str=")" scope="0x1cc3330" link="0x1cbe820"/>
+    <token id="0x1cbe8c0" file="a21-8-1.cpp" linenr="26" column="21" str=")" scope="0x1cc3330" link="0x1cc6420"/>
+    <token id="0x1cbe910" file="a21-8-1.cpp" linenr="26" column="22" str=";" scope="0x1cc3330"/>
+    <token id="0x1cc09e0" file="a21-8-1.cpp" linenr="27" column="1" str="}" scope="0x1cc3330" link="0x1cc5ed0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1cc4430" type="Global">
+      <functionList>
+        <function id="0x1eb70e0" token="0x1cdcca0" tokenDef="0x1cdcca0" name="RemoveDigits_Bad" type="Function">
+          <arg nr="1" variable="0x1cd04a0"/>
+        </function>
+        <function id="0x1cc3870" token="0x1cbdf20" tokenDef="0x1cbdf20" name="RemoveDigits_Good" type="Function">
+          <arg nr="1" variable="0x1cc78a0"/>
+        </function>
+        <function id="0x1cc39f0" token="0x1cc5b10" tokenDef="0x1cc5b10" name="RemoveDigits_bad1" type="Function">
+          <arg nr="1" variable="0x1cc77e0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1cc4150" type="Function" className="RemoveDigits_Bad" bodyStart="0x1ce10a0" bodyEnd="0x1cbfab0" nestedIn="0x1cc4430" function="0x1eb70e0">
+      <functionList>
+        <function id="0x1cbf0d0" token="0x1cc2510" tokenDef="0x1cc2510" name="[" type="Lambda">
+          <arg nr="1" variable="0x1cc7e40"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1cc35d0" type="Lambda" className="[" bodyStart="0x1cc5f70" bodyEnd="0x1cbe350" nestedIn="0x1cc4150" function="0x1cbf0d0"/>
+    <scope id="0x1cc3b90" type="Function" className="RemoveDigits_Good" bodyStart="0x1cd59b0" bodyEnd="0x1cc13a0" nestedIn="0x1cc4430" function="0x1cc3870">
+      <functionList>
+        <function id="0x1cc3930" token="0x1cc2a60" tokenDef="0x1cc2a60" name="[" type="Lambda">
+          <arg nr="1" variable="0x1cc7d80"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1cc3e70" type="Lambda" className="[" bodyStart="0x1cc1c20" bodyEnd="0x1cc10d0" nestedIn="0x1cc3b90" function="0x1cc3930"/>
+    <scope id="0x1cc3330" type="Function" className="RemoveDigits_bad1" bodyStart="0x1cc5ed0" bodyEnd="0x1cc09e0" nestedIn="0x1cc4430" function="0x1cc39f0">
+      <functionList>
+        <function id="0x1cc4f70" token="0x1cc7140" tokenDef="0x1cc7140" name="[" type="Lambda"/>
+      </functionList>
+    </scope>
+    <scope id="0x1cc4cd0" type="Lambda" className="[" bodyStart="0x1cc7280" bodyEnd="0x1cc0440" nestedIn="0x1cc3330" function="0x1cc4f70"/>
+  </scopes>
+  <variables>
+    <var id="0x1cc77e0" nameToken="0x1cc5e30" typeStartToken="0x1cc5bb0" typeEndToken="0x1cc5de0" access="Argument" scope="0x1cc3330" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x1cc78a0" nameToken="0x1ce26e0" typeStartToken="0x1cbdac0" typeEndToken="0x1cd3cd0" access="Argument" scope="0x1cc3b90" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x1cc7d80" nameToken="0x1cc1b80" typeStartToken="0x1cc1b30" typeEndToken="0x1cc1b30" access="Argument" scope="0x1cc3e70" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x1cc7e40" nameToken="0x1cc1440" typeStartToken="0x1cc1710" typeEndToken="0x1cc1710" access="Argument" scope="0x1cc35d0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x1cd04a0" nameToken="0x1ce18e0" typeStartToken="0x1ce23b0" typeEndToken="0x1cc17d0" access="Argument" scope="0x1cc4150" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1dcc9b0">
+      <value lifetime="0x1ce0cb0" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x1cde140">
+      <value lifetime="0x1ce0cb0" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-start="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcc830">
+      <value lifetime="0x1cc2880" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-end="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dccc30">
+      <value lifetime="0x1cbea70" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-end="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dccfa0">
+      <value lifetime="0x1ce25e0" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x1dccda0">
+      <value lifetime="0x1ce25e0" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-start="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcc240">
+      <value lifetime="0x1cc2cd0" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-end="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dccf70">
+      <value intvalue="18446744073709551615" bound="Upper" impossible="true" path="0"/>
+    </values>
+    <values id="0x1dcd220">
+      <value lifetime="0x1cc15d0" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-end="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcd590">
+      <value lifetime="0x1cc6150" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x1dcd390">
+      <value lifetime="0x1cc6150" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-start="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcc8f0">
+      <value lifetime="0x1cc6a10" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-end="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dce600">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcc210">
+      <value intvalue="97" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcc270">
+      <value intvalue="97" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1dcd8b0">
+      <value lifetime="0x1cc0530" lifetime-scope="Local" lifetime-kind="Iterator" bound="Point" possible="true" path="0"/>
+      <value iterator-end="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

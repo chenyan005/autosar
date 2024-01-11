@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="a18-1-4.cpp"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="include"/>
+    <tok fileIndex="0" linenr="1" column="10" str="&lt;cstdint&gt;"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="include"/>
+    <tok fileIndex="0" linenr="2" column="10" str="&lt;memory&gt;"/>
+    <tok fileIndex="0" linenr="3" column="1" str="#"/>
+    <tok fileIndex="0" linenr="3" column="2" str="include"/>
+    <tok fileIndex="0" linenr="3" column="10" str="&lt;vector&gt;"/>
+    <tok fileIndex="0" linenr="4" column="1" str="void"/>
+    <tok fileIndex="0" linenr="4" column="6" str="Fn"/>
+    <tok fileIndex="0" linenr="4" column="8" str="("/>
+    <tok fileIndex="0" linenr="4" column="9" str=")"/>
+    <tok fileIndex="0" linenr="4" column="11" str="noexcept"/>
+    <tok fileIndex="0" linenr="5" column="1" str="{"/>
+    <tok fileIndex="0" linenr="6" column="5" str="std"/>
+    <tok fileIndex="0" linenr="6" column="8" str="::"/>
+    <tok fileIndex="0" linenr="6" column="10" str="auto_ptr"/>
+    <tok fileIndex="0" linenr="6" column="18" str="&lt;"/>
+    <tok fileIndex="0" linenr="6" column="19" str="std"/>
+    <tok fileIndex="0" linenr="6" column="22" str="::"/>
+    <tok fileIndex="0" linenr="6" column="24" str="int32_t"/>
+    <tok fileIndex="0" linenr="6" column="31" str="&gt;"/>
+    <tok fileIndex="0" linenr="6" column="33" str="ptr1"/>
+    <tok fileIndex="0" linenr="6" column="37" str="("/>
+    <tok fileIndex="0" linenr="6" column="38" str="new"/>
+    <tok fileIndex="0" linenr="6" column="42" str="std"/>
+    <tok fileIndex="0" linenr="6" column="45" str="::"/>
+    <tok fileIndex="0" linenr="6" column="47" str="int32_t"/>
+    <tok fileIndex="0" linenr="6" column="54" str="("/>
+    <tok fileIndex="0" linenr="6" column="55" str="10"/>
+    <tok fileIndex="0" linenr="6" column="57" str=")"/>
+    <tok fileIndex="0" linenr="6" column="58" str=")"/>
+    <tok fileIndex="0" linenr="6" column="59" str=";"/>
+    <tok fileIndex="0" linenr="6" column="61" str="// Non-compliant"/>
+    <tok fileIndex="0" linenr="7" column="5" str="std"/>
+    <tok fileIndex="0" linenr="7" column="8" str="::"/>
+    <tok fileIndex="0" linenr="7" column="10" str="unique_ptr"/>
+    <tok fileIndex="0" linenr="7" column="20" str="&lt;"/>
+    <tok fileIndex="0" linenr="7" column="21" str="std"/>
+    <tok fileIndex="0" linenr="7" column="24" str="::"/>
+    <tok fileIndex="0" linenr="7" column="26" str="int32_t"/>
+    <tok fileIndex="0" linenr="7" column="33" str="&gt;"/>
+    <tok fileIndex="0" linenr="7" column="35" str="ptr2"/>
+    <tok fileIndex="0" linenr="7" column="40" str="="/>
+    <tok fileIndex="0" linenr="7" column="41" str="std"/>
+    <tok fileIndex="0" linenr="7" column="44" str="::"/>
+    <tok fileIndex="0" linenr="7" column="46" str="make_unique"/>
+    <tok fileIndex="0" linenr="7" column="57" str="&lt;"/>
+    <tok fileIndex="0" linenr="7" column="58" str="std"/>
+    <tok fileIndex="0" linenr="7" column="61" str="::"/>
+    <tok fileIndex="0" linenr="7" column="63" str="int32_t"/>
+    <tok fileIndex="0" linenr="7" column="70" str="&gt;"/>
+    <tok fileIndex="0" linenr="7" column="71" str="("/>
+    <tok fileIndex="0" linenr="7" column="72" str="10"/>
+    <tok fileIndex="0" linenr="7" column="74" str=")"/>
+    <tok fileIndex="0" linenr="7" column="75" str=";"/>
+    <tok fileIndex="0" linenr="7" column="77" str="// Compliant"/>
+    <tok fileIndex="0" linenr="8" column="5" str="std"/>
+    <tok fileIndex="0" linenr="8" column="8" str="::"/>
+    <tok fileIndex="0" linenr="8" column="10" str="vector"/>
+    <tok fileIndex="0" linenr="8" column="16" str="&lt;"/>
+    <tok fileIndex="0" linenr="8" column="17" str="std"/>
+    <tok fileIndex="0" linenr="8" column="20" str="::"/>
+    <tok fileIndex="0" linenr="8" column="22" str="auto_ptr"/>
+    <tok fileIndex="0" linenr="8" column="30" str="&lt;"/>
+    <tok fileIndex="0" linenr="8" column="31" str="std"/>
+    <tok fileIndex="0" linenr="8" column="34" str="::"/>
+    <tok fileIndex="0" linenr="8" column="36" str="int32_t"/>
+    <tok fileIndex="0" linenr="8" column="43" str="&gt;&gt;"/>
+    <tok fileIndex="0" linenr="8" column="46" str="v"/>
+    <tok fileIndex="0" linenr="8" column="47" str=";"/>
+    <tok fileIndex="0" linenr="8" column="49" str="// Non-compliant"/>
+    <tok fileIndex="0" linenr="9" column="1" str="}"/>
+    <tok fileIndex="0" linenr="11" column="1" str="#"/>
+    <tok fileIndex="0" linenr="11" column="2" str="include"/>
+    <tok fileIndex="0" linenr="11" column="10" str="&lt;memory&gt;"/>
+    <tok fileIndex="0" linenr="12" column="1" str="class"/>
+    <tok fileIndex="0" linenr="12" column="7" str="MyClass"/>
+    <tok fileIndex="0" linenr="12" column="15" str="{"/>
+    <tok fileIndex="0" linenr="13" column="1" str="public"/>
+    <tok fileIndex="0" linenr="13" column="7" str=":"/>
+    <tok fileIndex="0" linenr="14" column="5" str="MyClass"/>
+    <tok fileIndex="0" linenr="14" column="12" str="("/>
+    <tok fileIndex="0" linenr="14" column="13" str="int"/>
+    <tok fileIndex="0" linenr="14" column="17" str="val"/>
+    <tok fileIndex="0" linenr="14" column="20" str=")"/>
+    <tok fileIndex="0" linenr="14" column="22" str=":"/>
+    <tok fileIndex="0" linenr="14" column="24" str="value"/>
+    <tok fileIndex="0" linenr="14" column="29" str="("/>
+    <tok fileIndex="0" linenr="14" column="30" str="val"/>
+    <tok fileIndex="0" linenr="14" column="33" str=")"/>
+    <tok fileIndex="0" linenr="14" column="35" str="{"/>
+    <tok fileIndex="0" linenr="14" column="36" str="}"/>
+    <tok fileIndex="0" linenr="15" column="5" str="int"/>
+    <tok fileIndex="0" linenr="15" column="9" str="value"/>
+    <tok fileIndex="0" linenr="15" column="14" str=";"/>
+    <tok fileIndex="0" linenr="16" column="1" str="}"/>
+    <tok fileIndex="0" linenr="16" column="2" str=";"/>
+    <tok fileIndex="0" linenr="18" column="1" str="int"/>
+    <tok fileIndex="0" linenr="18" column="5" str="main1"/>
+    <tok fileIndex="0" linenr="18" column="10" str="("/>
+    <tok fileIndex="0" linenr="18" column="11" str=")"/>
+    <tok fileIndex="0" linenr="18" column="13" str="{"/>
+    <tok fileIndex="0" linenr="19" column="5" str="MyClass"/>
+    <tok fileIndex="0" linenr="19" column="12" str="*"/>
+    <tok fileIndex="0" linenr="19" column="14" str="array"/>
+    <tok fileIndex="0" linenr="19" column="20" str="="/>
+    <tok fileIndex="0" linenr="19" column="22" str="new"/>
+    <tok fileIndex="0" linenr="19" column="26" str="MyClass"/>
+    <tok fileIndex="0" linenr="19" column="33" str="["/>
+    <tok fileIndex="0" linenr="19" column="34" str="5"/>
+    <tok fileIndex="0" linenr="19" column="35" str="]"/>
+    <tok fileIndex="0" linenr="19" column="36" str=";"/>
+    <tok fileIndex="0" linenr="21" column="5" str="// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx std::unique_ptr"/>
+    <tok fileIndex="0" linenr="22" column="5" str="std"/>
+    <tok fileIndex="0" linenr="22" column="8" str="::"/>
+    <tok fileIndex="0" linenr="22" column="10" str="unique_ptr"/>
+    <tok fileIndex="0" linenr="22" column="20" str="&lt;"/>
+    <tok fileIndex="0" linenr="22" column="21" str="MyClass"/>
+    <tok fileIndex="0" linenr="22" column="28" str="&gt;"/>
+    <tok fileIndex="0" linenr="22" column="30" str="ptr"/>
+    <tok fileIndex="0" linenr="22" column="33" str="("/>
+    <tok fileIndex="0" linenr="22" column="34" str="array"/>
+    <tok fileIndex="0" linenr="22" column="39" str=")"/>
+    <tok fileIndex="0" linenr="22" column="40" str=";"/>
+    <tok fileIndex="0" linenr="23" column="5" str="std"/>
+    <tok fileIndex="0" linenr="23" column="8" str="::"/>
+    <tok fileIndex="0" linenr="23" column="10" str="unique_ptr"/>
+    <tok fileIndex="0" linenr="23" column="20" str="&lt;"/>
+    <tok fileIndex="0" linenr="23" column="21" str="int"/>
+    <tok fileIndex="0" linenr="23" column="24" str="&gt;"/>
+    <tok fileIndex="0" linenr="23" column="26" str="ptr1"/>
+    <tok fileIndex="0" linenr="23" column="30" str="("/>
+    <tok fileIndex="0" linenr="23" column="31" str="new"/>
+    <tok fileIndex="0" linenr="23" column="35" str="int"/>
+    <tok fileIndex="0" linenr="23" column="38" str="["/>
+    <tok fileIndex="0" linenr="23" column="39" str="5"/>
+    <tok fileIndex="0" linenr="23" column="40" str="]"/>
+    <tok fileIndex="0" linenr="23" column="41" str=")"/>
+    <tok fileIndex="0" linenr="23" column="42" str=";"/>
+    <tok fileIndex="0" linenr="23" column="43" str="// xxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="25" column="5" str="return"/>
+    <tok fileIndex="0" linenr="25" column="12" str="0"/>
+    <tok fileIndex="0" linenr="25" column="13" str=";"/>
+    <tok fileIndex="0" linenr="26" column="1" str="}"/>
+    <tok fileIndex="0" linenr="29" column="1" str="#"/>
+    <tok fileIndex="0" linenr="29" column="2" str="include"/>
+    <tok fileIndex="0" linenr="29" column="10" str="&lt;memory&gt;"/>
+    <tok fileIndex="0" linenr="30" column="1" str="#"/>
+    <tok fileIndex="0" linenr="30" column="2" str="include"/>
+    <tok fileIndex="0" linenr="30" column="10" str="&lt;vector&gt;"/>
+    <tok fileIndex="0" linenr="32" column="1" str="class"/>
+    <tok fileIndex="0" linenr="32" column="7" str="MyClass1"/>
+    <tok fileIndex="0" linenr="32" column="16" str="{"/>
+    <tok fileIndex="0" linenr="33" column="1" str="public"/>
+    <tok fileIndex="0" linenr="33" column="7" str=":"/>
+    <tok fileIndex="0" linenr="34" column="5" str="MyClass1"/>
+    <tok fileIndex="0" linenr="34" column="13" str="("/>
+    <tok fileIndex="0" linenr="34" column="14" str="int"/>
+    <tok fileIndex="0" linenr="34" column="18" str="val"/>
+    <tok fileIndex="0" linenr="34" column="21" str=")"/>
+    <tok fileIndex="0" linenr="34" column="23" str=":"/>
+    <tok fileIndex="0" linenr="34" column="25" str="value"/>
+    <tok fileIndex="0" linenr="34" column="30" str="("/>
+    <tok fileIndex="0" linenr="34" column="31" str="val"/>
+    <tok fileIndex="0" linenr="34" column="34" str=")"/>
+    <tok fileIndex="0" linenr="34" column="36" str="{"/>
+    <tok fileIndex="0" linenr="34" column="37" str="}"/>
+    <tok fileIndex="0" linenr="35" column="5" str="int"/>
+    <tok fileIndex="0" linenr="35" column="9" str="value"/>
+    <tok fileIndex="0" linenr="35" column="14" str=";"/>
+    <tok fileIndex="0" linenr="36" column="1" str="}"/>
+    <tok fileIndex="0" linenr="36" column="2" str=";"/>
+    <tok fileIndex="0" linenr="38" column="1" str="int"/>
+    <tok fileIndex="0" linenr="38" column="5" str="main"/>
+    <tok fileIndex="0" linenr="38" column="9" str="("/>
+    <tok fileIndex="0" linenr="38" column="10" str=")"/>
+    <tok fileIndex="0" linenr="38" column="12" str="{"/>
+    <tok fileIndex="0" linenr="39" column="5" str="std"/>
+    <tok fileIndex="0" linenr="39" column="8" str="::"/>
+    <tok fileIndex="0" linenr="39" column="10" str="vector"/>
+    <tok fileIndex="0" linenr="39" column="16" str="&lt;"/>
+    <tok fileIndex="0" linenr="39" column="17" str="MyClass1"/>
+    <tok fileIndex="0" linenr="39" column="25" str="&gt;"/>
+    <tok fileIndex="0" linenr="39" column="27" str="myObjects"/>
+    <tok fileIndex="0" linenr="39" column="36" str="("/>
+    <tok fileIndex="0" linenr="39" column="37" str="5"/>
+    <tok fileIndex="0" linenr="39" column="38" str=")"/>
+    <tok fileIndex="0" linenr="39" column="39" str=";"/>
+    <tok fileIndex="0" linenr="39" column="42" str="// xxxxxx std::vector xxxxxxxxxxxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="41" column="5" str="return"/>
+    <tok fileIndex="0" linenr="41" column="12" str="0"/>
+    <tok fileIndex="0" linenr="41" column="13" str=";"/>
+    <tok fileIndex="0" linenr="42" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="a18-1-4.cpp" linenr="1" str="#include &lt;cstdint&gt;"/>
+    <directive file="a18-1-4.cpp" linenr="2" str="#include &lt;memory&gt;"/>
+    <directive file="a18-1-4.cpp" linenr="3" str="#include &lt;vector&gt;"/>
+    <directive file="a18-1-4.cpp" linenr="11" str="#include &lt;memory&gt;"/>
+    <directive file="a18-1-4.cpp" linenr="29" str="#include &lt;memory&gt;"/>
+    <directive file="a18-1-4.cpp" linenr="30" str="#include &lt;vector&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x31e3010" file="a18-1-4.cpp" linenr="4" column="1" str="void" scope="0x31d37f0" type="name"/>
+    <token id="0x31e29b0" file="a18-1-4.cpp" linenr="4" column="6" str="Fn" scope="0x31d37f0" type="name" function="0x33c70e0" astParent="0x31e9260"/>
+    <token id="0x31e9260" file="a18-1-4.cpp" linenr="4" column="8" str="(" scope="0x31d37f0" link="0x31f2360" astOperand1="0x31e29b0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x31f2360" file="a18-1-4.cpp" linenr="4" column="9" str=")" scope="0x31d37f0" link="0x31e9260"/>
+    <token id="0x31f2490" file="a18-1-4.cpp" linenr="4" column="11" str="noexcept" scope="0x31d37f0" type="name" astParent="0x31d0750"/>
+    <token id="0x31d0750" file="a18-1-4.cpp" linenr="4" column="0" str="(" scope="0x31d37f0" link="0x31d6690" astOperand1="0x31f2490" astOperand2="0x31e42c0"/>
+    <token id="0x31e42c0" file="a18-1-4.cpp" linenr="4" column="0" str="true" scope="0x31d37f0" type="name" values="0x32ddb30" astParent="0x31d0750" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x31d6690" file="a18-1-4.cpp" linenr="4" column="0" str=")" scope="0x31d37f0" link="0x31d0750"/>
+    <token id="0x31ccc50" file="a18-1-4.cpp" linenr="5" column="1" str="{" scope="0x31d3a90" link="0x31d01f0"/>
+    <token id="0x31d19f0" file="a18-1-4.cpp" linenr="6" column="5" str="std" scope="0x31d3a90" type="name" astParent="0x31f1890"/>
+    <token id="0x31f1890" file="a18-1-4.cpp" linenr="6" column="8" str="::" scope="0x31d3a90" astParent="0x31f0d40" astOperand1="0x31d19f0" astOperand2="0x31f17c0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31f0ed0" file="a18-1-4.cpp" linenr="6" column="10" str="auto_ptr" scope="0x31d3a90" type="name"/>
+    <token id="0x31f1050" file="a18-1-4.cpp" linenr="6" column="18" str="&lt;" scope="0x31d3a90" link="0x31f1390"/>
+    <token id="0x31f1120" file="a18-1-4.cpp" linenr="6" column="19" str="std" scope="0x31d3a90" type="name"/>
+    <token id="0x31f1190" file="a18-1-4.cpp" linenr="6" column="22" str="::" scope="0x31d3a90"/>
+    <token id="0x31f1200" file="a18-1-4.cpp" linenr="6" column="24" str="int32_t" scope="0x31d3a90" type="name"/>
+    <token id="0x31f1390" file="a18-1-4.cpp" linenr="6" column="31" str="&gt;" scope="0x31d3a90" link="0x31f1050"/>
+    <token id="0x31f17c0" file="a18-1-4.cpp" linenr="6" column="33" str="ptr1" scope="0x31d3a90" type="name" varId="1" variable="0x31d4800" astParent="0x31f1890" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31f0d40" file="a18-1-4.cpp" linenr="6" column="37" str="(" scope="0x31d3a90" link="0x31d29e0" astOperand1="0x31f1890" astOperand2="0x31f08a0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31f08a0" file="a18-1-4.cpp" linenr="6" column="38" str="new" scope="0x31d3a90" type="name" astParent="0x31f0d40" astOperand1="0x31d77e0" valueType-type="int" valueType-sign="signed" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0x31f0a30" file="a18-1-4.cpp" linenr="6" column="42" str="std" scope="0x31d3a90" type="name" astParent="0x31f0c60"/>
+    <token id="0x31f0c60" file="a18-1-4.cpp" linenr="6" column="45" str="::" scope="0x31d3a90" astParent="0x31d77e0" astOperand1="0x31f0a30" astOperand2="0x31f0cd0"/>
+    <token id="0x31f0cd0" file="a18-1-4.cpp" linenr="6" column="47" str="int32_t" scope="0x31d3a90" type="name" astParent="0x31f0c60"/>
+    <token id="0x31d77e0" file="a18-1-4.cpp" linenr="6" column="54" str="(" scope="0x31d3a90" link="0x31d7d80" astParent="0x31f08a0" astOperand1="0x31f0c60" astOperand2="0x31d7cc0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d7cc0" file="a18-1-4.cpp" linenr="6" column="55" str="10" scope="0x31d3a90" type="number" isInt="true" values="0x31d7830" astParent="0x31d77e0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d7d80" file="a18-1-4.cpp" linenr="6" column="57" str=")" scope="0x31d3a90" link="0x31d77e0"/>
+    <token id="0x31d29e0" file="a18-1-4.cpp" linenr="6" column="58" str=")" scope="0x31d3a90" link="0x31f0d40"/>
+    <token id="0x31d2aa0" file="a18-1-4.cpp" linenr="6" column="59" str=";" scope="0x31d3a90"/>
+    <token id="0x31d3340" file="a18-1-4.cpp" linenr="7" column="5" str="std" scope="0x31d3a90" type="name" astParent="0x31d3410"/>
+    <token id="0x31d3410" file="a18-1-4.cpp" linenr="7" column="8" str="::" scope="0x31d3a90" astOperand1="0x31d3340" astOperand2="0x31d1930" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d3090" file="a18-1-4.cpp" linenr="7" column="10" str="unique_ptr" scope="0x31d3a90" type="name"/>
+    <token id="0x31d2dd0" file="a18-1-4.cpp" linenr="7" column="20" str="&lt;" scope="0x31d3a90" link="0x31d1390"/>
+    <token id="0x31d1f30" file="a18-1-4.cpp" linenr="7" column="21" str="std" scope="0x31d3a90" type="name"/>
+    <token id="0x31d2730" file="a18-1-4.cpp" linenr="7" column="24" str="::" scope="0x31d3a90"/>
+    <token id="0x31d2450" file="a18-1-4.cpp" linenr="7" column="26" str="int32_t" scope="0x31d3a90" type="name"/>
+    <token id="0x31d1390" file="a18-1-4.cpp" linenr="7" column="33" str="&gt;" scope="0x31d3a90" link="0x31d2dd0"/>
+    <token id="0x31d1930" file="a18-1-4.cpp" linenr="7" column="35" str="ptr2" scope="0x31d3a90" type="name" varId="2" variable="0x31d4500" astParent="0x31d3410" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d1660" file="a18-1-4.cpp" linenr="7" column="40" str=";" scope="0x31d3a90" isSplittedVarDeclEq="true"/>
+    <token id="0x31ce9f0" file="a18-1-4.cpp" linenr="7" column="35" str="ptr2" scope="0x31d3a90" type="name" varId="2" variable="0x31d4500" astParent="0x31cea40" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31cea40" file="a18-1-4.cpp" linenr="7" column="40" str="=" scope="0x31d3a90" type="op" isAssignmentOp="true" values="0x32ddd80" astOperand1="0x31ce9f0" astOperand2="0x31d6fa0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d5ec0" file="a18-1-4.cpp" linenr="7" column="41" str="std" scope="0x31d3a90" type="name" astParent="0x31d6190"/>
+    <token id="0x31d6190" file="a18-1-4.cpp" linenr="7" column="44" str="::" scope="0x31d3a90" astParent="0x31d6fa0" astOperand1="0x31d5ec0" astOperand2="0x31d6730"/>
+    <token id="0x31d6730" file="a18-1-4.cpp" linenr="7" column="46" str="make_unique" scope="0x31d3a90" type="name" astParent="0x31d6190"/>
+    <token id="0x31d6460" file="a18-1-4.cpp" linenr="7" column="57" str="&lt;" scope="0x31d3a90" link="0x31d7270"/>
+    <token id="0x31d6cd0" file="a18-1-4.cpp" linenr="7" column="58" str="std" scope="0x31d3a90" type="name"/>
+    <token id="0x31d6a00" file="a18-1-4.cpp" linenr="7" column="61" str="::" scope="0x31d3a90"/>
+    <token id="0x31d7540" file="a18-1-4.cpp" linenr="7" column="63" str="int32_t" scope="0x31d3a90" type="name"/>
+    <token id="0x31d7270" file="a18-1-4.cpp" linenr="7" column="70" str="&gt;" scope="0x31d3a90" link="0x31d6460"/>
+    <token id="0x31d6fa0" file="a18-1-4.cpp" linenr="7" column="71" str="(" scope="0x31d3a90" link="0x31ce570" values="0x32ddc40" astParent="0x31cea40" astOperand1="0x31d6190" astOperand2="0x31ce4b0" valueType-type="smart-pointer" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31ce4b0" file="a18-1-4.cpp" linenr="7" column="72" str="10" scope="0x31d3a90" type="number" isInt="true" values="0x31d7dd0" astParent="0x31d6fa0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31ce570" file="a18-1-4.cpp" linenr="7" column="74" str=")" scope="0x31d3a90" link="0x31d6fa0"/>
+    <token id="0x31d0840" file="a18-1-4.cpp" linenr="7" column="75" str=";" scope="0x31d3a90"/>
+    <token id="0x31cebd0" file="a18-1-4.cpp" linenr="8" column="5" str="std" scope="0x31d3a90" type="name" astParent="0x31cec90"/>
+    <token id="0x31cec90" file="a18-1-4.cpp" linenr="8" column="8" str="::" scope="0x31d3a90" astOperand1="0x31cebd0" astOperand2="0x31cdce0" valueType-type="container" valueType-reference="None"/>
+    <token id="0x31d0de0" file="a18-1-4.cpp" linenr="8" column="10" str="vector" scope="0x31d3a90" type="name"/>
+    <token id="0x31ce840" file="a18-1-4.cpp" linenr="8" column="16" str="&lt;" scope="0x31d3a90" link="0x31d0700"/>
+    <token id="0x31ce900" file="a18-1-4.cpp" linenr="8" column="17" str="std" scope="0x31d3a90" type="name"/>
+    <token id="0x31d0b10" file="a18-1-4.cpp" linenr="8" column="20" str="::" scope="0x31d3a90"/>
+    <token id="0x31cd5e0" file="a18-1-4.cpp" linenr="8" column="22" str="auto_ptr" scope="0x31d3a90" type="name"/>
+    <token id="0x31cd6a0" file="a18-1-4.cpp" linenr="8" column="30" str="&lt;" scope="0x31d3a90" link="0x31d04d0"/>
+    <token id="0x31cfcd0" file="a18-1-4.cpp" linenr="8" column="31" str="std" scope="0x31d3a90" type="name"/>
+    <token id="0x31ce080" file="a18-1-4.cpp" linenr="8" column="34" str="::" scope="0x31d3a90"/>
+    <token id="0x31ce140" file="a18-1-4.cpp" linenr="8" column="36" str="int32_t" scope="0x31d3a90" type="name"/>
+    <token id="0x31d04d0" file="a18-1-4.cpp" linenr="8" column="43" str="&gt;" scope="0x31d3a90" link="0x31cd6a0"/>
+    <token id="0x31d0700" file="a18-1-4.cpp" linenr="8" column="0" str="&gt;" scope="0x31d3a90" link="0x31ce840"/>
+    <token id="0x31cdce0" file="a18-1-4.cpp" linenr="8" column="46" str="v" scope="0x31d3a90" type="name" varId="3" variable="0x31d4d90" astParent="0x31cec90" valueType-type="container" valueType-reference="None"/>
+    <token id="0x31cdda0" file="a18-1-4.cpp" linenr="8" column="47" str=";" scope="0x31d3a90"/>
+    <token id="0x31d01f0" file="a18-1-4.cpp" linenr="9" column="1" str="}" scope="0x31d3a90" link="0x31ccc50"/>
+    <token id="0x31e3f00" file="a18-1-4.cpp" linenr="12" column="1" str="class" scope="0x31d37f0" type="name"/>
+    <token id="0x31f2690" file="a18-1-4.cpp" linenr="12" column="7" str="MyClass" scope="0x31d37f0" type="name" type-scope="0x31d3db0"/>
+    <token id="0x31f2750" file="a18-1-4.cpp" linenr="12" column="15" str="{" scope="0x31d3db0" link="0x31d2f90" valueType-type="record" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31e48c0" file="a18-1-4.cpp" linenr="13" column="1" str="public:" scope="0x31d3db0" type="name"/>
+    <token id="0x31cceb0" file="a18-1-4.cpp" linenr="14" column="5" str="MyClass" scope="0x31d3db0" type="name" function="0x31d4090" astParent="0x31ccf70"/>
+    <token id="0x31ccf70" file="a18-1-4.cpp" linenr="14" column="12" str="(" scope="0x31d3db0" link="0x31ccb90" astParent="0x31cf450" astOperand1="0x31cceb0" astOperand2="0x31ccad0" valueType-type="record" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31cf720" file="a18-1-4.cpp" linenr="14" column="13" str="int" scope="0x31d3db0" type="name"/>
+    <token id="0x31ccad0" file="a18-1-4.cpp" linenr="14" column="17" str="val" scope="0x31d3db0" type="name" varId="4" variable="0x31cee80" astParent="0x31ccf70" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31ccb90" file="a18-1-4.cpp" linenr="14" column="20" str=")" scope="0x31d3db0" link="0x31ccf70"/>
+    <token id="0x31cf450" file="a18-1-4.cpp" linenr="14" column="22" str=":" scope="0x31d3db0" astOperand1="0x31ccf70" astOperand2="0x31f2590"/>
+    <token id="0x31f2540" file="a18-1-4.cpp" linenr="14" column="24" str="value" scope="0x31d3db0" type="name" varId="5" variable="0x31cf7f0" astParent="0x31f2590" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31f2590" file="a18-1-4.cpp" linenr="14" column="29" str="(" scope="0x31d3db0" link="0x31cf0c0" astParent="0x31cf450" astOperand1="0x31f2540" astOperand2="0x31f25e0"/>
+    <token id="0x31f25e0" file="a18-1-4.cpp" linenr="14" column="30" str="val" scope="0x31d3db0" type="name" varId="4" variable="0x31cee80" astParent="0x31f2590" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31cf0c0" file="a18-1-4.cpp" linenr="14" column="33" str=")" scope="0x31d3db0" link="0x31f2590"/>
+    <token id="0x31cf110" file="a18-1-4.cpp" linenr="14" column="35" str="{" scope="0x31d3550" link="0x31cf160"/>
+    <token id="0x31cf160" file="a18-1-4.cpp" linenr="14" column="36" str="}" scope="0x31d3550" link="0x31cf110"/>
+    <token id="0x31d2ea0" file="a18-1-4.cpp" linenr="15" column="5" str="int" scope="0x31d3db0" type="name"/>
+    <token id="0x31d2ef0" file="a18-1-4.cpp" linenr="15" column="9" str="value" scope="0x31d3db0" type="name" varId="5" variable="0x31cf7f0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d2f40" file="a18-1-4.cpp" linenr="15" column="14" str=";" scope="0x31d3db0"/>
+    <token id="0x31d2f90" file="a18-1-4.cpp" linenr="16" column="1" str="}" scope="0x31d3db0" link="0x31f2750"/>
+    <token id="0x31d2fe0" file="a18-1-4.cpp" linenr="16" column="2" str=";" scope="0x31d37f0"/>
+    <token id="0x31d2be0" file="a18-1-4.cpp" linenr="18" column="1" str="int" scope="0x31d37f0" type="name"/>
+    <token id="0x31d2c30" file="a18-1-4.cpp" linenr="18" column="5" str="main1" scope="0x31d37f0" type="name" function="0x31d4150"/>
+    <token id="0x31d2c80" file="a18-1-4.cpp" linenr="18" column="10" str="(" scope="0x31d37f0" link="0x31d2cd0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d2cd0" file="a18-1-4.cpp" linenr="18" column="11" str=")" scope="0x31d37f0" link="0x31d2c80"/>
+    <token id="0x31d2d20" file="a18-1-4.cpp" linenr="18" column="13" str="{" scope="0x31d5190" link="0x31d60f0"/>
+    <token id="0x31d1d50" file="a18-1-4.cpp" linenr="19" column="5" str="MyClass" scope="0x31d5190" type="name" type-scope="0x31d3db0" astParent="0x31d1da0"/>
+    <token id="0x31d1da0" file="a18-1-4.cpp" linenr="19" column="12" str="*" scope="0x31d5190" type="op" isArithmeticalOp="true" astOperand1="0x31d1d50" astOperand2="0x31d1df0"/>
+    <token id="0x31d1df0" file="a18-1-4.cpp" linenr="19" column="14" str="array" scope="0x31d5190" type="name" varId="6" variable="0x31cf880" astParent="0x31d1da0" valueType-type="record" valueType-pointer="1" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31d1e40" file="a18-1-4.cpp" linenr="19" column="20" str=";" scope="0x31d5190" isSplittedVarDeclEq="true"/>
+    <token id="0x31de4f0" file="a18-1-4.cpp" linenr="19" column="14" str="array" scope="0x31d5190" type="name" varId="6" variable="0x31cf880" astParent="0x31ceaf0" valueType-type="record" valueType-pointer="1" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31ceaf0" file="a18-1-4.cpp" linenr="19" column="20" str="=" scope="0x31d5190" type="op" isAssignmentOp="true" astOperand1="0x31de4f0" astOperand2="0x31d1e90" valueType-type="record" valueType-pointer="1" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31d1e90" file="a18-1-4.cpp" linenr="19" column="22" str="new" scope="0x31d5190" type="name" astParent="0x31ceaf0" astOperand1="0x31d25a0" valueType-type="record" valueType-pointer="1" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31d2550" file="a18-1-4.cpp" linenr="19" column="26" str="MyClass" scope="0x31d5190" type="name" type-scope="0x31d3db0" astParent="0x31d25a0"/>
+    <token id="0x31d25a0" file="a18-1-4.cpp" linenr="19" column="33" str="[" scope="0x31d5190" link="0x31d2640" astParent="0x31d1e90" astOperand1="0x31d2550" astOperand2="0x31d25f0"/>
+    <token id="0x31d25f0" file="a18-1-4.cpp" linenr="19" column="34" str="5" scope="0x31d5190" type="number" isInt="true" values="0x31d2af0" astParent="0x31d25a0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d2640" file="a18-1-4.cpp" linenr="19" column="35" str="]" scope="0x31d5190" link="0x31d25a0"/>
+    <token id="0x31d2690" file="a18-1-4.cpp" linenr="19" column="36" str=";" scope="0x31d5190"/>
+    <token id="0x31d2270" file="a18-1-4.cpp" linenr="22" column="5" str="std" scope="0x31d5190" type="name" astParent="0x31d22c0"/>
+    <token id="0x31d22c0" file="a18-1-4.cpp" linenr="22" column="8" str="::" scope="0x31d5190" astParent="0x31d1250" astOperand1="0x31d2270" astOperand2="0x31d1200" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d2310" file="a18-1-4.cpp" linenr="22" column="10" str="unique_ptr" scope="0x31d5190" type="name"/>
+    <token id="0x31d2360" file="a18-1-4.cpp" linenr="22" column="20" str="&lt;" scope="0x31d5190" link="0x31d11b0"/>
+    <token id="0x31d23b0" file="a18-1-4.cpp" linenr="22" column="21" str="MyClass" scope="0x31d5190" type="name" type-scope="0x31d3db0"/>
+    <token id="0x31d11b0" file="a18-1-4.cpp" linenr="22" column="28" str="&gt;" scope="0x31d5190" link="0x31d2360"/>
+    <token id="0x31d1200" file="a18-1-4.cpp" linenr="22" column="30" str="ptr" scope="0x31d5190" type="name" varId="7" variable="0x31cf910" astParent="0x31d22c0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d1250" file="a18-1-4.cpp" linenr="22" column="33" str="(" scope="0x31d5190" link="0x31d12f0" astOperand1="0x31d22c0" astOperand2="0x31d12a0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d12a0" file="a18-1-4.cpp" linenr="22" column="34" str="array" scope="0x31d5190" type="name" varId="6" variable="0x31cf880" astParent="0x31d1250" valueType-type="record" valueType-pointer="1" valueType-reference="None" valueType-typeScope="0x31d3db0"/>
+    <token id="0x31d12f0" file="a18-1-4.cpp" linenr="22" column="39" str=")" scope="0x31d5190" link="0x31d1250"/>
+    <token id="0x31d1750" file="a18-1-4.cpp" linenr="22" column="40" str=";" scope="0x31d5190"/>
+    <token id="0x31d17a0" file="a18-1-4.cpp" linenr="23" column="5" str="std" scope="0x31d5190" type="name" astParent="0x31d17f0"/>
+    <token id="0x31d17f0" file="a18-1-4.cpp" linenr="23" column="8" str="::" scope="0x31d5190" astParent="0x31d1570" astOperand1="0x31d17a0" astOperand2="0x31d1520" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d1840" file="a18-1-4.cpp" linenr="23" column="10" str="unique_ptr" scope="0x31d5190" type="name"/>
+    <token id="0x31d1890" file="a18-1-4.cpp" linenr="23" column="20" str="&lt;" scope="0x31d5190" link="0x31d14d0"/>
+    <token id="0x31d1480" file="a18-1-4.cpp" linenr="23" column="21" str="int" scope="0x31d5190" type="name"/>
+    <token id="0x31d14d0" file="a18-1-4.cpp" linenr="23" column="24" str="&gt;" scope="0x31d5190" link="0x31d1890"/>
+    <token id="0x31d1520" file="a18-1-4.cpp" linenr="23" column="26" str="ptr1" scope="0x31d5190" type="name" varId="8" variable="0x31cf9a0" astParent="0x31d17f0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d1570" file="a18-1-4.cpp" linenr="23" column="30" str="(" scope="0x31d5190" link="0x31d5e20" astOperand1="0x31d17f0" astOperand2="0x31d15c0" valueType-type="smart-pointer" valueType-reference="None"/>
+    <token id="0x31d15c0" file="a18-1-4.cpp" linenr="23" column="31" str="new" scope="0x31d5190" type="name" astParent="0x31d1570" astOperand1="0x31d5d30" valueType-type="int" valueType-sign="signed" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0x31d5ce0" file="a18-1-4.cpp" linenr="23" column="35" str="int" scope="0x31d5190" type="name" astParent="0x31d5d30"/>
+    <token id="0x31d5d30" file="a18-1-4.cpp" linenr="23" column="38" str="[" scope="0x31d5190" link="0x31d5dd0" astParent="0x31d15c0" astOperand1="0x31d5ce0" astOperand2="0x31d5d80"/>
+    <token id="0x31d5d80" file="a18-1-4.cpp" linenr="23" column="39" str="5" scope="0x31d5190" type="number" isInt="true" values="0x31d49c0" astParent="0x31d5d30" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d5dd0" file="a18-1-4.cpp" linenr="23" column="40" str="]" scope="0x31d5190" link="0x31d5d30"/>
+    <token id="0x31d5e20" file="a18-1-4.cpp" linenr="23" column="41" str=")" scope="0x31d5190" link="0x31d1570"/>
+    <token id="0x31d5fb0" file="a18-1-4.cpp" linenr="23" column="42" str=";" scope="0x31d5190"/>
+    <token id="0x31d6000" file="a18-1-4.cpp" linenr="25" column="5" str="return" scope="0x31d5190" type="name" astOperand1="0x31d6050" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d6050" file="a18-1-4.cpp" linenr="25" column="12" str="0" scope="0x31d5190" type="number" isInt="true" values="0x31d3460" astParent="0x31d6000" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d60a0" file="a18-1-4.cpp" linenr="25" column="13" str=";" scope="0x31d5190"/>
+    <token id="0x31d60f0" file="a18-1-4.cpp" linenr="26" column="1" str="}" scope="0x31d5190" link="0x31d2d20"/>
+    <token id="0x31d6550" file="a18-1-4.cpp" linenr="32" column="1" str="class" scope="0x31d37f0" type="name"/>
+    <token id="0x31d65a0" file="a18-1-4.cpp" linenr="32" column="7" str="MyClass1" scope="0x31d37f0" type="name" type-scope="0x31d4ef0"/>
+    <token id="0x31d65f0" file="a18-1-4.cpp" linenr="32" column="16" str="{" scope="0x31d4ef0" link="0x31d7360" valueType-type="record" valueType-reference="None" valueType-typeScope="0x31d4ef0"/>
+    <token id="0x31d6640" file="a18-1-4.cpp" linenr="33" column="1" str="public:" scope="0x31d4ef0" type="name"/>
+    <token id="0x31d6280" file="a18-1-4.cpp" linenr="34" column="5" str="MyClass1" scope="0x31d4ef0" type="name" function="0x31d4c10" astParent="0x31d62d0"/>
+    <token id="0x31d62d0" file="a18-1-4.cpp" linenr="34" column="13" str="(" scope="0x31d4ef0" link="0x31d63c0" astParent="0x31d6af0" astOperand1="0x31d6280" astOperand2="0x31d6370" valueType-type="record" valueType-reference="None" valueType-typeScope="0x31d4ef0"/>
+    <token id="0x31d6320" file="a18-1-4.cpp" linenr="34" column="14" str="int" scope="0x31d4ef0" type="name"/>
+    <token id="0x31d6370" file="a18-1-4.cpp" linenr="34" column="18" str="val" scope="0x31d4ef0" type="name" varId="9" variable="0x31cef10" astParent="0x31d62d0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d63c0" file="a18-1-4.cpp" linenr="34" column="21" str=")" scope="0x31d4ef0" link="0x31d62d0"/>
+    <token id="0x31d6af0" file="a18-1-4.cpp" linenr="34" column="23" str=":" scope="0x31d4ef0" astOperand1="0x31d62d0" astOperand2="0x31d6b90"/>
+    <token id="0x31d6b40" file="a18-1-4.cpp" linenr="34" column="25" str="value" scope="0x31d4ef0" type="name" varId="10" variable="0x31ced60" astParent="0x31d6b90" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d6b90" file="a18-1-4.cpp" linenr="34" column="30" str="(" scope="0x31d4ef0" link="0x31d6c30" astParent="0x31d6af0" astOperand1="0x31d6b40" astOperand2="0x31d6be0"/>
+    <token id="0x31d6be0" file="a18-1-4.cpp" linenr="34" column="31" str="val" scope="0x31d4ef0" type="name" varId="9" variable="0x31cef10" astParent="0x31d6b90" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d6c30" file="a18-1-4.cpp" linenr="34" column="34" str=")" scope="0x31d4ef0" link="0x31d6b90"/>
+    <token id="0x31d6820" file="a18-1-4.cpp" linenr="34" column="36" str="{" scope="0x31d0eb0" link="0x31d6870"/>
+    <token id="0x31d6870" file="a18-1-4.cpp" linenr="34" column="37" str="}" scope="0x31d0eb0" link="0x31d6820"/>
+    <token id="0x31d68c0" file="a18-1-4.cpp" linenr="35" column="5" str="int" scope="0x31d4ef0" type="name"/>
+    <token id="0x31d6910" file="a18-1-4.cpp" linenr="35" column="9" str="value" scope="0x31d4ef0" type="name" varId="10" variable="0x31ced60" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d6960" file="a18-1-4.cpp" linenr="35" column="14" str=";" scope="0x31d4ef0"/>
+    <token id="0x31d7360" file="a18-1-4.cpp" linenr="36" column="1" str="}" scope="0x31d4ef0" link="0x31d65f0"/>
+    <token id="0x31d73b0" file="a18-1-4.cpp" linenr="36" column="2" str=";" scope="0x31d37f0"/>
+    <token id="0x31d7400" file="a18-1-4.cpp" linenr="38" column="1" str="int" scope="0x31d37f0" type="name"/>
+    <token id="0x31d7450" file="a18-1-4.cpp" linenr="38" column="5" str="main" scope="0x31d37f0" type="name" function="0x31d4cd0"/>
+    <token id="0x31d74a0" file="a18-1-4.cpp" linenr="38" column="9" str="(" scope="0x31d37f0" link="0x31d7090" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d7090" file="a18-1-4.cpp" linenr="38" column="10" str=")" scope="0x31d37f0" link="0x31d74a0"/>
+    <token id="0x31d70e0" file="a18-1-4.cpp" linenr="38" column="12" str="{" scope="0x31cfda0" link="0x31d06b0"/>
+    <token id="0x31d7130" file="a18-1-4.cpp" linenr="39" column="5" str="std" scope="0x31cfda0" type="name" astParent="0x31d7180"/>
+    <token id="0x31d7180" file="a18-1-4.cpp" linenr="39" column="8" str="::" scope="0x31cfda0" astParent="0x31d6f00" astOperand1="0x31d7130" astOperand2="0x31d6eb0" valueType-type="container" valueType-reference="None"/>
+    <token id="0x31d71d0" file="a18-1-4.cpp" linenr="39" column="10" str="vector" scope="0x31cfda0" type="name"/>
+    <token id="0x31d6dc0" file="a18-1-4.cpp" linenr="39" column="16" str="&lt;" scope="0x31cfda0" link="0x31d6e60"/>
+    <token id="0x31d6e10" file="a18-1-4.cpp" linenr="39" column="17" str="MyClass1" scope="0x31cfda0" type="name" type-scope="0x31d4ef0"/>
+    <token id="0x31d6e60" file="a18-1-4.cpp" linenr="39" column="25" str="&gt;" scope="0x31cfda0" link="0x31d6dc0"/>
+    <token id="0x31d6eb0" file="a18-1-4.cpp" linenr="39" column="27" str="myObjects" scope="0x31cfda0" type="name" varId="11" variable="0x31cedf0" astParent="0x31d7180" valueType-type="container" valueType-reference="None"/>
+    <token id="0x31d6f00" file="a18-1-4.cpp" linenr="39" column="36" str="(" scope="0x31cfda0" link="0x31ce320" astOperand1="0x31d7180" astOperand2="0x31ce2d0"/>
+    <token id="0x31ce2d0" file="a18-1-4.cpp" linenr="39" column="37" str="5" scope="0x31cfda0" type="number" isInt="true" values="0x31f1ce0" astParent="0x31d6f00" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31ce320" file="a18-1-4.cpp" linenr="39" column="38" str=")" scope="0x31cfda0" link="0x31d6f00"/>
+    <token id="0x31ce370" file="a18-1-4.cpp" linenr="39" column="39" str=";" scope="0x31cfda0"/>
+    <token id="0x31ce3c0" file="a18-1-4.cpp" linenr="41" column="5" str="return" scope="0x31cfda0" type="name" astOperand1="0x31ce410" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31ce410" file="a18-1-4.cpp" linenr="41" column="12" str="0" scope="0x31cfda0" type="number" isInt="true" values="0x31d13e0" astParent="0x31ce3c0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x31d0660" file="a18-1-4.cpp" linenr="41" column="13" str=";" scope="0x31cfda0"/>
+    <token id="0x31d06b0" file="a18-1-4.cpp" linenr="42" column="1" str="}" scope="0x31cfda0" link="0x31d70e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x31d37f0" type="Global">
+      <functionList>
+        <function id="0x33c70e0" token="0x31e29b0" tokenDef="0x31e29b0" name="Fn" type="Function"/>
+        <function id="0x31d4150" token="0x31d2c30" tokenDef="0x31d2c30" name="main1" type="Function"/>
+        <function id="0x31d4cd0" token="0x31d7450" tokenDef="0x31d7450" name="main" type="Function"/>
+      </functionList>
+    </scope>
+    <scope id="0x31d3a90" type="Function" className="Fn" bodyStart="0x31ccc50" bodyEnd="0x31d01f0" nestedIn="0x31d37f0" function="0x33c70e0">
+      <varlist>
+        <var id="0x31d4800"/>
+        <var id="0x31d4500"/>
+        <var id="0x31d4d90"/>
+      </varlist>
+    </scope>
+    <scope id="0x31d3db0" type="Class" className="MyClass" bodyStart="0x31f2750" bodyEnd="0x31d2f90" nestedIn="0x31d37f0">
+      <functionList>
+        <function id="0x31d4090" token="0x31cceb0" tokenDef="0x31cceb0" name="MyClass" type="Constructor">
+          <arg nr="1" variable="0x31cee80"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x31cf7f0"/>
+      </varlist>
+    </scope>
+    <scope id="0x31d3550" type="Function" className="MyClass" bodyStart="0x31cf110" bodyEnd="0x31cf160" nestedIn="0x31d3db0" function="0x31d4090"/>
+    <scope id="0x31d5190" type="Function" className="main1" bodyStart="0x31d2d20" bodyEnd="0x31d60f0" nestedIn="0x31d37f0" function="0x31d4150">
+      <varlist>
+        <var id="0x31cf880"/>
+        <var id="0x31cf910"/>
+        <var id="0x31cf9a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x31d4ef0" type="Class" className="MyClass1" bodyStart="0x31d65f0" bodyEnd="0x31d7360" nestedIn="0x31d37f0">
+      <functionList>
+        <function id="0x31d4c10" token="0x31d6280" tokenDef="0x31d6280" name="MyClass1" type="Constructor">
+          <arg nr="1" variable="0x31cef10"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x31ced60"/>
+      </varlist>
+    </scope>
+    <scope id="0x31d0eb0" type="Function" className="MyClass1" bodyStart="0x31d6820" bodyEnd="0x31d6870" nestedIn="0x31d4ef0" function="0x31d4c10"/>
+    <scope id="0x31cfda0" type="Function" className="main" bodyStart="0x31d70e0" bodyEnd="0x31d06b0" nestedIn="0x31d37f0" function="0x31d4cd0">
+      <varlist>
+        <var id="0x31cedf0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x31ced60" nameToken="0x31d6910" typeStartToken="0x31d68c0" typeEndToken="0x31d68c0" access="Public" scope="0x31d4ef0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cedf0" nameToken="0x31d6eb0" typeStartToken="0x31d7130" typeEndToken="0x31d6e60" access="Local" scope="0x31cfda0" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cee80" nameToken="0x31ccad0" typeStartToken="0x31cf720" typeEndToken="0x31cf720" access="Argument" scope="0x31d3550" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cef10" nameToken="0x31d6370" typeStartToken="0x31d6320" typeEndToken="0x31d6320" access="Argument" scope="0x31d0eb0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cf7f0" nameToken="0x31d2ef0" typeStartToken="0x31d2ea0" typeEndToken="0x31d2ea0" access="Public" scope="0x31d3db0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cf880" nameToken="0x31d1df0" typeStartToken="0x31d1d50" typeEndToken="0x31d1da0" access="Local" scope="0x31d5190" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="true" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cf910" nameToken="0x31d1200" typeStartToken="0x31d2270" typeEndToken="0x31d11b0" access="Local" scope="0x31d5190" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31cf9a0" nameToken="0x31d1520" typeStartToken="0x31d17a0" typeEndToken="0x31d14d0" access="Local" scope="0x31d5190" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31d4500" nameToken="0x31d1930" typeStartToken="0x31d3340" typeEndToken="0x31d1390" access="Local" scope="0x31d3a90" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31d4800" nameToken="0x31f17c0" typeStartToken="0x31d19f0" typeEndToken="0x31f1390" access="Local" scope="0x31d3a90" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x31d4d90" nameToken="0x31cdce0" typeStartToken="0x31cebd0" typeEndToken="0x31d0700" access="Local" scope="0x31d3a90" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x32ddb30">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x31d7830">
+      <value intvalue="10" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x32ddd80">
+      <value intvalue="0" bound="Point" impossible="true" path="0"/>
+    </values>
+    <values id="0x32ddc40">
+      <value intvalue="0" bound="Point" impossible="true" path="0"/>
+    </values>
+    <values id="0x31d7dd0">
+      <value intvalue="10" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x31d2af0">
+      <value intvalue="5" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x31d49c0">
+      <value intvalue="5" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x31d3460">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x31f1ce0">
+      <value intvalue="5" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x31d13e0">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

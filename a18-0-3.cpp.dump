@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="a18-0-3.cpp"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="include"/>
+    <tok fileIndex="0" linenr="1" column="10" str="&lt;iostream&gt;"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="include"/>
+    <tok fileIndex="0" linenr="2" column="10" str="&lt;clocale&gt;"/>
+    <tok fileIndex="0" linenr="4" column="1" str="int"/>
+    <tok fileIndex="0" linenr="4" column="5" str="main"/>
+    <tok fileIndex="0" linenr="4" column="9" str="("/>
+    <tok fileIndex="0" linenr="4" column="10" str=")"/>
+    <tok fileIndex="0" linenr="4" column="12" str="{"/>
+    <tok fileIndex="0" linenr="5" column="5" str="// xxxxxxxxxxxxxxxxxxxxx &lt;clocale&gt; xxx setlocale xxxxxxxxxxxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="6" column="5" str="setlocale"/>
+    <tok fileIndex="0" linenr="6" column="14" str="("/>
+    <tok fileIndex="0" linenr="6" column="15" str="LC_ALL"/>
+    <tok fileIndex="0" linenr="6" column="21" str=","/>
+    <tok fileIndex="0" linenr="6" column="23" str="&quot;en_US.UTF-8&quot;"/>
+    <tok fileIndex="0" linenr="6" column="36" str=")"/>
+    <tok fileIndex="0" linenr="6" column="37" str=";"/>
+    <tok fileIndex="0" linenr="8" column="5" str="// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="9" column="5" str="std"/>
+    <tok fileIndex="0" linenr="9" column="8" str="::"/>
+    <tok fileIndex="0" linenr="9" column="10" str="cout"/>
+    <tok fileIndex="0" linenr="9" column="15" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="9" column="18" str="&quot;Hello, World!&quot;"/>
+    <tok fileIndex="0" linenr="9" column="34" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="9" column="37" str="std"/>
+    <tok fileIndex="0" linenr="9" column="40" str="::"/>
+    <tok fileIndex="0" linenr="9" column="42" str="endl"/>
+    <tok fileIndex="0" linenr="9" column="46" str=";"/>
+    <tok fileIndex="0" linenr="11" column="5" str="return"/>
+    <tok fileIndex="0" linenr="11" column="12" str="0"/>
+    <tok fileIndex="0" linenr="11" column="13" str=";"/>
+    <tok fileIndex="0" linenr="12" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="a18-0-3.cpp" linenr="1" str="#include &lt;iostream&gt;"/>
+    <directive file="a18-0-3.cpp" linenr="2" str="#include &lt;clocale&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1fa1280" file="a18-0-3.cpp" linenr="4" column="1" str="int" scope="0x1f891a0" type="name"/>
+    <token id="0x1fa16c0" file="a18-0-3.cpp" linenr="4" column="5" str="main" scope="0x1f891a0" type="name" function="0x21830e0"/>
+    <token id="0x1fa1850" file="a18-0-3.cpp" linenr="4" column="9" str="(" scope="0x1f891a0" link="0x1fa6af0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1fa6af0" file="a18-0-3.cpp" linenr="4" column="10" str=")" scope="0x1f891a0" link="0x1fa1850"/>
+    <token id="0x1fa6c20" file="a18-0-3.cpp" linenr="4" column="12" str="{" scope="0x1f88ec0" link="0x1fad1d0"/>
+    <token id="0x1fa7440" file="a18-0-3.cpp" linenr="6" column="5" str="setlocale" scope="0x1f88ec0" type="name" astParent="0x1fac1e0"/>
+    <token id="0x1fac1e0" file="a18-0-3.cpp" linenr="6" column="14" str="(" scope="0x1f88ec0" link="0x1fa58b0" astOperand1="0x1fa7440" astOperand2="0x1fa5660" valueType-type="char" valueType-sign="signed" valueType-pointer="1" valueType-reference="None" valueType-originalTypeName="char *"/>
+    <token id="0x1fa6020" file="a18-0-3.cpp" linenr="6" column="15" str="LC_ALL" scope="0x1f88ec0" type="name" astParent="0x1fa5660"/>
+    <token id="0x1fa5660" file="a18-0-3.cpp" linenr="6" column="21" str="," scope="0x1f88ec0" astParent="0x1fac1e0" astOperand1="0x1fa6020" astOperand2="0x1fa57e0"/>
+    <token id="0x1fa57e0" file="a18-0-3.cpp" linenr="6" column="23" str="&quot;en_US.UTF-8&quot;" scope="0x1f88ec0" type="string" strlen="11" values="0x1fa0420" astParent="0x1fa5660" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x1fa58b0" file="a18-0-3.cpp" linenr="6" column="36" str=")" scope="0x1f88ec0" link="0x1fac1e0"/>
+    <token id="0x1fa5920" file="a18-0-3.cpp" linenr="6" column="37" str=";" scope="0x1f88ec0"/>
+    <token id="0x1fa5990" file="a18-0-3.cpp" linenr="9" column="5" str="std" scope="0x1f88ec0" type="name" astParent="0x1fa5b20"/>
+    <token id="0x1fa5b20" file="a18-0-3.cpp" linenr="9" column="8" str="::" scope="0x1f88ec0" astParent="0x1fa54d0" astOperand1="0x1fa5990" astOperand2="0x1fa5f50"/>
+    <token id="0x1fa5f50" file="a18-0-3.cpp" linenr="9" column="10" str="cout" scope="0x1f88ec0" type="name" astParent="0x1fa5b20"/>
+    <token id="0x1fa54d0" file="a18-0-3.cpp" linenr="9" column="15" str="&lt;&lt;" scope="0x1f88ec0" type="op" isArithmeticalOp="true" astParent="0x1f9e9b0" astOperand1="0x1fa5b20" astOperand2="0x1fa0810"/>
+    <token id="0x1fa0810" file="a18-0-3.cpp" linenr="9" column="18" str="&quot;Hello, World!&quot;" scope="0x1f88ec0" type="string" strlen="13" values="0x1fab630" astParent="0x1fa54d0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x1f9e9b0" file="a18-0-3.cpp" linenr="9" column="34" str="&lt;&lt;" scope="0x1f88ec0" type="op" isArithmeticalOp="true" astOperand1="0x1fa54d0" astOperand2="0x1fa5460"/>
+    <token id="0x1f9f010" file="a18-0-3.cpp" linenr="9" column="37" str="std" scope="0x1f88ec0" type="name" astParent="0x1fa5460"/>
+    <token id="0x1fa5460" file="a18-0-3.cpp" linenr="9" column="40" str="::" scope="0x1f88ec0" astParent="0x1f9e9b0" astOperand1="0x1f9f010" astOperand2="0x1fae870"/>
+    <token id="0x1fae870" file="a18-0-3.cpp" linenr="9" column="42" str="endl" scope="0x1f88ec0" type="name" astParent="0x1fa5460"/>
+    <token id="0x1fa19b0" file="a18-0-3.cpp" linenr="9" column="46" str=";" scope="0x1f88ec0"/>
+    <token id="0x1f8c050" file="a18-0-3.cpp" linenr="11" column="5" str="return" scope="0x1f88ec0" type="name" astOperand1="0x1f8c530" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1f8c530" file="a18-0-3.cpp" linenr="11" column="12" str="0" scope="0x1f88ec0" type="number" isInt="true" values="0x1faace0" astParent="0x1f8c050" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x1f8c5f0" file="a18-0-3.cpp" linenr="11" column="13" str=";" scope="0x1f88ec0"/>
+    <token id="0x1fad1d0" file="a18-0-3.cpp" linenr="12" column="1" str="}" scope="0x1f88ec0" link="0x1fa6c20"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1f891a0" type="Global">
+      <functionList>
+        <function id="0x21830e0" token="0x1fa16c0" tokenDef="0x1fa16c0" name="main" type="Function"/>
+      </functionList>
+    </scope>
+    <scope id="0x1f88ec0" type="Function" className="main" bodyStart="0x1fa6c20" bodyEnd="0x1fad1d0" nestedIn="0x1f891a0" function="0x21830e0"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+    <values id="0x1fa0420">
+      <value tokvalue="0x1fa57e0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1fab630">
+      <value tokvalue="0x1fa0810" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x1faace0">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

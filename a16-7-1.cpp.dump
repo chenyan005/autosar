@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="a16-7-1.cpp"/>
+    <tok fileIndex="0" linenr="1" column="1" str="//$Id: A16-7-1.hpp 270497 2017-03-14 14:58:50Z piotr.tanski $"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="pragma"/>
+    <tok fileIndex="0" linenr="2" column="9" str="once"/>
+    <tok fileIndex="0" linenr="2" column="14" str="// Non-compliant - implementation-defined manner"/>
+    <tok fileIndex="0" linenr="3" column="1" str="#"/>
+    <tok fileIndex="0" linenr="3" column="2" str="ifndef"/>
+    <tok fileIndex="0" linenr="3" column="9" str="A16_7_1_HPP"/>
+    <tok fileIndex="0" linenr="3" column="21" str="// Compliant - equivalent to #pragma once directive"/>
+    <tok fileIndex="0" linenr="4" column="1" str="#"/>
+    <tok fileIndex="0" linenr="4" column="2" str="define"/>
+    <tok fileIndex="0" linenr="4" column="9" str="A16_7_1_HPP"/>
+    <tok fileIndex="0" linenr="6" column="1" str="// ..."/>
+    <tok fileIndex="0" linenr="8" column="1" str="#"/>
+    <tok fileIndex="0" linenr="8" column="2" str="endif"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+</dumps>

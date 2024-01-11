@@ -1,0 +1,1170 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="a18-9-2.cpp"/>
+    <tok fileIndex="0" linenr="1" column="1" str="#"/>
+    <tok fileIndex="0" linenr="1" column="2" str="include"/>
+    <tok fileIndex="0" linenr="1" column="10" str="&lt;cstdint&gt;"/>
+    <tok fileIndex="0" linenr="2" column="1" str="#"/>
+    <tok fileIndex="0" linenr="2" column="2" str="include"/>
+    <tok fileIndex="0" linenr="2" column="10" str="&lt;string&gt;"/>
+    <tok fileIndex="0" linenr="3" column="1" str="#"/>
+    <tok fileIndex="0" linenr="3" column="2" str="include"/>
+    <tok fileIndex="0" linenr="3" column="10" str="&lt;utility&gt;"/>
+    <tok fileIndex="0" linenr="4" column="1" str="#"/>
+    <tok fileIndex="0" linenr="4" column="2" str="include"/>
+    <tok fileIndex="0" linenr="4" column="10" str="&lt;iostream&gt;"/>
+    <tok fileIndex="0" linenr="5" column="1" str="#"/>
+    <tok fileIndex="0" linenr="5" column="2" str="include"/>
+    <tok fileIndex="0" linenr="5" column="10" str="&lt;utility&gt;"/>
+    <tok fileIndex="0" linenr="7" column="1" str="class"/>
+    <tok fileIndex="0" linenr="7" column="7" str="A"/>
+    <tok fileIndex="0" linenr="7" column="9" str="{"/>
+    <tok fileIndex="0" linenr="8" column="4" str="public"/>
+    <tok fileIndex="0" linenr="8" column="10" str=":"/>
+    <tok fileIndex="0" linenr="8" column="11" str="explicit"/>
+    <tok fileIndex="0" linenr="8" column="20" str="A"/>
+    <tok fileIndex="0" linenr="8" column="21" str="("/>
+    <tok fileIndex="0" linenr="8" column="22" str="std"/>
+    <tok fileIndex="0" linenr="8" column="25" str="::"/>
+    <tok fileIndex="0" linenr="8" column="27" str="string"/>
+    <tok fileIndex="0" linenr="8" column="34" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="8" column="36" str="s"/>
+    <tok fileIndex="0" linenr="8" column="37" str=")"/>
+    <tok fileIndex="0" linenr="8" column="38" str=":"/>
+    <tok fileIndex="0" linenr="8" column="40" str="str"/>
+    <tok fileIndex="0" linenr="8" column="43" str="("/>
+    <tok fileIndex="0" linenr="8" column="44" str="std"/>
+    <tok fileIndex="0" linenr="8" column="47" str="::"/>
+    <tok fileIndex="0" linenr="8" column="49" str="move"/>
+    <tok fileIndex="0" linenr="8" column="53" str="("/>
+    <tok fileIndex="0" linenr="8" column="54" str="s"/>
+    <tok fileIndex="0" linenr="8" column="55" str=")"/>
+    <tok fileIndex="0" linenr="8" column="56" str=")"/>
+    <tok fileIndex="0" linenr="8" column="58" str="// Compliant - forwarding rvalue reference"/>
+    <tok fileIndex="0" linenr="9" column="5" str="{"/>
+    <tok fileIndex="0" linenr="10" column="5" str="}"/>
+    <tok fileIndex="0" linenr="11" column="1" str="private"/>
+    <tok fileIndex="0" linenr="11" column="8" str=":"/>
+    <tok fileIndex="0" linenr="12" column="5" str="std"/>
+    <tok fileIndex="0" linenr="12" column="8" str="::"/>
+    <tok fileIndex="0" linenr="12" column="10" str="string"/>
+    <tok fileIndex="0" linenr="12" column="17" str="str"/>
+    <tok fileIndex="0" linenr="12" column="20" str=";"/>
+    <tok fileIndex="0" linenr="13" column="1" str="}"/>
+    <tok fileIndex="0" linenr="13" column="2" str=";"/>
+    <tok fileIndex="0" linenr="15" column="1" str="class"/>
+    <tok fileIndex="0" linenr="15" column="7" str="B"/>
+    <tok fileIndex="0" linenr="15" column="9" str="{"/>
+    <tok fileIndex="0" linenr="16" column="1" str="}"/>
+    <tok fileIndex="0" linenr="16" column="2" str=";"/>
+    <tok fileIndex="0" linenr="18" column="1" str="void"/>
+    <tok fileIndex="0" linenr="18" column="6" str="Fn1"/>
+    <tok fileIndex="0" linenr="18" column="9" str="("/>
+    <tok fileIndex="0" linenr="18" column="10" str="const"/>
+    <tok fileIndex="0" linenr="18" column="16" str="B"/>
+    <tok fileIndex="0" linenr="18" column="18" str="&amp;"/>
+    <tok fileIndex="0" linenr="18" column="19" str="lval"/>
+    <tok fileIndex="0" linenr="18" column="23" str=","/>
+    <tok fileIndex="0" linenr="18" column="24" str="int"/>
+    <tok fileIndex="0" linenr="18" column="28" str="b"/>
+    <tok fileIndex="0" linenr="18" column="29" str=")"/>
+    <tok fileIndex="0" linenr="18" column="31" str="{"/>
+    <tok fileIndex="0" linenr="19" column="1" str="}"/>
+    <tok fileIndex="0" linenr="20" column="1" str="void"/>
+    <tok fileIndex="0" linenr="20" column="6" str="fn1"/>
+    <tok fileIndex="0" linenr="20" column="9" str="("/>
+    <tok fileIndex="0" linenr="20" column="10" str="int"/>
+    <tok fileIndex="0" linenr="20" column="13" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="20" column="16" str="a"/>
+    <tok fileIndex="0" linenr="20" column="17" str=")"/>
+    <tok fileIndex="0" linenr="20" column="18" str="{"/>
+    <tok fileIndex="0" linenr="21" column="5" str="std"/>
+    <tok fileIndex="0" linenr="21" column="8" str="::"/>
+    <tok fileIndex="0" linenr="21" column="10" str="cout"/>
+    <tok fileIndex="0" linenr="21" column="15" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="21" column="18" str="&quot;Received a right-value: &quot;"/>
+    <tok fileIndex="0" linenr="21" column="45" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="21" column="48" str="a"/>
+    <tok fileIndex="0" linenr="21" column="50" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="21" column="53" str="std"/>
+    <tok fileIndex="0" linenr="21" column="56" str="::"/>
+    <tok fileIndex="0" linenr="21" column="58" str="endl"/>
+    <tok fileIndex="0" linenr="21" column="62" str=";"/>
+    <tok fileIndex="0" linenr="22" column="1" str="}"/>
+    <tok fileIndex="0" linenr="23" column="1" str="void"/>
+    <tok fileIndex="0" linenr="23" column="6" str="fn2"/>
+    <tok fileIndex="0" linenr="23" column="9" str="("/>
+    <tok fileIndex="0" linenr="23" column="10" str="int"/>
+    <tok fileIndex="0" linenr="23" column="13" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="23" column="16" str="a"/>
+    <tok fileIndex="0" linenr="23" column="17" str=")"/>
+    <tok fileIndex="0" linenr="23" column="18" str="{"/>
+    <tok fileIndex="0" linenr="24" column="5" str="fn1"/>
+    <tok fileIndex="0" linenr="24" column="8" str="("/>
+    <tok fileIndex="0" linenr="24" column="9" str="std"/>
+    <tok fileIndex="0" linenr="24" column="12" str="::"/>
+    <tok fileIndex="0" linenr="24" column="14" str="move"/>
+    <tok fileIndex="0" linenr="24" column="18" str="("/>
+    <tok fileIndex="0" linenr="24" column="19" str="a"/>
+    <tok fileIndex="0" linenr="24" column="20" str=")"/>
+    <tok fileIndex="0" linenr="24" column="21" str=")"/>
+    <tok fileIndex="0" linenr="24" column="22" str=";"/>
+    <tok fileIndex="0" linenr="25" column="1" str="}"/>
+    <tok fileIndex="0" linenr="27" column="1" str="template"/>
+    <tok fileIndex="0" linenr="27" column="9" str="&lt;"/>
+    <tok fileIndex="0" linenr="27" column="10" str="typename"/>
+    <tok fileIndex="0" linenr="27" column="19" str="T"/>
+    <tok fileIndex="0" linenr="27" column="20" str="&gt;"/>
+    <tok fileIndex="0" linenr="28" column="1" str="void"/>
+    <tok fileIndex="0" linenr="28" column="6" str="Fn2"/>
+    <tok fileIndex="0" linenr="28" column="9" str="("/>
+    <tok fileIndex="0" linenr="28" column="10" str="T"/>
+    <tok fileIndex="0" linenr="28" column="12" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="28" column="14" str="param"/>
+    <tok fileIndex="0" linenr="28" column="19" str=")"/>
+    <tok fileIndex="0" linenr="28" column="21" str="{"/>
+    <tok fileIndex="0" linenr="29" column="5" str="Fn1"/>
+    <tok fileIndex="0" linenr="29" column="8" str="("/>
+    <tok fileIndex="0" linenr="29" column="9" str="std"/>
+    <tok fileIndex="0" linenr="29" column="12" str="::"/>
+    <tok fileIndex="0" linenr="29" column="14" str="forward"/>
+    <tok fileIndex="0" linenr="29" column="21" str="&lt;"/>
+    <tok fileIndex="0" linenr="29" column="22" str="T"/>
+    <tok fileIndex="0" linenr="29" column="23" str="&gt;"/>
+    <tok fileIndex="0" linenr="29" column="24" str="("/>
+    <tok fileIndex="0" linenr="29" column="25" str="param"/>
+    <tok fileIndex="0" linenr="29" column="30" str=")"/>
+    <tok fileIndex="0" linenr="29" column="31" str=","/>
+    <tok fileIndex="0" linenr="29" column="32" str="2"/>
+    <tok fileIndex="0" linenr="29" column="33" str=")"/>
+    <tok fileIndex="0" linenr="29" column="34" str=";"/>
+    <tok fileIndex="0" linenr="29" column="36" str="// Compliant - forwarding forwarding reference"/>
+    <tok fileIndex="0" linenr="30" column="1" str="}"/>
+    <tok fileIndex="0" linenr="32" column="1" str="template"/>
+    <tok fileIndex="0" linenr="32" column="9" str="&lt;"/>
+    <tok fileIndex="0" linenr="32" column="10" str="typename"/>
+    <tok fileIndex="0" linenr="32" column="19" str="T"/>
+    <tok fileIndex="0" linenr="32" column="20" str="&gt;"/>
+    <tok fileIndex="0" linenr="33" column="1" str="void"/>
+    <tok fileIndex="0" linenr="33" column="6" str="Fn3"/>
+    <tok fileIndex="0" linenr="33" column="9" str="("/>
+    <tok fileIndex="0" linenr="33" column="10" str="T"/>
+    <tok fileIndex="0" linenr="33" column="12" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="33" column="14" str="param"/>
+    <tok fileIndex="0" linenr="33" column="19" str=")"/>
+    <tok fileIndex="0" linenr="33" column="21" str="{"/>
+    <tok fileIndex="0" linenr="34" column="5" str="Fn1"/>
+    <tok fileIndex="0" linenr="34" column="8" str="("/>
+    <tok fileIndex="0" linenr="34" column="9" str="std"/>
+    <tok fileIndex="0" linenr="34" column="12" str="::"/>
+    <tok fileIndex="0" linenr="34" column="14" str="move"/>
+    <tok fileIndex="0" linenr="34" column="18" str="("/>
+    <tok fileIndex="0" linenr="34" column="19" str="param"/>
+    <tok fileIndex="0" linenr="34" column="24" str=")"/>
+    <tok fileIndex="0" linenr="34" column="25" str=","/>
+    <tok fileIndex="0" linenr="34" column="26" str="2"/>
+    <tok fileIndex="0" linenr="34" column="27" str=")"/>
+    <tok fileIndex="0" linenr="34" column="28" str=";"/>
+    <tok fileIndex="0" linenr="34" column="30" str="// Non-compliant - forwarding forwarding reference"/>
+    <tok fileIndex="0" linenr="35" column="5" str="Fn1"/>
+    <tok fileIndex="0" linenr="35" column="8" str="("/>
+    <tok fileIndex="0" linenr="35" column="9" str="std"/>
+    <tok fileIndex="0" linenr="35" column="12" str="::"/>
+    <tok fileIndex="0" linenr="35" column="14" str="forward"/>
+    <tok fileIndex="0" linenr="35" column="21" str="&lt;"/>
+    <tok fileIndex="0" linenr="35" column="22" str="T"/>
+    <tok fileIndex="0" linenr="35" column="23" str="&gt;"/>
+    <tok fileIndex="0" linenr="35" column="24" str="("/>
+    <tok fileIndex="0" linenr="35" column="25" str="param"/>
+    <tok fileIndex="0" linenr="35" column="30" str=")"/>
+    <tok fileIndex="0" linenr="35" column="31" str=","/>
+    <tok fileIndex="0" linenr="35" column="32" str="2"/>
+    <tok fileIndex="0" linenr="35" column="33" str=")"/>
+    <tok fileIndex="0" linenr="35" column="34" str=";"/>
+    <tok fileIndex="0" linenr="36" column="5" str="// via std::move"/>
+    <tok fileIndex="0" linenr="37" column="1" str="}"/>
+    <tok fileIndex="0" linenr="39" column="1" str="void"/>
+    <tok fileIndex="0" linenr="39" column="6" str="Fn4"/>
+    <tok fileIndex="0" linenr="39" column="9" str="("/>
+    <tok fileIndex="0" linenr="39" column="10" str=")"/>
+    <tok fileIndex="0" linenr="39" column="12" str="noexcept"/>
+    <tok fileIndex="0" linenr="39" column="21" str="{"/>
+    <tok fileIndex="0" linenr="40" column="5" str="B"/>
+    <tok fileIndex="0" linenr="40" column="7" str="b1"/>
+    <tok fileIndex="0" linenr="40" column="9" str=";"/>
+    <tok fileIndex="0" linenr="41" column="5" str="B"/>
+    <tok fileIndex="0" linenr="41" column="7" str="&amp;"/>
+    <tok fileIndex="0" linenr="41" column="8" str="b2"/>
+    <tok fileIndex="0" linenr="41" column="11" str="="/>
+    <tok fileIndex="0" linenr="41" column="13" str="b1"/>
+    <tok fileIndex="0" linenr="41" column="15" str=";"/>
+    <tok fileIndex="0" linenr="42" column="5" str="Fn2"/>
+    <tok fileIndex="0" linenr="42" column="8" str="("/>
+    <tok fileIndex="0" linenr="42" column="9" str="b2"/>
+    <tok fileIndex="0" linenr="42" column="11" str=")"/>
+    <tok fileIndex="0" linenr="42" column="12" str=";"/>
+    <tok fileIndex="0" linenr="42" column="14" str="// fn1(const B&amp;) is called"/>
+    <tok fileIndex="0" linenr="43" column="5" str="Fn2"/>
+    <tok fileIndex="0" linenr="43" column="8" str="("/>
+    <tok fileIndex="0" linenr="43" column="9" str="std"/>
+    <tok fileIndex="0" linenr="43" column="12" str="::"/>
+    <tok fileIndex="0" linenr="43" column="14" str="move"/>
+    <tok fileIndex="0" linenr="43" column="18" str="("/>
+    <tok fileIndex="0" linenr="43" column="19" str="b1"/>
+    <tok fileIndex="0" linenr="43" column="21" str=")"/>
+    <tok fileIndex="0" linenr="43" column="22" str=")"/>
+    <tok fileIndex="0" linenr="43" column="23" str=";"/>
+    <tok fileIndex="0" linenr="43" column="25" str="// fn1(B&amp;&amp;) is called"/>
+    <tok fileIndex="0" linenr="44" column="5" str="Fn3"/>
+    <tok fileIndex="0" linenr="44" column="8" str="("/>
+    <tok fileIndex="0" linenr="44" column="9" str="b2"/>
+    <tok fileIndex="0" linenr="44" column="11" str=")"/>
+    <tok fileIndex="0" linenr="44" column="12" str=";"/>
+    <tok fileIndex="0" linenr="44" column="14" str="// fn1(B&amp;&amp;) is called"/>
+    <tok fileIndex="0" linenr="45" column="5" str="Fn3"/>
+    <tok fileIndex="0" linenr="45" column="8" str="("/>
+    <tok fileIndex="0" linenr="45" column="9" str="std"/>
+    <tok fileIndex="0" linenr="45" column="12" str="::"/>
+    <tok fileIndex="0" linenr="45" column="14" str="move"/>
+    <tok fileIndex="0" linenr="45" column="18" str="("/>
+    <tok fileIndex="0" linenr="45" column="19" str="b1"/>
+    <tok fileIndex="0" linenr="45" column="21" str=")"/>
+    <tok fileIndex="0" linenr="45" column="22" str=")"/>
+    <tok fileIndex="0" linenr="45" column="23" str=";"/>
+    <tok fileIndex="0" linenr="45" column="25" str="// fn1(B&amp;&amp;) is called"/>
+    <tok fileIndex="0" linenr="46" column="1" str="}"/>
+    <tok fileIndex="0" linenr="52" column="1" str="void"/>
+    <tok fileIndex="0" linenr="52" column="6" str="AnotherFunction"/>
+    <tok fileIndex="0" linenr="52" column="21" str="("/>
+    <tok fileIndex="0" linenr="52" column="22" str="int"/>
+    <tok fileIndex="0" linenr="52" column="25" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="52" column="28" str="value"/>
+    <tok fileIndex="0" linenr="52" column="33" str=")"/>
+    <tok fileIndex="0" linenr="52" column="35" str="{"/>
+    <tok fileIndex="0" linenr="53" column="5" str="// xxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="54" column="5" str="std"/>
+    <tok fileIndex="0" linenr="54" column="8" str="::"/>
+    <tok fileIndex="0" linenr="54" column="10" str="cout"/>
+    <tok fileIndex="0" linenr="54" column="15" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="54" column="18" str="&quot;Received a right-value: &quot;"/>
+    <tok fileIndex="0" linenr="54" column="45" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="54" column="48" str="value"/>
+    <tok fileIndex="0" linenr="54" column="54" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="54" column="57" str="std"/>
+    <tok fileIndex="0" linenr="54" column="60" str="::"/>
+    <tok fileIndex="0" linenr="54" column="62" str="endl"/>
+    <tok fileIndex="0" linenr="54" column="66" str=";"/>
+    <tok fileIndex="0" linenr="55" column="1" str="}"/>
+    <tok fileIndex="0" linenr="56" column="1" str="void"/>
+    <tok fileIndex="0" linenr="56" column="6" str="AnotherFunction3"/>
+    <tok fileIndex="0" linenr="56" column="22" str="("/>
+    <tok fileIndex="0" linenr="56" column="23" str="int"/>
+    <tok fileIndex="0" linenr="56" column="26" str="&amp;"/>
+    <tok fileIndex="0" linenr="56" column="28" str="value"/>
+    <tok fileIndex="0" linenr="56" column="33" str=")"/>
+    <tok fileIndex="0" linenr="56" column="35" str="{"/>
+    <tok fileIndex="0" linenr="57" column="5" str="// xxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="58" column="5" str="std"/>
+    <tok fileIndex="0" linenr="58" column="8" str="::"/>
+    <tok fileIndex="0" linenr="58" column="10" str="cout"/>
+    <tok fileIndex="0" linenr="58" column="15" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="58" column="18" str="&quot;Received a right-value: &quot;"/>
+    <tok fileIndex="0" linenr="58" column="45" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="58" column="48" str="value"/>
+    <tok fileIndex="0" linenr="58" column="54" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="58" column="57" str="std"/>
+    <tok fileIndex="0" linenr="58" column="60" str="::"/>
+    <tok fileIndex="0" linenr="58" column="62" str="endl"/>
+    <tok fileIndex="0" linenr="58" column="66" str=";"/>
+    <tok fileIndex="0" linenr="59" column="1" str="}"/>
+    <tok fileIndex="0" linenr="60" column="1" str="void"/>
+    <tok fileIndex="0" linenr="60" column="6" str="ProcessValue"/>
+    <tok fileIndex="0" linenr="60" column="18" str="("/>
+    <tok fileIndex="0" linenr="60" column="19" str="int"/>
+    <tok fileIndex="0" linenr="60" column="22" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="60" column="25" str="value"/>
+    <tok fileIndex="0" linenr="60" column="30" str=")"/>
+    <tok fileIndex="0" linenr="60" column="32" str="{"/>
+    <tok fileIndex="0" linenr="61" column="5" str="// xxxxxxxxxxxxxxxxxxxxxstd::movexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="62" column="5" str="AnotherFunction"/>
+    <tok fileIndex="0" linenr="62" column="20" str="("/>
+    <tok fileIndex="0" linenr="62" column="21" str="std"/>
+    <tok fileIndex="0" linenr="62" column="24" str="::"/>
+    <tok fileIndex="0" linenr="62" column="26" str="move"/>
+    <tok fileIndex="0" linenr="62" column="30" str="("/>
+    <tok fileIndex="0" linenr="62" column="31" str="value"/>
+    <tok fileIndex="0" linenr="62" column="36" str=")"/>
+    <tok fileIndex="0" linenr="62" column="37" str=")"/>
+    <tok fileIndex="0" linenr="62" column="38" str=";"/>
+    <tok fileIndex="0" linenr="63" column="5" str="AnotherFunction"/>
+    <tok fileIndex="0" linenr="63" column="20" str="("/>
+    <tok fileIndex="0" linenr="63" column="21" str="value"/>
+    <tok fileIndex="0" linenr="63" column="26" str=")"/>
+    <tok fileIndex="0" linenr="63" column="27" str=";"/>
+    <tok fileIndex="0" linenr="64" column="5" str="AnotherFunction3"/>
+    <tok fileIndex="0" linenr="64" column="21" str="("/>
+    <tok fileIndex="0" linenr="64" column="22" str="value"/>
+    <tok fileIndex="0" linenr="64" column="27" str=")"/>
+    <tok fileIndex="0" linenr="64" column="28" str=";"/>
+    <tok fileIndex="0" linenr="65" column="1" str="}"/>
+    <tok fileIndex="0" linenr="67" column="1" str="void"/>
+    <tok fileIndex="0" linenr="67" column="6" str="ProcessValue3"/>
+    <tok fileIndex="0" linenr="67" column="19" str="("/>
+    <tok fileIndex="0" linenr="67" column="20" str="int"/>
+    <tok fileIndex="0" linenr="67" column="23" str="&amp;"/>
+    <tok fileIndex="0" linenr="67" column="25" str="value"/>
+    <tok fileIndex="0" linenr="67" column="30" str=")"/>
+    <tok fileIndex="0" linenr="67" column="32" str="{"/>
+    <tok fileIndex="0" linenr="68" column="5" str="// xxxxxxxxxxxxxxxxxxxxxstd::movexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="69" column="5" str="AnotherFunction"/>
+    <tok fileIndex="0" linenr="69" column="20" str="("/>
+    <tok fileIndex="0" linenr="69" column="21" str="std"/>
+    <tok fileIndex="0" linenr="69" column="24" str="::"/>
+    <tok fileIndex="0" linenr="69" column="26" str="move"/>
+    <tok fileIndex="0" linenr="69" column="30" str="("/>
+    <tok fileIndex="0" linenr="69" column="31" str="value"/>
+    <tok fileIndex="0" linenr="69" column="36" str=")"/>
+    <tok fileIndex="0" linenr="69" column="37" str=")"/>
+    <tok fileIndex="0" linenr="69" column="38" str=";"/>
+    <tok fileIndex="0" linenr="70" column="5" str="AnotherFunction"/>
+    <tok fileIndex="0" linenr="70" column="20" str="("/>
+    <tok fileIndex="0" linenr="70" column="21" str="value"/>
+    <tok fileIndex="0" linenr="70" column="26" str=")"/>
+    <tok fileIndex="0" linenr="70" column="27" str=";"/>
+    <tok fileIndex="0" linenr="71" column="5" str="AnotherFunction3"/>
+    <tok fileIndex="0" linenr="71" column="21" str="("/>
+    <tok fileIndex="0" linenr="71" column="22" str="std"/>
+    <tok fileIndex="0" linenr="71" column="25" str="::"/>
+    <tok fileIndex="0" linenr="71" column="27" str="move"/>
+    <tok fileIndex="0" linenr="71" column="31" str="("/>
+    <tok fileIndex="0" linenr="71" column="32" str="value"/>
+    <tok fileIndex="0" linenr="71" column="37" str=")"/>
+    <tok fileIndex="0" linenr="71" column="38" str=")"/>
+    <tok fileIndex="0" linenr="71" column="39" str=";"/>
+    <tok fileIndex="0" linenr="72" column="5" str="AnotherFunction3"/>
+    <tok fileIndex="0" linenr="72" column="21" str="("/>
+    <tok fileIndex="0" linenr="72" column="22" str="value"/>
+    <tok fileIndex="0" linenr="72" column="27" str=")"/>
+    <tok fileIndex="0" linenr="72" column="28" str=";"/>
+    <tok fileIndex="0" linenr="73" column="1" str="}"/>
+    <tok fileIndex="0" linenr="77" column="1" str="int"/>
+    <tok fileIndex="0" linenr="77" column="5" str="main"/>
+    <tok fileIndex="0" linenr="77" column="9" str="("/>
+    <tok fileIndex="0" linenr="77" column="10" str=")"/>
+    <tok fileIndex="0" linenr="77" column="12" str="{"/>
+    <tok fileIndex="0" linenr="78" column="5" str="int"/>
+    <tok fileIndex="0" linenr="78" column="9" str="num"/>
+    <tok fileIndex="0" linenr="78" column="13" str="="/>
+    <tok fileIndex="0" linenr="78" column="15" str="42"/>
+    <tok fileIndex="0" linenr="78" column="17" str=";"/>
+    <tok fileIndex="0" linenr="79" column="5" str="// xxxxxxstd::movexxxxxxxxxxxxxxxxxxxxxxxxProcessValuexxxxxx"/>
+    <tok fileIndex="0" linenr="80" column="5" str="ProcessValue"/>
+    <tok fileIndex="0" linenr="80" column="17" str="("/>
+    <tok fileIndex="0" linenr="80" column="18" str="std"/>
+    <tok fileIndex="0" linenr="80" column="21" str="::"/>
+    <tok fileIndex="0" linenr="80" column="23" str="move"/>
+    <tok fileIndex="0" linenr="80" column="27" str="("/>
+    <tok fileIndex="0" linenr="80" column="28" str="num"/>
+    <tok fileIndex="0" linenr="80" column="31" str=")"/>
+    <tok fileIndex="0" linenr="80" column="32" str=")"/>
+    <tok fileIndex="0" linenr="80" column="33" str=";"/>
+    <tok fileIndex="0" linenr="82" column="5" str="return"/>
+    <tok fileIndex="0" linenr="82" column="12" str="0"/>
+    <tok fileIndex="0" linenr="82" column="13" str=";"/>
+    <tok fileIndex="0" linenr="83" column="1" str="}"/>
+    <tok fileIndex="0" linenr="86" column="1" str="#"/>
+    <tok fileIndex="0" linenr="86" column="2" str="include"/>
+    <tok fileIndex="0" linenr="86" column="10" str="&lt;iostream&gt;"/>
+    <tok fileIndex="0" linenr="87" column="1" str="#"/>
+    <tok fileIndex="0" linenr="87" column="2" str="include"/>
+    <tok fileIndex="0" linenr="87" column="10" str="&lt;utility&gt;"/>
+    <tok fileIndex="0" linenr="88" column="1" str="void"/>
+    <tok fileIndex="0" linenr="88" column="6" str="AnotherFunction1"/>
+    <tok fileIndex="0" linenr="88" column="22" str="("/>
+    <tok fileIndex="0" linenr="88" column="23" str="const"/>
+    <tok fileIndex="0" linenr="88" column="29" str="int"/>
+    <tok fileIndex="0" linenr="88" column="32" str="&amp;"/>
+    <tok fileIndex="0" linenr="88" column="34" str="value"/>
+    <tok fileIndex="0" linenr="88" column="39" str=")"/>
+    <tok fileIndex="0" linenr="88" column="41" str="{"/>
+    <tok fileIndex="0" linenr="89" column="5" str="std"/>
+    <tok fileIndex="0" linenr="89" column="8" str="::"/>
+    <tok fileIndex="0" linenr="89" column="10" str="cout"/>
+    <tok fileIndex="0" linenr="89" column="15" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="89" column="18" str="&quot;Received an l-value: &quot;"/>
+    <tok fileIndex="0" linenr="89" column="42" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="89" column="45" str="value"/>
+    <tok fileIndex="0" linenr="89" column="51" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="89" column="54" str="std"/>
+    <tok fileIndex="0" linenr="89" column="57" str="::"/>
+    <tok fileIndex="0" linenr="89" column="59" str="endl"/>
+    <tok fileIndex="0" linenr="89" column="63" str=";"/>
+    <tok fileIndex="0" linenr="90" column="1" str="}"/>
+    <tok fileIndex="0" linenr="92" column="1" str="void"/>
+    <tok fileIndex="0" linenr="92" column="6" str="AnotherFunction1"/>
+    <tok fileIndex="0" linenr="92" column="22" str="("/>
+    <tok fileIndex="0" linenr="92" column="23" str="int"/>
+    <tok fileIndex="0" linenr="92" column="26" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="92" column="29" str="value"/>
+    <tok fileIndex="0" linenr="92" column="34" str=")"/>
+    <tok fileIndex="0" linenr="92" column="36" str="{"/>
+    <tok fileIndex="0" linenr="93" column="5" str="std"/>
+    <tok fileIndex="0" linenr="93" column="8" str="::"/>
+    <tok fileIndex="0" linenr="93" column="10" str="cout"/>
+    <tok fileIndex="0" linenr="93" column="15" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="93" column="18" str="&quot;Received a right-value: &quot;"/>
+    <tok fileIndex="0" linenr="93" column="45" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="93" column="48" str="value"/>
+    <tok fileIndex="0" linenr="93" column="54" str="&lt;&lt;"/>
+    <tok fileIndex="0" linenr="93" column="57" str="std"/>
+    <tok fileIndex="0" linenr="93" column="60" str="::"/>
+    <tok fileIndex="0" linenr="93" column="62" str="endl"/>
+    <tok fileIndex="0" linenr="93" column="66" str=";"/>
+    <tok fileIndex="0" linenr="94" column="1" str="}"/>
+    <tok fileIndex="0" linenr="95" column="1" str="template"/>
+    <tok fileIndex="0" linenr="95" column="10" str="&lt;"/>
+    <tok fileIndex="0" linenr="95" column="11" str="typename"/>
+    <tok fileIndex="0" linenr="95" column="20" str="T"/>
+    <tok fileIndex="0" linenr="95" column="21" str="&gt;"/>
+    <tok fileIndex="0" linenr="96" column="1" str="void"/>
+    <tok fileIndex="0" linenr="96" column="6" str="ProcessValue1"/>
+    <tok fileIndex="0" linenr="96" column="19" str="("/>
+    <tok fileIndex="0" linenr="96" column="20" str="T"/>
+    <tok fileIndex="0" linenr="96" column="21" str="&amp;&amp;"/>
+    <tok fileIndex="0" linenr="96" column="24" str="value"/>
+    <tok fileIndex="0" linenr="96" column="29" str=","/>
+    <tok fileIndex="0" linenr="96" column="30" str="int"/>
+    <tok fileIndex="0" linenr="96" column="33" str="&amp;"/>
+    <tok fileIndex="0" linenr="96" column="35" str="value2"/>
+    <tok fileIndex="0" linenr="96" column="41" str=")"/>
+    <tok fileIndex="0" linenr="96" column="43" str="{"/>
+    <tok fileIndex="0" linenr="97" column="5" str="// xxxxxxstd::forwardxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <tok fileIndex="0" linenr="98" column="5" str="AnotherFunction1"/>
+    <tok fileIndex="0" linenr="98" column="21" str="("/>
+    <tok fileIndex="0" linenr="98" column="22" str="std"/>
+    <tok fileIndex="0" linenr="98" column="25" str="::"/>
+    <tok fileIndex="0" linenr="98" column="27" str="forward"/>
+    <tok fileIndex="0" linenr="98" column="34" str="&lt;"/>
+    <tok fileIndex="0" linenr="98" column="35" str="T"/>
+    <tok fileIndex="0" linenr="98" column="36" str="&gt;"/>
+    <tok fileIndex="0" linenr="98" column="37" str="("/>
+    <tok fileIndex="0" linenr="98" column="38" str="value"/>
+    <tok fileIndex="0" linenr="98" column="43" str=")"/>
+    <tok fileIndex="0" linenr="98" column="44" str=")"/>
+    <tok fileIndex="0" linenr="98" column="45" str=";"/>
+    <tok fileIndex="0" linenr="99" column="5" str="AnotherFunction1"/>
+    <tok fileIndex="0" linenr="99" column="21" str="("/>
+    <tok fileIndex="0" linenr="99" column="22" str="value2"/>
+    <tok fileIndex="0" linenr="99" column="28" str=")"/>
+    <tok fileIndex="0" linenr="99" column="29" str=";"/>
+    <tok fileIndex="0" linenr="100" column="1" str="}"/>
+    <tok fileIndex="0" linenr="101" column="1" str="int"/>
+    <tok fileIndex="0" linenr="101" column="5" str="mai2"/>
+    <tok fileIndex="0" linenr="101" column="9" str="("/>
+    <tok fileIndex="0" linenr="101" column="10" str=")"/>
+    <tok fileIndex="0" linenr="101" column="12" str="{"/>
+    <tok fileIndex="0" linenr="102" column="5" str="int"/>
+    <tok fileIndex="0" linenr="102" column="9" str="num"/>
+    <tok fileIndex="0" linenr="102" column="13" str="="/>
+    <tok fileIndex="0" linenr="102" column="15" str="42"/>
+    <tok fileIndex="0" linenr="102" column="17" str=";"/>
+    <tok fileIndex="0" linenr="103" column="5" str="// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxProcessValuexxxxxx"/>
+    <tok fileIndex="0" linenr="104" column="5" str="ProcessValue1"/>
+    <tok fileIndex="0" linenr="104" column="18" str="("/>
+    <tok fileIndex="0" linenr="104" column="19" str="num"/>
+    <tok fileIndex="0" linenr="104" column="22" str=","/>
+    <tok fileIndex="0" linenr="104" column="23" str="num"/>
+    <tok fileIndex="0" linenr="104" column="26" str=")"/>
+    <tok fileIndex="0" linenr="104" column="27" str=";"/>
+    <tok fileIndex="0" linenr="105" column="5" str="// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxProcessValuexxxxxx"/>
+    <tok fileIndex="0" linenr="106" column="5" str="ProcessValue1"/>
+    <tok fileIndex="0" linenr="106" column="18" str="("/>
+    <tok fileIndex="0" linenr="106" column="19" str="123"/>
+    <tok fileIndex="0" linenr="106" column="22" str=","/>
+    <tok fileIndex="0" linenr="106" column="23" str="num"/>
+    <tok fileIndex="0" linenr="106" column="26" str=")"/>
+    <tok fileIndex="0" linenr="106" column="27" str=";"/>
+    <tok fileIndex="0" linenr="107" column="5" str="return"/>
+    <tok fileIndex="0" linenr="107" column="12" str="0"/>
+    <tok fileIndex="0" linenr="107" column="13" str=";"/>
+    <tok fileIndex="0" linenr="108" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="a18-9-2.cpp" linenr="1" str="#include &lt;cstdint&gt;"/>
+    <directive file="a18-9-2.cpp" linenr="2" str="#include &lt;string&gt;"/>
+    <directive file="a18-9-2.cpp" linenr="3" str="#include &lt;utility&gt;"/>
+    <directive file="a18-9-2.cpp" linenr="4" str="#include &lt;iostream&gt;"/>
+    <directive file="a18-9-2.cpp" linenr="5" str="#include &lt;utility&gt;"/>
+    <directive file="a18-9-2.cpp" linenr="86" str="#include &lt;iostream&gt;"/>
+    <directive file="a18-9-2.cpp" linenr="87" str="#include &lt;utility&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x2322790" file="a18-9-2.cpp" linenr="7" column="1" str="class" scope="0x2443360" type="name"/>
+    <token id="0x232c010" file="a18-9-2.cpp" linenr="7" column="7" str="A" scope="0x2443360" type="name" type-scope="0x2443580"/>
+    <token id="0x232e320" file="a18-9-2.cpp" linenr="7" column="9" str="{" scope="0x2443580" link="0x2328cc0" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443580"/>
+    <token id="0x231e9b0" file="a18-9-2.cpp" linenr="8" column="4" str="public:" scope="0x2443580" type="name"/>
+    <token id="0x23243f0" file="a18-9-2.cpp" linenr="8" column="11" str="explicit" scope="0x2443580" type="name"/>
+    <token id="0x2329320" file="a18-9-2.cpp" linenr="8" column="20" str="A" scope="0x2443580" type="name" function="0x24437a0" astParent="0x23237f0"/>
+    <token id="0x23237f0" file="a18-9-2.cpp" linenr="8" column="21" str="(" scope="0x2443580" link="0x23232f0" astParent="0x2323720" astOperand1="0x2329320" astOperand2="0x23230f0" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443580"/>
+    <token id="0x2322e30" file="a18-9-2.cpp" linenr="8" column="22" str="std" scope="0x2443580" type="name" astParent="0x2322fb0"/>
+    <token id="0x2322fb0" file="a18-9-2.cpp" linenr="8" column="25" str="::" scope="0x2443580" astParent="0x23230f0" astOperand1="0x2322e30" astOperand2="0x2323080"/>
+    <token id="0x2323080" file="a18-9-2.cpp" linenr="8" column="27" str="string" scope="0x2443580" type="name" astParent="0x2322fb0"/>
+    <token id="0x23230f0" file="a18-9-2.cpp" linenr="8" column="34" str="&amp;&amp;" scope="0x2443580" type="op" isLogicalOp="true" astParent="0x23237f0" astOperand1="0x2322fb0" astOperand2="0x2323160" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2323160" file="a18-9-2.cpp" linenr="8" column="36" str="s" scope="0x2443580" type="name" varId="1" variable="0x233f560" astParent="0x23230f0" valueType-type="container" valueType-reference="RValue"/>
+    <token id="0x23232f0" file="a18-9-2.cpp" linenr="8" column="37" str=")" scope="0x2443580" link="0x23237f0"/>
+    <token id="0x2323720" file="a18-9-2.cpp" linenr="8" column="38" str=":" scope="0x2443580" astOperand1="0x23237f0" astOperand2="0x2322800"/>
+    <token id="0x2322ca0" file="a18-9-2.cpp" linenr="8" column="40" str="str" scope="0x2443580" type="name" varId="2" variable="0x233e4b0" astParent="0x2322800" valueType-type="container" valueType-reference="None"/>
+    <token id="0x2322800" file="a18-9-2.cpp" linenr="8" column="43" str="(" scope="0x2443580" link="0x24258a0" astParent="0x2323720" astOperand1="0x2322ca0" astOperand2="0x242a6a0"/>
+    <token id="0x2322990" file="a18-9-2.cpp" linenr="8" column="44" str="std" scope="0x2443580" type="name" astParent="0x2322bc0"/>
+    <token id="0x2322bc0" file="a18-9-2.cpp" linenr="8" column="47" str="::" scope="0x2443580" astParent="0x242a6a0" astOperand1="0x2322990" astOperand2="0x2322c30"/>
+    <token id="0x2322c30" file="a18-9-2.cpp" linenr="8" column="49" str="move" scope="0x2443580" type="name" astParent="0x2322bc0"/>
+    <token id="0x242a6a0" file="a18-9-2.cpp" linenr="8" column="53" str="(" scope="0x2443580" link="0x242ac40" values="0x2344690" astParent="0x2322800" astOperand1="0x2322bc0" astOperand2="0x242ab80" valueType-type="container" valueType-reference="RValue"/>
+    <token id="0x242ab80" file="a18-9-2.cpp" linenr="8" column="54" str="s" scope="0x2443580" type="name" varId="1" variable="0x233f560" astParent="0x242a6a0" valueType-type="container" valueType-reference="RValue"/>
+    <token id="0x242ac40" file="a18-9-2.cpp" linenr="8" column="55" str=")" scope="0x2443580" link="0x242a6a0"/>
+    <token id="0x24258a0" file="a18-9-2.cpp" linenr="8" column="56" str=")" scope="0x2443580" link="0x2322800"/>
+    <token id="0x2425960" file="a18-9-2.cpp" linenr="9" column="5" str="{" scope="0x2443860" link="0x2426200"/>
+    <token id="0x2426200" file="a18-9-2.cpp" linenr="10" column="5" str="}" scope="0x2443860" link="0x2425960"/>
+    <token id="0x24262d0" file="a18-9-2.cpp" linenr="11" column="1" str="private:" scope="0x2443580" type="name"/>
+    <token id="0x2425c90" file="a18-9-2.cpp" linenr="12" column="5" str="std" scope="0x2443580" type="name" astParent="0x231caf0"/>
+    <token id="0x231caf0" file="a18-9-2.cpp" linenr="12" column="8" str="::" scope="0x2443580" astOperand1="0x2425c90" astOperand2="0x2425310" valueType-type="container" valueType-reference="None"/>
+    <token id="0x24255f0" file="a18-9-2.cpp" linenr="12" column="10" str="string" scope="0x2443580" type="name"/>
+    <token id="0x2425310" file="a18-9-2.cpp" linenr="12" column="17" str="str" scope="0x2443580" type="name" varId="2" variable="0x233e4b0" astParent="0x231caf0" valueType-type="container" valueType-reference="None"/>
+    <token id="0x231c070" file="a18-9-2.cpp" linenr="12" column="20" str=";" scope="0x2443580"/>
+    <token id="0x2328cc0" file="a18-9-2.cpp" linenr="13" column="1" str="}" scope="0x2443580" link="0x232e320"/>
+    <token id="0x2329260" file="a18-9-2.cpp" linenr="13" column="2" str=";" scope="0x2443360"/>
+    <token id="0x2328f90" file="a18-9-2.cpp" linenr="15" column="1" str="class" scope="0x2443360" type="name"/>
+    <token id="0x2428d80" file="a18-9-2.cpp" linenr="15" column="7" str="B" scope="0x2443360" type="name" type-scope="0x2443a80"/>
+    <token id="0x2429050" file="a18-9-2.cpp" linenr="15" column="9" str="{" scope="0x2443a80" link="0x24295f0" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443a80"/>
+    <token id="0x24295f0" file="a18-9-2.cpp" linenr="16" column="1" str="}" scope="0x2443a80" link="0x2429050"/>
+    <token id="0x2429320" file="a18-9-2.cpp" linenr="16" column="2" str=";" scope="0x2443360"/>
+    <token id="0x2429b90" file="a18-9-2.cpp" linenr="18" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x24298c0" file="a18-9-2.cpp" linenr="18" column="6" str="Fn1" scope="0x2443360" type="name" function="0x2443d60"/>
+    <token id="0x242a400" file="a18-9-2.cpp" linenr="18" column="9" str="(" scope="0x2443360" link="0x2328710" valueType-type="void" valueType-reference="None"/>
+    <token id="0x242a130" file="a18-9-2.cpp" linenr="18" column="10" str="const" scope="0x2443360" type="name"/>
+    <token id="0x2429e60" file="a18-9-2.cpp" linenr="18" column="16" str="B" scope="0x2443360" type="name" type-scope="0x2443a80" astParent="0x2325de0"/>
+    <token id="0x2325de0" file="a18-9-2.cpp" linenr="18" column="18" str="&amp;" scope="0x2443360" type="op" astParent="0x2328170" astOperand1="0x2429e60" astOperand2="0x2325ea0"/>
+    <token id="0x2325ea0" file="a18-9-2.cpp" linenr="18" column="19" str="lval" scope="0x2443360" type="name" varId="3" variable="0x233e840" astParent="0x2325de0" valueType-type="record" valueType-constness="1" valueType-reference="LValue" valueType-typeScope="0x2443a80"/>
+    <token id="0x2328170" file="a18-9-2.cpp" linenr="18" column="23" str="," scope="0x2443360" astOperand1="0x2325de0" astOperand2="0x23265c0"/>
+    <token id="0x2326500" file="a18-9-2.cpp" linenr="18" column="24" str="int" scope="0x2443360" type="name"/>
+    <token id="0x23265c0" file="a18-9-2.cpp" linenr="18" column="28" str="b" scope="0x2443360" type="name" varId="4" variable="0x233e930" astParent="0x2328170" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2328710" file="a18-9-2.cpp" linenr="18" column="29" str=")" scope="0x2443360" link="0x242a400"/>
+    <token id="0x2326170" file="a18-9-2.cpp" linenr="18" column="31" str="{" scope="0x233ba50" link="0x2326230"/>
+    <token id="0x2326230" file="a18-9-2.cpp" linenr="19" column="1" str="}" scope="0x233ba50" link="0x2326170"/>
+    <token id="0x2328440" file="a18-9-2.cpp" linenr="20" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2324f70" file="a18-9-2.cpp" linenr="20" column="6" str="fn1" scope="0x2443360" type="name" function="0x233bc70"/>
+    <token id="0x2325030" file="a18-9-2.cpp" linenr="20" column="9" str="(" scope="0x2443360" link="0x2327e00" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2327600" file="a18-9-2.cpp" linenr="20" column="10" str="int" scope="0x2443360" type="name" astParent="0x23259b0"/>
+    <token id="0x23259b0" file="a18-9-2.cpp" linenr="20" column="13" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x2327600" astOperand2="0x2325a70" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2325a70" file="a18-9-2.cpp" linenr="20" column="16" str="a" scope="0x2443360" type="name" varId="5" variable="0x233ea20" astParent="0x23259b0" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2327e00" file="a18-9-2.cpp" linenr="20" column="17" str=")" scope="0x2443360" link="0x2325030"/>
+    <token id="0x2325610" file="a18-9-2.cpp" linenr="20" column="18" str="{" scope="0x233bd30" link="0x232dd40"/>
+    <token id="0x23256d0" file="a18-9-2.cpp" linenr="21" column="5" str="std" scope="0x233bd30" type="name" astParent="0x2327b20"/>
+    <token id="0x2327b20" file="a18-9-2.cpp" linenr="21" column="8" str="::" scope="0x233bd30" astParent="0x23375a0" astOperand1="0x23256d0" astOperand2="0x232d500"/>
+    <token id="0x232d500" file="a18-9-2.cpp" linenr="21" column="10" str="cout" scope="0x233bd30" type="name" astParent="0x2327b20"/>
+    <token id="0x23375a0" file="a18-9-2.cpp" linenr="21" column="15" str="&lt;&lt;" scope="0x233bd30" type="op" isArithmeticalOp="true" astParent="0x2330280" astOperand1="0x2327b20" astOperand2="0x231d1a0"/>
+    <token id="0x231d1a0" file="a18-9-2.cpp" linenr="21" column="18" str="&quot;Received a right-value: &quot;" scope="0x233bd30" type="string" strlen="24" values="0x2344050" astParent="0x23375a0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x2330280" file="a18-9-2.cpp" linenr="21" column="45" str="&lt;&lt;" scope="0x233bd30" type="op" isArithmeticalOp="true" astParent="0x232d740" astOperand1="0x23375a0" astOperand2="0x2330550"/>
+    <token id="0x2330550" file="a18-9-2.cpp" linenr="21" column="48" str="a" scope="0x233bd30" type="name" varId="5" variable="0x233ea20" astParent="0x2330280" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x232d740" file="a18-9-2.cpp" linenr="21" column="50" str="&lt;&lt;" scope="0x233bd30" type="op" isArithmeticalOp="true" astOperand1="0x2330280" astOperand2="0x2316910"/>
+    <token id="0x2318a70" file="a18-9-2.cpp" linenr="21" column="53" str="std" scope="0x233bd30" type="name" astParent="0x2316910"/>
+    <token id="0x2316910" file="a18-9-2.cpp" linenr="21" column="56" str="::" scope="0x233bd30" astParent="0x232d740" astOperand1="0x2318a70" astOperand2="0x2327050"/>
+    <token id="0x2327050" file="a18-9-2.cpp" linenr="21" column="58" str="endl" scope="0x233bd30" type="name" astParent="0x2316910"/>
+    <token id="0x2337eb0" file="a18-9-2.cpp" linenr="21" column="62" str=";" scope="0x233bd30"/>
+    <token id="0x232dd40" file="a18-9-2.cpp" linenr="22" column="1" str="}" scope="0x233bd30" link="0x2325610"/>
+    <token id="0x232fe00" file="a18-9-2.cpp" linenr="23" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2326d80" file="a18-9-2.cpp" linenr="23" column="6" str="fn2" scope="0x2443360" type="name" function="0x233bf50"/>
+    <token id="0x231be60" file="a18-9-2.cpp" linenr="23" column="9" str="(" scope="0x2443360" link="0x231b9d0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x231beb0" file="a18-9-2.cpp" linenr="23" column="10" str="int" scope="0x2443360" type="name" astParent="0x231bc20"/>
+    <token id="0x231bc20" file="a18-9-2.cpp" linenr="23" column="13" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x231beb0" astOperand2="0x231bc70" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x231bc70" file="a18-9-2.cpp" linenr="23" column="16" str="a" scope="0x2443360" type="name" varId="6" variable="0x233eb10" astParent="0x231bc20" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x231b9d0" file="a18-9-2.cpp" linenr="23" column="17" str=")" scope="0x2443360" link="0x231be60"/>
+    <token id="0x231ba20" file="a18-9-2.cpp" linenr="23" column="18" str="{" scope="0x233c010" link="0x2338e00"/>
+    <token id="0x231d4e0" file="a18-9-2.cpp" linenr="24" column="5" str="fn1" scope="0x233c010" type="name" function="0x233bc70" astParent="0x231d530"/>
+    <token id="0x231d530" file="a18-9-2.cpp" linenr="24" column="8" str="(" scope="0x233c010" link="0x233a500" astOperand1="0x231d4e0" astOperand2="0x233b480" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2316c40" file="a18-9-2.cpp" linenr="24" column="9" str="std" scope="0x233c010" type="name" astParent="0x2316c90"/>
+    <token id="0x2316c90" file="a18-9-2.cpp" linenr="24" column="12" str="::" scope="0x233c010" astParent="0x233b480" astOperand1="0x2316c40" astOperand2="0x233b430"/>
+    <token id="0x233b430" file="a18-9-2.cpp" linenr="24" column="14" str="move" scope="0x233c010" type="name" astParent="0x2316c90"/>
+    <token id="0x233b480" file="a18-9-2.cpp" linenr="24" column="18" str="(" scope="0x233c010" link="0x233a730" values="0x23447d0" astParent="0x231d530" astOperand1="0x2316c90" astOperand2="0x233a6e0" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x233a6e0" file="a18-9-2.cpp" linenr="24" column="19" str="a" scope="0x233c010" type="name" varId="6" variable="0x233eb10" astParent="0x233b480" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x233a730" file="a18-9-2.cpp" linenr="24" column="20" str=")" scope="0x233c010" link="0x233b480"/>
+    <token id="0x233a500" file="a18-9-2.cpp" linenr="24" column="21" str=")" scope="0x233c010" link="0x231d530"/>
+    <token id="0x233a550" file="a18-9-2.cpp" linenr="24" column="22" str=";" scope="0x233c010"/>
+    <token id="0x2338e00" file="a18-9-2.cpp" linenr="25" column="1" str="}" scope="0x233c010" link="0x231ba20"/>
+    <token id="0x2338e50" file="a18-9-2.cpp" linenr="27" column="1" str="template" scope="0x2443360" type="name"/>
+    <token id="0x2334e40" file="a18-9-2.cpp" linenr="27" column="9" str="&lt;" scope="0x2443360" link="0x2334440"/>
+    <token id="0x2334e90" file="a18-9-2.cpp" linenr="27" column="10" str="typename" scope="0x2443360" type="name"/>
+    <token id="0x23343f0" file="a18-9-2.cpp" linenr="27" column="19" str="T" scope="0x2443360" type="name"/>
+    <token id="0x2334440" file="a18-9-2.cpp" linenr="27" column="20" str="&gt;" scope="0x2443360" link="0x2334e40"/>
+    <token id="0x231b730" file="a18-9-2.cpp" linenr="28" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x231b780" file="a18-9-2.cpp" linenr="28" column="6" str="Fn2" scope="0x2443360" type="name" function="0x233c230"/>
+    <token id="0x231b2b0" file="a18-9-2.cpp" linenr="28" column="9" str="(" scope="0x2443360" link="0x233a2c0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x231b300" file="a18-9-2.cpp" linenr="28" column="10" str="T" scope="0x2443360" type="name" astParent="0x233ada0"/>
+    <token id="0x233ada0" file="a18-9-2.cpp" linenr="28" column="12" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x231b300" astOperand2="0x233adf0" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x233adf0" file="a18-9-2.cpp" linenr="28" column="14" str="param" scope="0x2443360" type="name" varId="7" variable="0x233ec00" astParent="0x233ada0"/>
+    <token id="0x233a2c0" file="a18-9-2.cpp" linenr="28" column="19" str=")" scope="0x2443360" link="0x231b2b0"/>
+    <token id="0x233a310" file="a18-9-2.cpp" linenr="28" column="21" str="{" scope="0x233c2f0" link="0x23244f0"/>
+    <token id="0x233a0b0" file="a18-9-2.cpp" linenr="29" column="5" str="Fn1" scope="0x233c2f0" type="name" function="0x2443d60" astParent="0x233a100"/>
+    <token id="0x233a100" file="a18-9-2.cpp" linenr="29" column="8" str="(" scope="0x233c2f0" link="0x2337990" astOperand1="0x233a0b0" astOperand2="0x2338420" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2339e10" file="a18-9-2.cpp" linenr="29" column="9" str="std" scope="0x233c2f0" type="name" astParent="0x2339e60"/>
+    <token id="0x2339e60" file="a18-9-2.cpp" linenr="29" column="12" str="::" scope="0x233c2f0" astParent="0x2338910" astOperand1="0x2339e10" astOperand2="0x2339280"/>
+    <token id="0x2339280" file="a18-9-2.cpp" linenr="29" column="14" str="forward" scope="0x233c2f0" type="name" astParent="0x2339e60"/>
+    <token id="0x23392d0" file="a18-9-2.cpp" linenr="29" column="21" str="&lt;" scope="0x233c2f0" link="0x2338c00"/>
+    <token id="0x2338bb0" file="a18-9-2.cpp" linenr="29" column="22" str="T" scope="0x233c2f0" type="name"/>
+    <token id="0x2338c00" file="a18-9-2.cpp" linenr="29" column="23" str="&gt;" scope="0x233c2f0" link="0x23392d0"/>
+    <token id="0x2338910" file="a18-9-2.cpp" linenr="29" column="24" str="(" scope="0x233c2f0" link="0x23383d0" astParent="0x2338420" astOperand1="0x2339e60" astOperand2="0x2338960"/>
+    <token id="0x2338960" file="a18-9-2.cpp" linenr="29" column="25" str="param" scope="0x233c2f0" type="name" varId="7" variable="0x233ec00" values="0x2346480" astParent="0x2338910"/>
+    <token id="0x23383d0" file="a18-9-2.cpp" linenr="29" column="30" str=")" scope="0x233c2f0" link="0x2338910"/>
+    <token id="0x2338420" file="a18-9-2.cpp" linenr="29" column="31" str="," scope="0x233c2f0" astParent="0x233a100" astOperand1="0x2338910" astOperand2="0x2337940"/>
+    <token id="0x2337940" file="a18-9-2.cpp" linenr="29" column="32" str="2" scope="0x233c2f0" type="number" isInt="true" values="0x23439f0" astParent="0x2338420" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2337990" file="a18-9-2.cpp" linenr="29" column="33" str=")" scope="0x233c2f0" link="0x233a100"/>
+    <token id="0x23244a0" file="a18-9-2.cpp" linenr="29" column="34" str=";" scope="0x233c2f0"/>
+    <token id="0x23244f0" file="a18-9-2.cpp" linenr="30" column="1" str="}" scope="0x233c2f0" link="0x233a310"/>
+    <token id="0x2324540" file="a18-9-2.cpp" linenr="32" column="1" str="template" scope="0x2443360" type="name"/>
+    <token id="0x23269f0" file="a18-9-2.cpp" linenr="32" column="9" str="&lt;" scope="0x2443360" link="0x2324800"/>
+    <token id="0x2326a40" file="a18-9-2.cpp" linenr="32" column="10" str="typename" scope="0x2443360" type="name"/>
+    <token id="0x2326a90" file="a18-9-2.cpp" linenr="32" column="19" str="T" scope="0x2443360" type="name"/>
+    <token id="0x2324800" file="a18-9-2.cpp" linenr="32" column="20" str="&gt;" scope="0x2443360" link="0x23269f0"/>
+    <token id="0x2324850" file="a18-9-2.cpp" linenr="33" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x23248a0" file="a18-9-2.cpp" linenr="33" column="6" str="Fn3" scope="0x2443360" type="name" function="0x233c510"/>
+    <token id="0x2324650" file="a18-9-2.cpp" linenr="33" column="9" str="(" scope="0x2443360" link="0x2425db0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x23246a0" file="a18-9-2.cpp" linenr="33" column="10" str="T" scope="0x2443360" type="name" astParent="0x23246f0"/>
+    <token id="0x23246f0" file="a18-9-2.cpp" linenr="33" column="12" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x23246a0" astOperand2="0x2425d60" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2425d60" file="a18-9-2.cpp" linenr="33" column="14" str="param" scope="0x2443360" type="name" varId="8" variable="0x233ecf0" astParent="0x23246f0"/>
+    <token id="0x2425db0" file="a18-9-2.cpp" linenr="33" column="19" str=")" scope="0x2443360" link="0x2324650"/>
+    <token id="0x2425e00" file="a18-9-2.cpp" linenr="33" column="21" str="{" scope="0x233c5d0" link="0x2329080"/>
+    <token id="0x2425e50" file="a18-9-2.cpp" linenr="34" column="5" str="Fn1" scope="0x233c5d0" type="name" function="0x2443d60" astParent="0x2425ea0"/>
+    <token id="0x2425ea0" file="a18-9-2.cpp" linenr="34" column="8" str="(" scope="0x233c5d0" link="0x2425500" astOperand1="0x2425e50" astOperand2="0x2425460" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2425aa0" file="a18-9-2.cpp" linenr="34" column="9" str="std" scope="0x233c5d0" type="name" astParent="0x2425af0"/>
+    <token id="0x2425af0" file="a18-9-2.cpp" linenr="34" column="12" str="::" scope="0x233c5d0" astParent="0x2425b90" astOperand1="0x2425aa0" astOperand2="0x2425b40"/>
+    <token id="0x2425b40" file="a18-9-2.cpp" linenr="34" column="14" str="move" scope="0x233c5d0" type="name" astParent="0x2425af0"/>
+    <token id="0x2425b90" file="a18-9-2.cpp" linenr="34" column="18" str="(" scope="0x233c5d0" link="0x2425410" values="0x2344910" astParent="0x2425460" astOperand1="0x2425af0" astOperand2="0x2425be0"/>
+    <token id="0x2425be0" file="a18-9-2.cpp" linenr="34" column="19" str="param" scope="0x233c5d0" type="name" varId="8" variable="0x233ecf0" values="0x23467d0" astParent="0x2425b90"/>
+    <token id="0x2425410" file="a18-9-2.cpp" linenr="34" column="24" str=")" scope="0x233c5d0" link="0x2425b90"/>
+    <token id="0x2425460" file="a18-9-2.cpp" linenr="34" column="25" str="," scope="0x233c5d0" astParent="0x2425ea0" astOperand1="0x2425b90" astOperand2="0x24254b0"/>
+    <token id="0x24254b0" file="a18-9-2.cpp" linenr="34" column="26" str="2" scope="0x233c5d0" type="number" isInt="true" values="0x242abd0" astParent="0x2425460" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2425500" file="a18-9-2.cpp" linenr="34" column="27" str=")" scope="0x233c5d0" link="0x2425ea0"/>
+    <token id="0x2425550" file="a18-9-2.cpp" linenr="34" column="28" str=";" scope="0x233c5d0"/>
+    <token id="0x2425130" file="a18-9-2.cpp" linenr="35" column="5" str="Fn1" scope="0x233c5d0" type="name" function="0x2443d60" astParent="0x2425180"/>
+    <token id="0x2425180" file="a18-9-2.cpp" linenr="35" column="8" str="(" scope="0x233c5d0" link="0x2328bd0" astOperand1="0x2425130" astOperand2="0x2328b30" valueType-type="void" valueType-reference="None"/>
+    <token id="0x24251d0" file="a18-9-2.cpp" linenr="35" column="9" str="std" scope="0x233c5d0" type="name" astParent="0x2425220"/>
+    <token id="0x2425220" file="a18-9-2.cpp" linenr="35" column="12" str="::" scope="0x233c5d0" astParent="0x2425030" astOperand1="0x24251d0" astOperand2="0x2425270"/>
+    <token id="0x2425270" file="a18-9-2.cpp" linenr="35" column="14" str="forward" scope="0x233c5d0" type="name" astParent="0x2425220"/>
+    <token id="0x2424f40" file="a18-9-2.cpp" linenr="35" column="21" str="&lt;" scope="0x233c5d0" link="0x2424fe0"/>
+    <token id="0x2424f90" file="a18-9-2.cpp" linenr="35" column="22" str="T" scope="0x233c5d0" type="name"/>
+    <token id="0x2424fe0" file="a18-9-2.cpp" linenr="35" column="23" str="&gt;" scope="0x233c5d0" link="0x2424f40"/>
+    <token id="0x2425030" file="a18-9-2.cpp" linenr="35" column="24" str="(" scope="0x233c5d0" link="0x2328ae0" astParent="0x2328b30" astOperand1="0x2425220" astOperand2="0x2425080"/>
+    <token id="0x2425080" file="a18-9-2.cpp" linenr="35" column="25" str="param" scope="0x233c5d0" type="name" varId="8" variable="0x233ecf0" values="0x2346940" astParent="0x2425030"/>
+    <token id="0x2328ae0" file="a18-9-2.cpp" linenr="35" column="30" str=")" scope="0x233c5d0" link="0x2425030"/>
+    <token id="0x2328b30" file="a18-9-2.cpp" linenr="35" column="31" str="," scope="0x233c5d0" astParent="0x2425180" astOperand1="0x2425030" astOperand2="0x2328b80"/>
+    <token id="0x2328b80" file="a18-9-2.cpp" linenr="35" column="32" str="2" scope="0x233c5d0" type="number" isInt="true" values="0x24258f0" astParent="0x2328b30" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2328bd0" file="a18-9-2.cpp" linenr="35" column="33" str=")" scope="0x233c5d0" link="0x2425180"/>
+    <token id="0x2328c20" file="a18-9-2.cpp" linenr="35" column="34" str=";" scope="0x233c5d0"/>
+    <token id="0x2329080" file="a18-9-2.cpp" linenr="37" column="1" str="}" scope="0x233c5d0" link="0x2425e00"/>
+    <token id="0x23290d0" file="a18-9-2.cpp" linenr="39" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2329120" file="a18-9-2.cpp" linenr="39" column="6" str="Fn4" scope="0x2443360" type="name" function="0x233c7f0" astParent="0x2329170"/>
+    <token id="0x2329170" file="a18-9-2.cpp" linenr="39" column="9" str="(" scope="0x2443360" link="0x23291c0" astOperand1="0x2329120" valueType-type="void" valueType-reference="None"/>
+    <token id="0x23291c0" file="a18-9-2.cpp" linenr="39" column="10" str=")" scope="0x2443360" link="0x2329170"/>
+    <token id="0x2328db0" file="a18-9-2.cpp" linenr="39" column="12" str="noexcept" scope="0x2443360" type="name" astParent="0x2440710"/>
+    <token id="0x2440710" file="a18-9-2.cpp" linenr="39" column="0" str="(" scope="0x2443360" link="0x2425f50" astOperand1="0x2328db0" astOperand2="0x23242c0"/>
+    <token id="0x23242c0" file="a18-9-2.cpp" linenr="39" column="0" str="true" scope="0x2443360" type="name" values="0x2343f40" astParent="0x2440710" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2425f50" file="a18-9-2.cpp" linenr="39" column="0" str=")" scope="0x2443360" link="0x2440710"/>
+    <token id="0x2328e00" file="a18-9-2.cpp" linenr="39" column="21" str="{" scope="0x233c8b0" link="0x2429fa0"/>
+    <token id="0x2328e50" file="a18-9-2.cpp" linenr="40" column="5" str="B" scope="0x233c8b0" type="name" type-scope="0x2443a80"/>
+    <token id="0x2328ea0" file="a18-9-2.cpp" linenr="40" column="7" str="b1" scope="0x233c8b0" type="name" varId="9" variable="0x233e540" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443a80"/>
+    <token id="0x2328ef0" file="a18-9-2.cpp" linenr="40" column="9" str=";" scope="0x233c8b0"/>
+    <token id="0x2428ba0" file="a18-9-2.cpp" linenr="41" column="5" str="B" scope="0x233c8b0" type="name" type-scope="0x2443a80"/>
+    <token id="0x2428bf0" file="a18-9-2.cpp" linenr="41" column="7" str="&amp;" scope="0x233c8b0" type="op"/>
+    <token id="0x2428c40" file="a18-9-2.cpp" linenr="41" column="8" str="b2" scope="0x233c8b0" type="name" varId="10" variable="0x233e5d0" astParent="0x2428c90" valueType-type="record" valueType-reference="LValue" valueType-typeScope="0x2443a80"/>
+    <token id="0x2428c90" file="a18-9-2.cpp" linenr="41" column="11" str="=" scope="0x233c8b0" type="op" isAssignmentOp="true" astOperand1="0x2428c40" astOperand2="0x2428ce0" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443a80"/>
+    <token id="0x2428ce0" file="a18-9-2.cpp" linenr="41" column="13" str="b1" scope="0x233c8b0" type="name" varId="9" variable="0x233e540" astParent="0x2428c90" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443a80"/>
+    <token id="0x2428e70" file="a18-9-2.cpp" linenr="41" column="15" str=";" scope="0x233c8b0"/>
+    <token id="0x2428ec0" file="a18-9-2.cpp" linenr="42" column="5" str="Fn2" scope="0x233c8b0" type="name" function="0x233c230" astParent="0x2428f10"/>
+    <token id="0x2428f10" file="a18-9-2.cpp" linenr="42" column="8" str="(" scope="0x233c8b0" link="0x2428fb0" astOperand1="0x2428ec0" astOperand2="0x2428f60" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2428f60" file="a18-9-2.cpp" linenr="42" column="9" str="b2" scope="0x233c8b0" type="name" varId="10" variable="0x233e5d0" values="0x2345680" astParent="0x2428f10" valueType-type="record" valueType-reference="LValue" valueType-typeScope="0x2443a80"/>
+    <token id="0x2428fb0" file="a18-9-2.cpp" linenr="42" column="11" str=")" scope="0x233c8b0" link="0x2428f10"/>
+    <token id="0x2429410" file="a18-9-2.cpp" linenr="42" column="12" str=";" scope="0x233c8b0"/>
+    <token id="0x2429460" file="a18-9-2.cpp" linenr="43" column="5" str="Fn2" scope="0x233c8b0" type="name" function="0x233c230" astParent="0x24294b0"/>
+    <token id="0x24294b0" file="a18-9-2.cpp" linenr="43" column="8" str="(" scope="0x233c8b0" link="0x2429280" astOperand1="0x2429460" astOperand2="0x2429190" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2429500" file="a18-9-2.cpp" linenr="43" column="9" str="std" scope="0x233c8b0" type="name" astParent="0x2429550"/>
+    <token id="0x2429550" file="a18-9-2.cpp" linenr="43" column="12" str="::" scope="0x233c8b0" astParent="0x2429190" astOperand1="0x2429500" astOperand2="0x2429140"/>
+    <token id="0x2429140" file="a18-9-2.cpp" linenr="43" column="14" str="move" scope="0x233c8b0" type="name" astParent="0x2429550"/>
+    <token id="0x2429190" file="a18-9-2.cpp" linenr="43" column="18" str="(" scope="0x233c8b0" link="0x2429230" astParent="0x24294b0" astOperand1="0x2429550" astOperand2="0x24291e0" valueType-type="record" valueType-reference="RValue" valueType-typeScope="0x2443a80"/>
+    <token id="0x24291e0" file="a18-9-2.cpp" linenr="43" column="19" str="b1" scope="0x233c8b0" type="name" varId="9" variable="0x233e540" astParent="0x2429190" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443a80"/>
+    <token id="0x2429230" file="a18-9-2.cpp" linenr="43" column="21" str=")" scope="0x233c8b0" link="0x2429190"/>
+    <token id="0x2429280" file="a18-9-2.cpp" linenr="43" column="22" str=")" scope="0x233c8b0" link="0x24294b0"/>
+    <token id="0x24299b0" file="a18-9-2.cpp" linenr="43" column="23" str=";" scope="0x233c8b0"/>
+    <token id="0x2429a00" file="a18-9-2.cpp" linenr="44" column="5" str="Fn3" scope="0x233c8b0" type="name" function="0x233c510" astParent="0x2429a50"/>
+    <token id="0x2429a50" file="a18-9-2.cpp" linenr="44" column="8" str="(" scope="0x233c8b0" link="0x2429af0" astOperand1="0x2429a00" astOperand2="0x2429aa0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2429aa0" file="a18-9-2.cpp" linenr="44" column="9" str="b2" scope="0x233c8b0" type="name" varId="10" variable="0x233e5d0" values="0x23460a0" astParent="0x2429a50" valueType-type="record" valueType-reference="LValue" valueType-typeScope="0x2443a80"/>
+    <token id="0x2429af0" file="a18-9-2.cpp" linenr="44" column="11" str=")" scope="0x233c8b0" link="0x2429a50"/>
+    <token id="0x24296e0" file="a18-9-2.cpp" linenr="44" column="12" str=";" scope="0x233c8b0"/>
+    <token id="0x2429730" file="a18-9-2.cpp" linenr="45" column="5" str="Fn3" scope="0x233c8b0" type="name" function="0x233c510" astParent="0x2429780"/>
+    <token id="0x2429780" file="a18-9-2.cpp" linenr="45" column="8" str="(" scope="0x233c8b0" link="0x242a360" astOperand1="0x2429730" astOperand2="0x242a270" valueType-type="void" valueType-reference="None"/>
+    <token id="0x24297d0" file="a18-9-2.cpp" linenr="45" column="9" str="std" scope="0x233c8b0" type="name" astParent="0x2429820"/>
+    <token id="0x2429820" file="a18-9-2.cpp" linenr="45" column="12" str="::" scope="0x233c8b0" astParent="0x242a270" astOperand1="0x24297d0" astOperand2="0x242a220"/>
+    <token id="0x242a220" file="a18-9-2.cpp" linenr="45" column="14" str="move" scope="0x233c8b0" type="name" astParent="0x2429820"/>
+    <token id="0x242a270" file="a18-9-2.cpp" linenr="45" column="18" str="(" scope="0x233c8b0" link="0x242a310" astParent="0x2429780" astOperand1="0x2429820" astOperand2="0x242a2c0" valueType-type="record" valueType-reference="RValue" valueType-typeScope="0x2443a80"/>
+    <token id="0x242a2c0" file="a18-9-2.cpp" linenr="45" column="19" str="b1" scope="0x233c8b0" type="name" varId="9" variable="0x233e540" astParent="0x242a270" valueType-type="record" valueType-reference="None" valueType-typeScope="0x2443a80"/>
+    <token id="0x242a310" file="a18-9-2.cpp" linenr="45" column="21" str=")" scope="0x233c8b0" link="0x242a270"/>
+    <token id="0x242a360" file="a18-9-2.cpp" linenr="45" column="22" str=")" scope="0x233c8b0" link="0x2429780"/>
+    <token id="0x2429f50" file="a18-9-2.cpp" linenr="45" column="23" str=";" scope="0x233c8b0"/>
+    <token id="0x2429fa0" file="a18-9-2.cpp" linenr="46" column="1" str="}" scope="0x233c8b0" link="0x2328e00"/>
+    <token id="0x2429ff0" file="a18-9-2.cpp" linenr="52" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x242a040" file="a18-9-2.cpp" linenr="52" column="6" str="AnotherFunction" scope="0x2443360" type="name" function="0x233cad0"/>
+    <token id="0x242a090" file="a18-9-2.cpp" linenr="52" column="21" str="(" scope="0x2443360" link="0x2429d70" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2429c80" file="a18-9-2.cpp" linenr="52" column="22" str="int" scope="0x2443360" type="name" astParent="0x2429cd0"/>
+    <token id="0x2429cd0" file="a18-9-2.cpp" linenr="52" column="25" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x2429c80" astOperand2="0x2429d20" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2429d20" file="a18-9-2.cpp" linenr="52" column="28" str="value" scope="0x2443360" type="name" varId="11" variable="0x233ede0" astParent="0x2429cd0" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2429d70" file="a18-9-2.cpp" linenr="52" column="33" str=")" scope="0x2443360" link="0x242a090"/>
+    <token id="0x2429dc0" file="a18-9-2.cpp" linenr="52" column="35" str="{" scope="0x233cb90" link="0x23263c0"/>
+    <token id="0x2325c00" file="a18-9-2.cpp" linenr="54" column="5" str="std" scope="0x233cb90" type="name" astParent="0x2325c50"/>
+    <token id="0x2325c50" file="a18-9-2.cpp" linenr="54" column="8" str="::" scope="0x233cb90" astParent="0x2325cf0" astOperand1="0x2325c00" astOperand2="0x2325ca0"/>
+    <token id="0x2325ca0" file="a18-9-2.cpp" linenr="54" column="10" str="cout" scope="0x233cb90" type="name" astParent="0x2325c50"/>
+    <token id="0x2325cf0" file="a18-9-2.cpp" linenr="54" column="15" str="&lt;&lt;" scope="0x233cb90" type="op" isArithmeticalOp="true" astParent="0x2327f90" astOperand1="0x2325c50" astOperand2="0x2325d40"/>
+    <token id="0x2325d40" file="a18-9-2.cpp" linenr="54" column="18" str="&quot;Received a right-value: &quot;" scope="0x233cb90" type="string" strlen="24" values="0x2344160" astParent="0x2325cf0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x2327f90" file="a18-9-2.cpp" linenr="54" column="45" str="&lt;&lt;" scope="0x233cb90" type="op" isArithmeticalOp="true" astParent="0x2328030" astOperand1="0x2325cf0" astOperand2="0x2327fe0"/>
+    <token id="0x2327fe0" file="a18-9-2.cpp" linenr="54" column="48" str="value" scope="0x233cb90" type="name" varId="11" variable="0x233ede0" astParent="0x2327f90" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2328030" file="a18-9-2.cpp" linenr="54" column="54" str="&lt;&lt;" scope="0x233cb90" type="op" isArithmeticalOp="true" astOperand1="0x2327f90" astOperand2="0x23280d0"/>
+    <token id="0x2328080" file="a18-9-2.cpp" linenr="54" column="57" str="std" scope="0x233cb90" type="name" astParent="0x23280d0"/>
+    <token id="0x23280d0" file="a18-9-2.cpp" linenr="54" column="60" str="::" scope="0x233cb90" astParent="0x2328030" astOperand1="0x2328080" astOperand2="0x2326320"/>
+    <token id="0x2326320" file="a18-9-2.cpp" linenr="54" column="62" str="endl" scope="0x233cb90" type="name" astParent="0x23280d0"/>
+    <token id="0x2326370" file="a18-9-2.cpp" linenr="54" column="66" str=";" scope="0x233cb90"/>
+    <token id="0x23263c0" file="a18-9-2.cpp" linenr="55" column="1" str="}" scope="0x233cb90" link="0x2429dc0"/>
+    <token id="0x2326410" file="a18-9-2.cpp" linenr="56" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2326460" file="a18-9-2.cpp" linenr="56" column="6" str="AnotherFunction3" scope="0x2443360" type="name" function="0x233cdb0"/>
+    <token id="0x2328530" file="a18-9-2.cpp" linenr="56" column="22" str="(" scope="0x2443360" link="0x2328670" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2328580" file="a18-9-2.cpp" linenr="56" column="23" str="int" scope="0x2443360" type="name" astParent="0x23285d0"/>
+    <token id="0x23285d0" file="a18-9-2.cpp" linenr="56" column="26" str="&amp;" scope="0x2443360" type="op" astOperand1="0x2328580" astOperand2="0x2328620"/>
+    <token id="0x2328620" file="a18-9-2.cpp" linenr="56" column="28" str="value" scope="0x2443360" type="name" varId="12" variable="0x233eed0" astParent="0x23285d0" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2328670" file="a18-9-2.cpp" linenr="56" column="33" str=")" scope="0x2443360" link="0x2328530"/>
+    <token id="0x2325f90" file="a18-9-2.cpp" linenr="56" column="35" str="{" scope="0x233ce70" link="0x2324e80"/>
+    <token id="0x2325fe0" file="a18-9-2.cpp" linenr="58" column="5" str="std" scope="0x233ce70" type="name" astParent="0x2326030"/>
+    <token id="0x2326030" file="a18-9-2.cpp" linenr="58" column="8" str="::" scope="0x233ce70" astParent="0x23260d0" astOperand1="0x2325fe0" astOperand2="0x2326080"/>
+    <token id="0x2326080" file="a18-9-2.cpp" linenr="58" column="10" str="cout" scope="0x233ce70" type="name" astParent="0x2326030"/>
+    <token id="0x23260d0" file="a18-9-2.cpp" linenr="58" column="15" str="&lt;&lt;" scope="0x233ce70" type="op" isArithmeticalOp="true" astParent="0x23282b0" astOperand1="0x2326030" astOperand2="0x2328260"/>
+    <token id="0x2328260" file="a18-9-2.cpp" linenr="58" column="18" str="&quot;Received a right-value: &quot;" scope="0x233ce70" type="string" strlen="24" values="0x2344270" astParent="0x23260d0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x23282b0" file="a18-9-2.cpp" linenr="58" column="45" str="&lt;&lt;" scope="0x233ce70" type="op" isArithmeticalOp="true" astParent="0x2328350" astOperand1="0x23260d0" astOperand2="0x2328300"/>
+    <token id="0x2328300" file="a18-9-2.cpp" linenr="58" column="48" str="value" scope="0x233ce70" type="name" varId="12" variable="0x233eed0" astParent="0x23282b0" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2328350" file="a18-9-2.cpp" linenr="58" column="54" str="&lt;&lt;" scope="0x233ce70" type="op" isArithmeticalOp="true" astOperand1="0x23282b0" astOperand2="0x2324d90"/>
+    <token id="0x23283a0" file="a18-9-2.cpp" linenr="58" column="57" str="std" scope="0x233ce70" type="name" astParent="0x2324d90"/>
+    <token id="0x2324d90" file="a18-9-2.cpp" linenr="58" column="60" str="::" scope="0x233ce70" astParent="0x2328350" astOperand1="0x23283a0" astOperand2="0x2324de0"/>
+    <token id="0x2324de0" file="a18-9-2.cpp" linenr="58" column="62" str="endl" scope="0x233ce70" type="name" astParent="0x2324d90"/>
+    <token id="0x2324e30" file="a18-9-2.cpp" linenr="58" column="66" str=";" scope="0x233ce70"/>
+    <token id="0x2324e80" file="a18-9-2.cpp" linenr="59" column="1" str="}" scope="0x233ce70" link="0x2325f90"/>
+    <token id="0x2324ed0" file="a18-9-2.cpp" linenr="60" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2327420" file="a18-9-2.cpp" linenr="60" column="6" str="ProcessValue" scope="0x2443360" type="name" function="0x233d090"/>
+    <token id="0x2327470" file="a18-9-2.cpp" linenr="60" column="18" str="(" scope="0x2443360" link="0x23257d0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x23274c0" file="a18-9-2.cpp" linenr="60" column="19" str="int" scope="0x2443360" type="name" astParent="0x2327510"/>
+    <token id="0x2327510" file="a18-9-2.cpp" linenr="60" column="22" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x23274c0" astOperand2="0x2327560" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2327560" file="a18-9-2.cpp" linenr="60" column="25" str="value" scope="0x2443360" type="name" varId="13" variable="0x233efc0" astParent="0x2327510" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x23257d0" file="a18-9-2.cpp" linenr="60" column="30" str=")" scope="0x2443360" link="0x2327470"/>
+    <token id="0x2325820" file="a18-9-2.cpp" linenr="60" column="32" str="{" scope="0x233d150" link="0x2326f10"/>
+    <token id="0x2325870" file="a18-9-2.cpp" linenr="62" column="5" str="AnotherFunction" scope="0x233d150" type="name" function="0x233cad0" astParent="0x23258c0"/>
+    <token id="0x23258c0" file="a18-9-2.cpp" linenr="62" column="20" str="(" scope="0x233d150" link="0x2325430" astOperand1="0x2325870" astOperand2="0x2327cc0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2325910" file="a18-9-2.cpp" linenr="62" column="21" str="std" scope="0x233d150" type="name" astParent="0x2327c20"/>
+    <token id="0x2327c20" file="a18-9-2.cpp" linenr="62" column="24" str="::" scope="0x233d150" astParent="0x2327cc0" astOperand1="0x2325910" astOperand2="0x2327c70"/>
+    <token id="0x2327c70" file="a18-9-2.cpp" linenr="62" column="26" str="move" scope="0x233d150" type="name" astParent="0x2327c20"/>
+    <token id="0x2327cc0" file="a18-9-2.cpp" linenr="62" column="30" str="(" scope="0x233d150" link="0x2327d60" values="0x2344a50" astParent="0x23258c0" astOperand1="0x2327c20" astOperand2="0x2327d10" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2327d10" file="a18-9-2.cpp" linenr="62" column="31" str="value" scope="0x233d150" type="name" varId="13" variable="0x233efc0" astParent="0x2327cc0" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2327d60" file="a18-9-2.cpp" linenr="62" column="36" str=")" scope="0x233d150" link="0x2327cc0"/>
+    <token id="0x2325430" file="a18-9-2.cpp" linenr="62" column="37" str=")" scope="0x233d150" link="0x23258c0"/>
+    <token id="0x2325480" file="a18-9-2.cpp" linenr="62" column="38" str=";" scope="0x233d150"/>
+    <token id="0x23254d0" file="a18-9-2.cpp" linenr="63" column="5" str="AnotherFunction" scope="0x233d150" type="name" function="0x233cad0" astParent="0x2325520"/>
+    <token id="0x2325520" file="a18-9-2.cpp" linenr="63" column="20" str="(" scope="0x233d150" link="0x2327940" astOperand1="0x23254d0" astOperand2="0x2325570" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2325570" file="a18-9-2.cpp" linenr="63" column="21" str="value" scope="0x233d150" type="name" varId="13" variable="0x233efc0" astParent="0x2325520" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2327940" file="a18-9-2.cpp" linenr="63" column="26" str=")" scope="0x233d150" link="0x2325520"/>
+    <token id="0x2327990" file="a18-9-2.cpp" linenr="63" column="27" str=";" scope="0x233d150"/>
+    <token id="0x23279e0" file="a18-9-2.cpp" linenr="64" column="5" str="AnotherFunction3" scope="0x233d150" type="name" function="0x233cdb0" astParent="0x2327a30"/>
+    <token id="0x2327a30" file="a18-9-2.cpp" linenr="64" column="21" str="(" scope="0x233d150" link="0x2326e70" astOperand1="0x23279e0" astOperand2="0x2327a80" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2327a80" file="a18-9-2.cpp" linenr="64" column="22" str="value" scope="0x233d150" type="name" varId="13" variable="0x233efc0" astParent="0x2327a30" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2326e70" file="a18-9-2.cpp" linenr="64" column="27" str=")" scope="0x233d150" link="0x2327a30"/>
+    <token id="0x2326ec0" file="a18-9-2.cpp" linenr="64" column="28" str=";" scope="0x233d150"/>
+    <token id="0x2326f10" file="a18-9-2.cpp" linenr="65" column="1" str="}" scope="0x233d150" link="0x2325820"/>
+    <token id="0x2326f60" file="a18-9-2.cpp" linenr="67" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2326fb0" file="a18-9-2.cpp" linenr="67" column="6" str="ProcessValue3" scope="0x2443360" type="name" function="0x233d370"/>
+    <token id="0x2326ba0" file="a18-9-2.cpp" linenr="67" column="19" str="(" scope="0x2443360" link="0x2326ce0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2326bf0" file="a18-9-2.cpp" linenr="67" column="20" str="int" scope="0x2443360" type="name" astParent="0x2326c40"/>
+    <token id="0x2326c40" file="a18-9-2.cpp" linenr="67" column="23" str="&amp;" scope="0x2443360" type="op" astOperand1="0x2326bf0" astOperand2="0x2326c90"/>
+    <token id="0x2326c90" file="a18-9-2.cpp" linenr="67" column="25" str="value" scope="0x2443360" type="name" varId="14" variable="0x233f0b0" astParent="0x2326c40" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2326ce0" file="a18-9-2.cpp" linenr="67" column="30" str=")" scope="0x2443360" link="0x2326ba0"/>
+    <token id="0x2329680" file="a18-9-2.cpp" linenr="67" column="32" str="{" scope="0x233d430" link="0x2427970"/>
+    <token id="0x23296d0" file="a18-9-2.cpp" linenr="69" column="5" str="AnotherFunction" scope="0x233d430" type="name" function="0x233cad0" astParent="0x2329720"/>
+    <token id="0x2329720" file="a18-9-2.cpp" linenr="69" column="20" str="(" scope="0x233d430" link="0x23294b0" astOperand1="0x23296d0" astOperand2="0x23293c0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2329770" file="a18-9-2.cpp" linenr="69" column="21" str="std" scope="0x233d430" type="name" astParent="0x23297c0"/>
+    <token id="0x23297c0" file="a18-9-2.cpp" linenr="69" column="24" str="::" scope="0x233d430" astParent="0x23293c0" astOperand1="0x2329770" astOperand2="0x2329370"/>
+    <token id="0x2329370" file="a18-9-2.cpp" linenr="69" column="26" str="move" scope="0x233d430" type="name" astParent="0x23297c0"/>
+    <token id="0x23293c0" file="a18-9-2.cpp" linenr="69" column="30" str="(" scope="0x233d430" link="0x2329460" values="0x2344b90" astParent="0x2329720" astOperand1="0x23297c0" astOperand2="0x2329410" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2329410" file="a18-9-2.cpp" linenr="69" column="31" str="value" scope="0x233d430" type="name" varId="14" variable="0x233f0b0" astParent="0x23293c0" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2329460" file="a18-9-2.cpp" linenr="69" column="36" str=")" scope="0x233d430" link="0x23293c0"/>
+    <token id="0x23294b0" file="a18-9-2.cpp" linenr="69" column="37" str=")" scope="0x233d430" link="0x2329720"/>
+    <token id="0x2329500" file="a18-9-2.cpp" linenr="69" column="38" str=";" scope="0x233d430"/>
+    <token id="0x2329550" file="a18-9-2.cpp" linenr="70" column="5" str="AnotherFunction" scope="0x233d430" type="name" function="0x233cad0" astParent="0x2428360"/>
+    <token id="0x2428360" file="a18-9-2.cpp" linenr="70" column="20" str="(" scope="0x233d430" link="0x2428400" astOperand1="0x2329550" astOperand2="0x24283b0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x24283b0" file="a18-9-2.cpp" linenr="70" column="21" str="value" scope="0x233d430" type="name" varId="14" variable="0x233f0b0" astParent="0x2428360" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2428400" file="a18-9-2.cpp" linenr="70" column="26" str=")" scope="0x233d430" link="0x2428360"/>
+    <token id="0x2428450" file="a18-9-2.cpp" linenr="70" column="27" str=";" scope="0x233d430"/>
+    <token id="0x24284a0" file="a18-9-2.cpp" linenr="71" column="5" str="AnotherFunction3" scope="0x233d430" type="name" function="0x233cdb0" astParent="0x24284f0"/>
+    <token id="0x24284f0" file="a18-9-2.cpp" linenr="71" column="21" str="(" scope="0x233d430" link="0x2428790" astOperand1="0x24284a0" astOperand2="0x24286a0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2428540" file="a18-9-2.cpp" linenr="71" column="22" str="std" scope="0x233d430" type="name" astParent="0x2428600"/>
+    <token id="0x2428600" file="a18-9-2.cpp" linenr="71" column="25" str="::" scope="0x233d430" astParent="0x24286a0" astOperand1="0x2428540" astOperand2="0x2428650"/>
+    <token id="0x2428650" file="a18-9-2.cpp" linenr="71" column="27" str="move" scope="0x233d430" type="name" astParent="0x2428600"/>
+    <token id="0x24286a0" file="a18-9-2.cpp" linenr="71" column="31" str="(" scope="0x233d430" link="0x2428740" values="0x2344cd0" astParent="0x24284f0" astOperand1="0x2428600" astOperand2="0x24286f0" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x24286f0" file="a18-9-2.cpp" linenr="71" column="32" str="value" scope="0x233d430" type="name" varId="14" variable="0x233f0b0" astParent="0x24286a0" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2428740" file="a18-9-2.cpp" linenr="71" column="37" str=")" scope="0x233d430" link="0x24286a0"/>
+    <token id="0x2428790" file="a18-9-2.cpp" linenr="71" column="38" str=")" scope="0x233d430" link="0x24284f0"/>
+    <token id="0x24287e0" file="a18-9-2.cpp" linenr="71" column="39" str=";" scope="0x233d430"/>
+    <token id="0x24277e0" file="a18-9-2.cpp" linenr="72" column="5" str="AnotherFunction3" scope="0x233d430" type="name" function="0x233cdb0" astParent="0x2427830"/>
+    <token id="0x2427830" file="a18-9-2.cpp" linenr="72" column="21" str="(" scope="0x233d430" link="0x24278d0" astOperand1="0x24277e0" astOperand2="0x2427880" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2427880" file="a18-9-2.cpp" linenr="72" column="22" str="value" scope="0x233d430" type="name" varId="14" variable="0x233f0b0" astParent="0x2427830" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x24278d0" file="a18-9-2.cpp" linenr="72" column="27" str=")" scope="0x233d430" link="0x2427830"/>
+    <token id="0x2427920" file="a18-9-2.cpp" linenr="72" column="28" str=";" scope="0x233d430"/>
+    <token id="0x2427970" file="a18-9-2.cpp" linenr="73" column="1" str="}" scope="0x233d430" link="0x2329680"/>
+    <token id="0x24279c0" file="a18-9-2.cpp" linenr="77" column="1" str="int" scope="0x2443360" type="name"/>
+    <token id="0x2427500" file="a18-9-2.cpp" linenr="77" column="5" str="main" scope="0x2443360" type="name" function="0x233d650"/>
+    <token id="0x2427550" file="a18-9-2.cpp" linenr="77" column="9" str="(" scope="0x2443360" link="0x24275a0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x24275a0" file="a18-9-2.cpp" linenr="77" column="10" str=")" scope="0x2443360" link="0x2427550"/>
+    <token id="0x24275f0" file="a18-9-2.cpp" linenr="77" column="12" str="{" scope="0x233d710" link="0x2426990"/>
+    <token id="0x2427640" file="a18-9-2.cpp" linenr="78" column="5" str="int" scope="0x233d710" type="name"/>
+    <token id="0x2427690" file="a18-9-2.cpp" linenr="78" column="9" str="num" scope="0x233d710" type="name" varId="15" variable="0x233e660" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x24276e0" file="a18-9-2.cpp" linenr="78" column="13" str=";" scope="0x233d710" isSplittedVarDeclEq="true"/>
+    <token id="0x24407b0" file="a18-9-2.cpp" linenr="78" column="9" str="num" scope="0x233d710" type="name" varId="15" variable="0x233e660" astParent="0x2440800" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2440800" file="a18-9-2.cpp" linenr="78" column="13" str="=" scope="0x233d710" type="op" isAssignmentOp="true" values="0x2442ec0" astOperand1="0x24407b0" astOperand2="0x2427220" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2427220" file="a18-9-2.cpp" linenr="78" column="15" str="42" scope="0x233d710" type="number" isInt="true" values="0x2426250" astParent="0x2440800" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2427270" file="a18-9-2.cpp" linenr="78" column="17" str=";" scope="0x233d710"/>
+    <token id="0x24272c0" file="a18-9-2.cpp" linenr="80" column="5" str="ProcessValue" scope="0x233d710" type="name" function="0x233d090" astParent="0x2427310"/>
+    <token id="0x2427310" file="a18-9-2.cpp" linenr="80" column="17" str="(" scope="0x233d710" link="0x2426790" astOperand1="0x24272c0" astOperand2="0x24266a0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2427360" file="a18-9-2.cpp" linenr="80" column="18" str="std" scope="0x233d710" type="name" astParent="0x24273b0"/>
+    <token id="0x24273b0" file="a18-9-2.cpp" linenr="80" column="21" str="::" scope="0x233d710" astParent="0x24266a0" astOperand1="0x2427360" astOperand2="0x2427400"/>
+    <token id="0x2427400" file="a18-9-2.cpp" linenr="80" column="23" str="move" scope="0x233d710" type="name" astParent="0x24273b0"/>
+    <token id="0x24266a0" file="a18-9-2.cpp" linenr="80" column="27" str="(" scope="0x233d710" link="0x2426740" astParent="0x2427310" astOperand1="0x24273b0" astOperand2="0x24266f0" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x24266f0" file="a18-9-2.cpp" linenr="80" column="28" str="num" scope="0x233d710" type="name" varId="15" variable="0x233e660" values="0x23445a0" astParent="0x24266a0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2426740" file="a18-9-2.cpp" linenr="80" column="31" str=")" scope="0x233d710" link="0x24266a0"/>
+    <token id="0x2426790" file="a18-9-2.cpp" linenr="80" column="32" str=")" scope="0x233d710" link="0x2427310"/>
+    <token id="0x24267e0" file="a18-9-2.cpp" linenr="80" column="33" str=";" scope="0x233d710"/>
+    <token id="0x2426830" file="a18-9-2.cpp" linenr="82" column="5" str="return" scope="0x233d710" type="name" astOperand1="0x2426880" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2426880" file="a18-9-2.cpp" linenr="82" column="12" str="0" scope="0x233d710" type="number" isInt="true" values="0x2442fd0" astParent="0x2426830" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2426940" file="a18-9-2.cpp" linenr="82" column="13" str=";" scope="0x233d710"/>
+    <token id="0x2426990" file="a18-9-2.cpp" linenr="83" column="1" str="}" scope="0x233d710" link="0x24275f0"/>
+    <token id="0x24269e0" file="a18-9-2.cpp" linenr="88" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2426a30" file="a18-9-2.cpp" linenr="88" column="6" str="AnotherFunction1" scope="0x2443360" type="name" function="0x233d930"/>
+    <token id="0x2426a80" file="a18-9-2.cpp" linenr="88" column="22" str="(" scope="0x2443360" link="0x2426d00" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2426ad0" file="a18-9-2.cpp" linenr="88" column="23" str="const" scope="0x2443360" type="name"/>
+    <token id="0x2426b20" file="a18-9-2.cpp" linenr="88" column="29" str="int" scope="0x2443360" type="name" astParent="0x2426c60"/>
+    <token id="0x2426c60" file="a18-9-2.cpp" linenr="88" column="32" str="&amp;" scope="0x2443360" type="op" astOperand1="0x2426b20" astOperand2="0x2426cb0"/>
+    <token id="0x2426cb0" file="a18-9-2.cpp" linenr="88" column="34" str="value" scope="0x2443360" type="name" varId="16" variable="0x233f1a0" astParent="0x2426c60" valueType-type="int" valueType-sign="signed" valueType-constness="1" valueType-reference="LValue"/>
+    <token id="0x2426d00" file="a18-9-2.cpp" linenr="88" column="39" str=")" scope="0x2443360" link="0x2426a80"/>
+    <token id="0x2426d50" file="a18-9-2.cpp" linenr="88" column="41" str="{" scope="0x233d9f0" link="0x24264a0"/>
+    <token id="0x2426da0" file="a18-9-2.cpp" linenr="89" column="5" str="std" scope="0x233d9f0" type="name" astParent="0x2426df0"/>
+    <token id="0x2426df0" file="a18-9-2.cpp" linenr="89" column="8" str="::" scope="0x233d9f0" astParent="0x2426f40" astOperand1="0x2426da0" astOperand2="0x2426e40"/>
+    <token id="0x2426e40" file="a18-9-2.cpp" linenr="89" column="10" str="cout" scope="0x233d9f0" type="name" astParent="0x2426df0"/>
+    <token id="0x2426f40" file="a18-9-2.cpp" linenr="89" column="15" str="&lt;&lt;" scope="0x233d9f0" type="op" isArithmeticalOp="true" astParent="0x2426fe0" astOperand1="0x2426df0" astOperand2="0x2426f90"/>
+    <token id="0x2426f90" file="a18-9-2.cpp" linenr="89" column="18" str="&quot;Received an l-value: &quot;" scope="0x233d9f0" type="string" strlen="21" values="0x2344380" astParent="0x2426f40" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x2426fe0" file="a18-9-2.cpp" linenr="89" column="42" str="&lt;&lt;" scope="0x233d9f0" type="op" isArithmeticalOp="true" astParent="0x2427080" astOperand1="0x2426f40" astOperand2="0x2427030"/>
+    <token id="0x2427030" file="a18-9-2.cpp" linenr="89" column="45" str="value" scope="0x233d9f0" type="name" varId="16" variable="0x233f1a0" astParent="0x2426fe0" valueType-type="int" valueType-sign="signed" valueType-constness="1" valueType-reference="LValue"/>
+    <token id="0x2427080" file="a18-9-2.cpp" linenr="89" column="51" str="&lt;&lt;" scope="0x233d9f0" type="op" isArithmeticalOp="true" astOperand1="0x2426fe0" astOperand2="0x2427120"/>
+    <token id="0x24270d0" file="a18-9-2.cpp" linenr="89" column="54" str="std" scope="0x233d9f0" type="name" astParent="0x2427120"/>
+    <token id="0x2427120" file="a18-9-2.cpp" linenr="89" column="57" str="::" scope="0x233d9f0" astParent="0x2427080" astOperand1="0x24270d0" astOperand2="0x2426400"/>
+    <token id="0x2426400" file="a18-9-2.cpp" linenr="89" column="59" str="endl" scope="0x233d9f0" type="name" astParent="0x2427120"/>
+    <token id="0x2426450" file="a18-9-2.cpp" linenr="89" column="63" str=";" scope="0x233d9f0"/>
+    <token id="0x24264a0" file="a18-9-2.cpp" linenr="90" column="1" str="}" scope="0x233d9f0" link="0x2426d50"/>
+    <token id="0x24264f0" file="a18-9-2.cpp" linenr="92" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2426540" file="a18-9-2.cpp" linenr="92" column="6" str="AnotherFunction1" scope="0x2443360" type="name" function="0x233dc10"/>
+    <token id="0x2426590" file="a18-9-2.cpp" linenr="92" column="22" str="(" scope="0x2443360" link="0x24280e0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x24265e0" file="a18-9-2.cpp" linenr="92" column="23" str="int" scope="0x2443360" type="name" astParent="0x2428040"/>
+    <token id="0x2428040" file="a18-9-2.cpp" linenr="92" column="26" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astOperand1="0x24265e0" astOperand2="0x2428090" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x2428090" file="a18-9-2.cpp" linenr="92" column="29" str="value" scope="0x2443360" type="name" varId="17" variable="0x233f290" astParent="0x2428040" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x24280e0" file="a18-9-2.cpp" linenr="92" column="34" str=")" scope="0x2443360" link="0x2426590"/>
+    <token id="0x2428130" file="a18-9-2.cpp" linenr="92" column="36" str="{" scope="0x233dcd0" link="0x2427b60"/>
+    <token id="0x2428180" file="a18-9-2.cpp" linenr="93" column="5" str="std" scope="0x233dcd0" type="name" astParent="0x24281d0"/>
+    <token id="0x24281d0" file="a18-9-2.cpp" linenr="93" column="8" str="::" scope="0x233dcd0" astParent="0x2427da0" astOperand1="0x2428180" astOperand2="0x2428220"/>
+    <token id="0x2428220" file="a18-9-2.cpp" linenr="93" column="10" str="cout" scope="0x233dcd0" type="name" astParent="0x24281d0"/>
+    <token id="0x2427da0" file="a18-9-2.cpp" linenr="93" column="15" str="&lt;&lt;" scope="0x233dcd0" type="op" isArithmeticalOp="true" astParent="0x2427e40" astOperand1="0x24281d0" astOperand2="0x2427df0"/>
+    <token id="0x2427df0" file="a18-9-2.cpp" linenr="93" column="18" str="&quot;Received a right-value: &quot;" scope="0x233dcd0" type="string" strlen="24" values="0x2344490" astParent="0x2427da0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0x2427e40" file="a18-9-2.cpp" linenr="93" column="45" str="&lt;&lt;" scope="0x233dcd0" type="op" isArithmeticalOp="true" astParent="0x2427ee0" astOperand1="0x2427da0" astOperand2="0x2427e90"/>
+    <token id="0x2427e90" file="a18-9-2.cpp" linenr="93" column="48" str="value" scope="0x233dcd0" type="name" varId="17" variable="0x233f290" astParent="0x2427e40" valueType-type="int" valueType-sign="signed" valueType-reference="RValue"/>
+    <token id="0x2427ee0" file="a18-9-2.cpp" linenr="93" column="54" str="&lt;&lt;" scope="0x233dcd0" type="op" isArithmeticalOp="true" astOperand1="0x2427e40" astOperand2="0x2427f80"/>
+    <token id="0x2427f30" file="a18-9-2.cpp" linenr="93" column="57" str="std" scope="0x233dcd0" type="name" astParent="0x2427f80"/>
+    <token id="0x2427f80" file="a18-9-2.cpp" linenr="93" column="60" str="::" scope="0x233dcd0" astParent="0x2427ee0" astOperand1="0x2427f30" astOperand2="0x2427ac0"/>
+    <token id="0x2427ac0" file="a18-9-2.cpp" linenr="93" column="62" str="endl" scope="0x233dcd0" type="name" astParent="0x2427f80"/>
+    <token id="0x2427b10" file="a18-9-2.cpp" linenr="93" column="66" str=";" scope="0x233dcd0"/>
+    <token id="0x2427b60" file="a18-9-2.cpp" linenr="94" column="1" str="}" scope="0x233dcd0" link="0x2428130"/>
+    <token id="0x2427bb0" file="a18-9-2.cpp" linenr="95" column="1" str="template" scope="0x2443360" type="name"/>
+    <token id="0x2427c00" file="a18-9-2.cpp" linenr="95" column="10" str="&lt;" scope="0x2443360" link="0x23287d0"/>
+    <token id="0x2427c50" file="a18-9-2.cpp" linenr="95" column="11" str="typename" scope="0x2443360" type="name"/>
+    <token id="0x2427ca0" file="a18-9-2.cpp" linenr="95" column="20" str="T" scope="0x2443360" type="name"/>
+    <token id="0x23287d0" file="a18-9-2.cpp" linenr="95" column="21" str="&gt;" scope="0x2443360" link="0x2427c00"/>
+    <token id="0x2328820" file="a18-9-2.cpp" linenr="96" column="1" str="void" scope="0x2443360" type="name"/>
+    <token id="0x2328870" file="a18-9-2.cpp" linenr="96" column="6" str="ProcessValue1" scope="0x2443360" type="name" function="0x233def0"/>
+    <token id="0x23288c0" file="a18-9-2.cpp" linenr="96" column="19" str="(" scope="0x2443360" link="0x2327800" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2328910" file="a18-9-2.cpp" linenr="96" column="20" str="T" scope="0x2443360" type="name" astParent="0x2328960"/>
+    <token id="0x2328960" file="a18-9-2.cpp" linenr="96" column="21" str="&amp;&amp;" scope="0x2443360" type="op" isLogicalOp="true" astParent="0x23276c0" astOperand1="0x2328910" astOperand2="0x23289b0" valueType-type="bool" valueType-reference="None"/>
+    <token id="0x23289b0" file="a18-9-2.cpp" linenr="96" column="24" str="value" scope="0x2443360" type="name" varId="18" variable="0x233f380" astParent="0x2328960"/>
+    <token id="0x23276c0" file="a18-9-2.cpp" linenr="96" column="29" str="," scope="0x2443360" astOperand1="0x2328960" astOperand2="0x2327760"/>
+    <token id="0x2327710" file="a18-9-2.cpp" linenr="96" column="30" str="int" scope="0x2443360" type="name" astParent="0x2327760"/>
+    <token id="0x2327760" file="a18-9-2.cpp" linenr="96" column="33" str="&amp;" scope="0x2443360" type="op" astParent="0x23276c0" astOperand1="0x2327710" astOperand2="0x23277b0"/>
+    <token id="0x23277b0" file="a18-9-2.cpp" linenr="96" column="35" str="value2" scope="0x2443360" type="name" varId="19" variable="0x233f470" astParent="0x2327760" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2327800" file="a18-9-2.cpp" linenr="96" column="41" str=")" scope="0x2443360" link="0x23288c0"/>
+    <token id="0x2327850" file="a18-9-2.cpp" linenr="96" column="43" str="{" scope="0x233dfb0" link="0x2325140"/>
+    <token id="0x23278a0" file="a18-9-2.cpp" linenr="98" column="5" str="AnotherFunction1" scope="0x233dfb0" type="name" astParent="0x2327110"/>
+    <token id="0x2327110" file="a18-9-2.cpp" linenr="98" column="21" str="(" scope="0x233dfb0" link="0x2326770" astOperand1="0x23278a0" astOperand2="0x2326680"/>
+    <token id="0x2327160" file="a18-9-2.cpp" linenr="98" column="22" str="std" scope="0x233dfb0" type="name" astParent="0x23271b0"/>
+    <token id="0x23271b0" file="a18-9-2.cpp" linenr="98" column="25" str="::" scope="0x233dfb0" astParent="0x2326680" astOperand1="0x2327160" astOperand2="0x2327200"/>
+    <token id="0x2327200" file="a18-9-2.cpp" linenr="98" column="27" str="forward" scope="0x233dfb0" type="name" astParent="0x23271b0"/>
+    <token id="0x2327250" file="a18-9-2.cpp" linenr="98" column="34" str="&lt;" scope="0x233dfb0" link="0x23272f0"/>
+    <token id="0x23272a0" file="a18-9-2.cpp" linenr="98" column="35" str="T" scope="0x233dfb0" type="name"/>
+    <token id="0x23272f0" file="a18-9-2.cpp" linenr="98" column="36" str="&gt;" scope="0x233dfb0" link="0x2327250"/>
+    <token id="0x2326680" file="a18-9-2.cpp" linenr="98" column="37" str="(" scope="0x233dfb0" link="0x2326720" astParent="0x2327110" astOperand1="0x23271b0" astOperand2="0x23266d0"/>
+    <token id="0x23266d0" file="a18-9-2.cpp" linenr="98" column="38" str="value" scope="0x233dfb0" type="name" varId="18" variable="0x233f380" values="0x2346160" astParent="0x2326680"/>
+    <token id="0x2326720" file="a18-9-2.cpp" linenr="98" column="43" str=")" scope="0x233dfb0" link="0x2326680"/>
+    <token id="0x2326770" file="a18-9-2.cpp" linenr="98" column="44" str=")" scope="0x233dfb0" link="0x2327110"/>
+    <token id="0x23267c0" file="a18-9-2.cpp" linenr="98" column="45" str=";" scope="0x233dfb0"/>
+    <token id="0x2326810" file="a18-9-2.cpp" linenr="99" column="5" str="AnotherFunction1" scope="0x233dfb0" type="name" function="0x233dc10" astParent="0x2326860"/>
+    <token id="0x2326860" file="a18-9-2.cpp" linenr="99" column="21" str="(" scope="0x233dfb0" link="0x2326900" astOperand1="0x2326810" astOperand2="0x23268b0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x23268b0" file="a18-9-2.cpp" linenr="99" column="22" str="value2" scope="0x233dfb0" type="name" varId="19" variable="0x233f470" astParent="0x2326860" valueType-type="int" valueType-sign="signed" valueType-reference="LValue"/>
+    <token id="0x2326900" file="a18-9-2.cpp" linenr="99" column="28" str=")" scope="0x233dfb0" link="0x2326860"/>
+    <token id="0x23250f0" file="a18-9-2.cpp" linenr="99" column="29" str=";" scope="0x233dfb0"/>
+    <token id="0x2325140" file="a18-9-2.cpp" linenr="100" column="1" str="}" scope="0x233dfb0" link="0x2327850"/>
+    <token id="0x2325190" file="a18-9-2.cpp" linenr="101" column="1" str="int" scope="0x2443360" type="name"/>
+    <token id="0x23251e0" file="a18-9-2.cpp" linenr="101" column="5" str="mai2" scope="0x2443360" type="name" function="0x233e1d0"/>
+    <token id="0x2325230" file="a18-9-2.cpp" linenr="101" column="9" str="(" scope="0x2443360" link="0x2325280" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2325280" file="a18-9-2.cpp" linenr="101" column="10" str=")" scope="0x2443360" link="0x2325230"/>
+    <token id="0x23252d0" file="a18-9-2.cpp" linenr="101" column="12" str="{" scope="0x233e290" link="0x24406c0"/>
+    <token id="0x2325320" file="a18-9-2.cpp" linenr="102" column="5" str="int" scope="0x233e290" type="name"/>
+    <token id="0x2325370" file="a18-9-2.cpp" linenr="102" column="9" str="num" scope="0x233e290" type="name" varId="20" variable="0x233e750" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x23249c0" file="a18-9-2.cpp" linenr="102" column="13" str=";" scope="0x233e290" isSplittedVarDeclEq="true"/>
+    <token id="0x2440a60" file="a18-9-2.cpp" linenr="102" column="9" str="num" scope="0x233e290" type="name" varId="20" variable="0x233e750" astParent="0x233b100" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x233b100" file="a18-9-2.cpp" linenr="102" column="13" str="=" scope="0x233e290" type="op" isAssignmentOp="true" values="0x2343c10" astOperand1="0x2440a60" astOperand2="0x2324a10" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2324a10" file="a18-9-2.cpp" linenr="102" column="15" str="42" scope="0x233e290" type="number" isInt="true" values="0x2343b00" astParent="0x233b100" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2324a60" file="a18-9-2.cpp" linenr="102" column="17" str=";" scope="0x233e290"/>
+    <token id="0x2324ab0" file="a18-9-2.cpp" linenr="104" column="5" str="ProcessValue1" scope="0x233e290" type="name" function="0x233def0" astParent="0x2324b00"/>
+    <token id="0x2324b00" file="a18-9-2.cpp" linenr="104" column="18" str="(" scope="0x233e290" link="0x2324c40" astOperand1="0x2324ab0" astOperand2="0x2324ba0" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2324b50" file="a18-9-2.cpp" linenr="104" column="19" str="num" scope="0x233e290" type="name" varId="20" variable="0x233e750" values="0x23445d0" astParent="0x2324ba0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2324ba0" file="a18-9-2.cpp" linenr="104" column="22" str="," scope="0x233e290" astParent="0x2324b00" astOperand1="0x2324b50" astOperand2="0x2324bf0"/>
+    <token id="0x2324bf0" file="a18-9-2.cpp" linenr="104" column="23" str="num" scope="0x233e290" type="name" varId="20" variable="0x233e750" astParent="0x2324ba0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2324c40" file="a18-9-2.cpp" linenr="104" column="26" str=")" scope="0x233e290" link="0x2324b00"/>
+    <token id="0x2440350" file="a18-9-2.cpp" linenr="104" column="27" str=";" scope="0x233e290"/>
+    <token id="0x24403a0" file="a18-9-2.cpp" linenr="106" column="5" str="ProcessValue1" scope="0x233e290" type="name" function="0x233def0" astParent="0x24403f0"/>
+    <token id="0x24403f0" file="a18-9-2.cpp" linenr="106" column="18" str="(" scope="0x233e290" link="0x2440530" astOperand1="0x24403a0" astOperand2="0x2440490" valueType-type="void" valueType-reference="None"/>
+    <token id="0x2440440" file="a18-9-2.cpp" linenr="106" column="19" str="123" scope="0x233e290" type="number" isInt="true" values="0x2343d20" astParent="0x2440490" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2440490" file="a18-9-2.cpp" linenr="106" column="22" str="," scope="0x233e290" astParent="0x24403f0" astOperand1="0x2440440" astOperand2="0x24404e0"/>
+    <token id="0x24404e0" file="a18-9-2.cpp" linenr="106" column="23" str="num" scope="0x233e290" type="name" varId="20" variable="0x233e750" astParent="0x2440490" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2440530" file="a18-9-2.cpp" linenr="106" column="26" str=")" scope="0x233e290" link="0x24403f0"/>
+    <token id="0x2440580" file="a18-9-2.cpp" linenr="106" column="27" str=";" scope="0x233e290"/>
+    <token id="0x24405d0" file="a18-9-2.cpp" linenr="107" column="5" str="return" scope="0x233e290" type="name" astOperand1="0x2440620" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2440620" file="a18-9-2.cpp" linenr="107" column="12" str="0" scope="0x233e290" type="number" isInt="true" values="0x2343e30" astParent="0x24405d0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0x2440670" file="a18-9-2.cpp" linenr="107" column="13" str=";" scope="0x233e290"/>
+    <token id="0x24406c0" file="a18-9-2.cpp" linenr="108" column="1" str="}" scope="0x233e290" link="0x23252d0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x2443360" type="Global">
+      <functionList>
+        <function id="0x2443d60" token="0x24298c0" tokenDef="0x24298c0" name="Fn1" type="Function">
+          <arg nr="1" variable="0x233e840"/>
+          <arg nr="2" variable="0x233e930"/>
+        </function>
+        <function id="0x233bc70" token="0x2324f70" tokenDef="0x2324f70" name="fn1" type="Function">
+          <arg nr="1" variable="0x233ea20"/>
+        </function>
+        <function id="0x233bf50" token="0x2326d80" tokenDef="0x2326d80" name="fn2" type="Function">
+          <arg nr="1" variable="0x233eb10"/>
+        </function>
+        <function id="0x233c230" token="0x231b780" tokenDef="0x231b780" name="Fn2" type="Function">
+          <arg nr="1" variable="0x233ec00"/>
+        </function>
+        <function id="0x233c510" token="0x23248a0" tokenDef="0x23248a0" name="Fn3" type="Function">
+          <arg nr="1" variable="0x233ecf0"/>
+        </function>
+        <function id="0x233c7f0" token="0x2329120" tokenDef="0x2329120" name="Fn4" type="Function"/>
+        <function id="0x233cad0" token="0x242a040" tokenDef="0x242a040" name="AnotherFunction" type="Function">
+          <arg nr="1" variable="0x233ede0"/>
+        </function>
+        <function id="0x233cdb0" token="0x2326460" tokenDef="0x2326460" name="AnotherFunction3" type="Function">
+          <arg nr="1" variable="0x233eed0"/>
+        </function>
+        <function id="0x233d090" token="0x2327420" tokenDef="0x2327420" name="ProcessValue" type="Function">
+          <arg nr="1" variable="0x233efc0"/>
+        </function>
+        <function id="0x233d370" token="0x2326fb0" tokenDef="0x2326fb0" name="ProcessValue3" type="Function">
+          <arg nr="1" variable="0x233f0b0"/>
+        </function>
+        <function id="0x233d650" token="0x2427500" tokenDef="0x2427500" name="main" type="Function"/>
+        <function id="0x233d930" token="0x2426a30" tokenDef="0x2426a30" name="AnotherFunction1" type="Function">
+          <arg nr="1" variable="0x233f1a0"/>
+        </function>
+        <function id="0x233dc10" token="0x2426540" tokenDef="0x2426540" name="AnotherFunction1" type="Function">
+          <arg nr="1" variable="0x233f290"/>
+        </function>
+        <function id="0x233def0" token="0x2328870" tokenDef="0x2328870" name="ProcessValue1" type="Function">
+          <arg nr="1" variable="0x233f380"/>
+          <arg nr="2" variable="0x233f470"/>
+        </function>
+        <function id="0x233e1d0" token="0x23251e0" tokenDef="0x23251e0" name="mai2" type="Function"/>
+      </functionList>
+    </scope>
+    <scope id="0x2443580" type="Class" className="A" bodyStart="0x232e320" bodyEnd="0x2328cc0" nestedIn="0x2443360">
+      <functionList>
+        <function id="0x24437a0" token="0x2329320" tokenDef="0x2329320" name="A" type="Constructor">
+          <arg nr="1" variable="0x233f560"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x233e4b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x2443860" type="Function" className="A" bodyStart="0x2425960" bodyEnd="0x2426200" nestedIn="0x2443580" function="0x24437a0"/>
+    <scope id="0x2443a80" type="Class" className="B" bodyStart="0x2429050" bodyEnd="0x24295f0" nestedIn="0x2443360"/>
+    <scope id="0x233ba50" type="Function" className="Fn1" bodyStart="0x2326170" bodyEnd="0x2326230" nestedIn="0x2443360" function="0x2443d60"/>
+    <scope id="0x233bd30" type="Function" className="fn1" bodyStart="0x2325610" bodyEnd="0x232dd40" nestedIn="0x2443360" function="0x233bc70"/>
+    <scope id="0x233c010" type="Function" className="fn2" bodyStart="0x231ba20" bodyEnd="0x2338e00" nestedIn="0x2443360" function="0x233bf50"/>
+    <scope id="0x233c2f0" type="Function" className="Fn2" bodyStart="0x233a310" bodyEnd="0x23244f0" nestedIn="0x2443360" function="0x233c230"/>
+    <scope id="0x233c5d0" type="Function" className="Fn3" bodyStart="0x2425e00" bodyEnd="0x2329080" nestedIn="0x2443360" function="0x233c510"/>
+    <scope id="0x233c8b0" type="Function" className="Fn4" bodyStart="0x2328e00" bodyEnd="0x2429fa0" nestedIn="0x2443360" function="0x233c7f0">
+      <varlist>
+        <var id="0x233e540"/>
+        <var id="0x233e5d0"/>
+      </varlist>
+    </scope>
+    <scope id="0x233cb90" type="Function" className="AnotherFunction" bodyStart="0x2429dc0" bodyEnd="0x23263c0" nestedIn="0x2443360" function="0x233cad0"/>
+    <scope id="0x233ce70" type="Function" className="AnotherFunction3" bodyStart="0x2325f90" bodyEnd="0x2324e80" nestedIn="0x2443360" function="0x233cdb0"/>
+    <scope id="0x233d150" type="Function" className="ProcessValue" bodyStart="0x2325820" bodyEnd="0x2326f10" nestedIn="0x2443360" function="0x233d090"/>
+    <scope id="0x233d430" type="Function" className="ProcessValue3" bodyStart="0x2329680" bodyEnd="0x2427970" nestedIn="0x2443360" function="0x233d370"/>
+    <scope id="0x233d710" type="Function" className="main" bodyStart="0x24275f0" bodyEnd="0x2426990" nestedIn="0x2443360" function="0x233d650">
+      <varlist>
+        <var id="0x233e660"/>
+      </varlist>
+    </scope>
+    <scope id="0x233d9f0" type="Function" className="AnotherFunction1" bodyStart="0x2426d50" bodyEnd="0x24264a0" nestedIn="0x2443360" function="0x233d930"/>
+    <scope id="0x233dcd0" type="Function" className="AnotherFunction1" bodyStart="0x2428130" bodyEnd="0x2427b60" nestedIn="0x2443360" function="0x233dc10"/>
+    <scope id="0x233dfb0" type="Function" className="ProcessValue1" bodyStart="0x2327850" bodyEnd="0x2325140" nestedIn="0x2443360" function="0x233def0"/>
+    <scope id="0x233e290" type="Function" className="mai2" bodyStart="0x23252d0" bodyEnd="0x24406c0" nestedIn="0x2443360" function="0x233e1d0">
+      <varlist>
+        <var id="0x233e750"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x233e4b0" nameToken="0x2425310" typeStartToken="0x2425c90" typeEndToken="0x24255f0" access="Private" scope="0x2443580" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x233e540" nameToken="0x2328ea0" typeStartToken="0x2328e50" typeEndToken="0x2328e50" access="Local" scope="0x233c8b0" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x233e5d0" nameToken="0x2428c40" typeStartToken="0x2428ba0" typeEndToken="0x2428bf0" access="Local" scope="0x233c8b0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233e660" nameToken="0x2427690" typeStartToken="0x2427640" typeEndToken="0x2427640" access="Local" scope="0x233d710" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x233e750" nameToken="0x2325370" typeStartToken="0x2325320" typeEndToken="0x2325320" access="Local" scope="0x233e290" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x233e840" nameToken="0x2325ea0" typeStartToken="0x2429e60" typeEndToken="0x2325de0" access="Argument" scope="0x233ba50" constness="1" isArray="false" isClass="false" isConst="true" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233e930" nameToken="0x23265c0" typeStartToken="0x2326500" typeEndToken="0x2326500" access="Argument" scope="0x233ba50" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="0x233ea20" nameToken="0x2325a70" typeStartToken="0x2327600" typeEndToken="0x23259b0" access="Argument" scope="0x233bd30" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233eb10" nameToken="0x231bc70" typeStartToken="0x231beb0" typeEndToken="0x231bc20" access="Argument" scope="0x233c010" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233ec00" nameToken="0x233adf0" typeStartToken="0x231b300" typeEndToken="0x233ada0" access="Argument" scope="0x233c2f0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233ecf0" nameToken="0x2425d60" typeStartToken="0x23246a0" typeEndToken="0x23246f0" access="Argument" scope="0x233c5d0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233ede0" nameToken="0x2429d20" typeStartToken="0x2429c80" typeEndToken="0x2429cd0" access="Argument" scope="0x233cb90" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233eed0" nameToken="0x2328620" typeStartToken="0x2328580" typeEndToken="0x23285d0" access="Argument" scope="0x233ce70" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233efc0" nameToken="0x2327560" typeStartToken="0x23274c0" typeEndToken="0x2327510" access="Argument" scope="0x233d150" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233f0b0" nameToken="0x2326c90" typeStartToken="0x2326bf0" typeEndToken="0x2326c40" access="Argument" scope="0x233d430" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233f1a0" nameToken="0x2426cb0" typeStartToken="0x2426b20" typeEndToken="0x2426c60" access="Argument" scope="0x233d9f0" constness="1" isArray="false" isClass="false" isConst="true" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233f290" nameToken="0x2428090" typeStartToken="0x24265e0" typeEndToken="0x2428040" access="Argument" scope="0x233dcd0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233f380" nameToken="0x23289b0" typeStartToken="0x2328910" typeEndToken="0x2328960" access="Argument" scope="0x233dfb0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233f470" nameToken="0x23277b0" typeStartToken="0x2327710" typeEndToken="0x2327760" access="Argument" scope="0x233dfb0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+    <var id="0x233f560" nameToken="0x2323160" typeStartToken="0x2322e30" typeEndToken="0x23230f0" access="Argument" scope="0x2443860" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="false" isReference="true" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2344690">
+      <value lifetime="0x242ab80" lifetime-scope="Argument" lifetime-kind="Object" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x2344050">
+      <value tokvalue="0x231d1a0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x23447d0">
+      <value lifetime="0x233a6e0" lifetime-scope="Argument" lifetime-kind="Object" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x2346480">
+      <value symbolic="0x2428c40" symbolic-delta="0" bound="Point" possible="true" path="12"/>
+    </values>
+    <values id="0x23439f0">
+      <value intvalue="2" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2344910">
+      <value lifetime="0x2425be0" lifetime-scope="Argument" lifetime-kind="Object" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x23467d0">
+      <value movedvalue="MovedVariable" bound="Point" possible="true" path="14"/>
+    </values>
+    <values id="0x242abd0">
+      <value intvalue="2" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2346940">
+      <value movedvalue="MovedVariable" bound="Point" inconclusive="true" path="14"/>
+    </values>
+    <values id="0x24258f0">
+      <value intvalue="2" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2343f40">
+      <value intvalue="1" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2345680">
+      <value symbolic="0x2428c40" symbolic-delta="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x23460a0">
+      <value movedvalue="MovedVariable" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2344160">
+      <value tokvalue="0x2325d40" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2344270">
+      <value tokvalue="0x2328260" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2344a50">
+      <value lifetime="0x2327d10" lifetime-scope="Argument" lifetime-kind="Object" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x2344b90">
+      <value lifetime="0x2329410" lifetime-scope="Argument" lifetime-kind="Object" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x2344cd0">
+      <value lifetime="0x24286f0" lifetime-scope="Argument" lifetime-kind="Object" bound="Point" possible="true" path="0"/>
+    </values>
+    <values id="0x2442ec0">
+      <value intvalue="42" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2426250">
+      <value intvalue="42" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x23445a0">
+      <value intvalue="42" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2442fd0">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2344380">
+      <value tokvalue="0x2426f90" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2344490">
+      <value tokvalue="0x2427df0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2346160">
+      <value intvalue="42" bound="Point" possible="true" path="1"/>
+      <value intvalue="123" bound="Point" possible="true" path="2"/>
+    </values>
+    <values id="0x2343c10">
+      <value intvalue="42" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2343b00">
+      <value intvalue="42" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x23445d0">
+      <value intvalue="42" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2343d20">
+      <value intvalue="123" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="0x2343e30">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>
